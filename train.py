@@ -199,9 +199,14 @@ def main(params):
 
 if __name__ == "__main__":
 
+    """
+    If run the file directly (python train.py), then __name__ == "__main__".
+    If import the file as a module (import train), then __name__ == "train".
+    """
+
     # generate parser / parse parameters
-    parser = get_parser()
-    params = parser.parse_args()
+    parser = get_parser()  
+    params = parser.parse_args() 
 
     if params.eval_only and params.eval_from_exp != "":
         # read params from pickle

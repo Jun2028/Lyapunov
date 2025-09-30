@@ -5,7 +5,7 @@
 # LICENSE file in the root directory of this source tree.
 #
 
-import logging
+import logging #Python standard library logging module.
 import time
 from datetime import timedelta
 

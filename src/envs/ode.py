@@ -109,7 +109,7 @@ def simplify(f, seconds):
     return _simplify(f)
 
 
-def expr_to_fun(x, f, point):
+def expr_to_fun(x, f, point): #already deprecated
     """
     Transforms a sympy expression into a callable function that returns a float for optimization.
     To be deprecated in the future using sympy lambdify that is much faster
@@ -131,7 +131,7 @@ def test_V_positive(V, point, domain: Optional[List["Node"]] = None, debug=False
     """
     n_vars = len(point)
     # Compute the gradient for the minimization
-    x = sp.symbols(f"x0:{n_vars}")
+    x = sp.symbols(f"x0:{n_vars}") # Create symbols x0, x1, ..., x(n_vars-1)
     grad_V = [sp.diff(V, x[i]) for i in range(n_vars)]
     grad_V_num = [sp.lambdify(x, grad_V[i], "numpy") for i in range(n_vars)]
 
@@ -143,10 +143,12 @@ def test_V_positive(V, point, domain: Optional[List["Node"]] = None, debug=False
         if debug:
             print("no cons_sympy")
             print("function to minimize", sp.simplify(sp.expand(V)))
+
         bounds = []
         for _ in range(len(point)):
-            bounds.append((-10, 10))
-        y = opt.shgo(
+            bounds.append((-10, 10)) # Search for the minimum in the box [-10, 10]^n, recall that global mini
+
+        y = opt.shgo( #simplicial homology global optimization algorithm from SciPy: finds the global minimum of a function over a given bounded domain.
             expr_to_fun,
             bounds,
             args=(V, point),
@@ -166,7 +168,7 @@ def test_V_positive(V, point, domain: Optional[List["Node"]] = None, debug=False
         cons_sympy_neq = []
         constraint_tab = []
         constraint_tab_neq = []
-        for el_dom in domain:
+        for el_dom in domain: # Each element of the domain is a constraint
             if el_dom.value == "!=":
                 assert el_dom.children[1].eq(Node(0)), el_dom
                 new_cons = f"1/({el_dom.children[0].infix()})"
@@ -735,8 +737,8 @@ class ODEEnvironment(object):
 
         # vocabulary
         self.words = SPECIAL_WORDS + self.constants + list(self.variables.keys()) + list(self.operators.keys()) + self.symbols + self.elements
-        self.id2word = {i: s for i, s in enumerate(self.words)}
-        self.word2id = {s: i for i, s in self.id2word.items()}
+        self.id2word = {i: s for i, s in enumerate(self.words)} # Dictionary index: word
+        self.word2id = {s: i for i, s in self.id2word.items()} # Dictionary word: index
         assert len(self.words) == len(set(self.words))
 
         # number of words / indices
