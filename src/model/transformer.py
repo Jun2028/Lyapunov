@@ -21,29 +21,79 @@ logger = getLogger()
 
 
 def Embedding(num_embeddings, embedding_dim, padding_idx=None):
-    m = nn.Embedding(num_embeddings, embedding_dim, padding_idx=padding_idx)
-    nn.init.normal_(m.weight, mean=0, std=embedding_dim**-0.5)
+    
+    """
+    Construct an embedding layer. The weights are initialized from
+    a normal distribution with mean 0 and standard deviation embedding_dim^-0.5.
+
+    Args:
+        num_embeddings (int): Size of the dictionary of embeddings. 
+        embedding_dim (int): The size of each embedding vector.
+        padding_idx (int, optional): Index of the padding token. If specified,
+            the embedding at this index is initialized to zeros and kept fixed.
+
+    """
+
+    m = nn.Embedding(num_embeddings, embedding_dim, padding_idx=padding_idx) #Defines a lookup table that maps indices to embedding vectors.
+    nn.init.normal_(m.weight, mean=0, std=embedding_dim**-0.5) #normal initialization for all embeddings vectors at all positions except the padding index.
     if padding_idx is not None:
         nn.init.constant_(m.weight[padding_idx], 0)
     return m
 
 
 def create_sinusoidal_embeddings(n_pos, dim, out):
-    position_enc = np.array([[pos / np.power(10000, 2 * (j // 2) / dim) for j in range(dim)] for pos in range(n_pos)])
-    out[:, 0::2] = torch.FloatTensor(np.sin(position_enc[:, 0::2]))
-    out[:, 1::2] = torch.FloatTensor(np.cos(position_enc[:, 1::2]))
-    out.detach_()
-    out.requires_grad = False
+
+    """
+    Fill a tensor with sinusoidal positional encodings as described in
+    the orginal paper Vaswani (2017).
+
+    Args:
+        n_pos (int): Number of positions (sequence length).
+        dim (int): Embedding dimension.
+        out (torch.Tensor): Preallocated tensor of shape (n_pos, dim) to hold
+            the positional encodings.
+
+    """
+
+    position_enc = np.array([[pos / np.power(10000, 2 * (j // 2) / dim) for j in range(dim)] for pos in range(n_pos)]) #Frequencies follow the geometric progression with base 10000.
+    out[:, 0::2] = torch.FloatTensor(np.sin(position_enc[:, 0::2])) #
+    out[:, 1::2] = torch.FloatTensor(np.cos(position_enc[:, 1::2])) #Even indices in `out` are filled with sine values, odd indices with cosine.
+    out.detach_() #Detach the tensor from the computation graph.
+    out.requires_grad = False #Set requires_grad to False to make the tensor non-trainable. 
 
 
 def get_masks(slen, lengths, causal):
+    
     """
-    Generate hidden states mask, and optionally an attention mask.
+    Generate hidden states mask, and optionally an attention mask, for a batch of sequences.
+
+    Args:
+        slen (int): Maximum sequence length in the batch.
+
+        lengths (torch.Tensor): 1D tensor of shape (batch_size,) giving the
+            actual length of each sequence (number of valid tokens). e.g. [3, 4, 5, 6, 7]
+
+        causal (bool): If True, generate a causal (triangular) attention mask
+            that prevents attending to future positions. If False, the
+            attention mask is the same as the padding mask.
+    
+    Returns:
+        mask (torch.BoolTensor): Padding mask of shape (batch_size, slen).
+            - True for valid (non-padded) tokens.
+            - False for padded positions.
+
+        attn_mask (torch.BoolTensor): Attention mask.
+            - If causal=False: same shape and values as `mask`.
+            - If causal=True: shape (batch_size, slen, slen), lower-triangular
+              mask where entry [b, i, j] is True if position j <= i (so
+              position i can only attend to current and past tokens).
+
+
     """
     assert lengths.max().item() <= slen
-    bs = lengths.size(0)
-    alen = torch.arange(slen, dtype=torch.long, device=lengths.device)
-    mask = alen < lengths[:, None]
+    bs = lengths.size(0) # batch size 
+    alen = torch.arange(slen, dtype=torch.long, device=lengths.device)  # dtype=torch.long → integers; device=lengths.device → put it on the same device (CPU or GPU) as lengths to avoid device mismatch errors.
+    mask = alen < lengths[:, None] # (bs, slen) with True at positions < length, False elsewhere. lengths[:, None] transforms lengths from (bs,) to (bs, 1) for broadcasting. 
 
     # attention mask is the same as mask, or triangular inferior attention (causal)
     if causal:
@@ -60,20 +110,20 @@ def get_masks(slen, lengths, causal):
 
 class MultiHeadAttention(nn.Module):
 
-    NEW_ID = itertools.count()
+    NEW_ID = itertools.count() #returns an infinite iterator: 0, 1, 2, 3, …
 
     def __init__(self, n_heads, dim, dropout):
         super().__init__()
-        self.layer_id = next(MultiHeadAttention.NEW_ID)
-        self.dim = dim
-        self.n_heads = n_heads
-        self.dropout = dropout
-        assert self.dim % self.n_heads == 0
+        self.layer_id = next(MultiHeadAttention.NEW_ID) #unique integer per attention layer. Used to index this layer’s KV cache during decoding.
+        self.dim = dim # input and output dimension 
+        self.n_heads = n_heads # number of attention heads
+        self.dropout = dropout # probability for attention-weight dropout
+        assert self.dim % self.n_heads == 0 # ensure dim is divisible by n_heads
 
-        self.q_lin = nn.Linear(dim, dim)
-        self.k_lin = nn.Linear(dim, dim)
-        self.v_lin = nn.Linear(dim, dim)
-        self.out_lin = nn.Linear(dim, dim)
+        self.q_lin = nn.Linear(dim, dim) # linear layer to project input to queries
+        self.k_lin = nn.Linear(dim, dim)   # linear layer to project input to keys
+        self.v_lin = nn.Linear(dim, dim)  # linear layer to project input to values
+        self.out_lin = nn.Linear(dim, dim) # linear layer to project concatenated attention output back to original dimension
 
     def forward(self, input, mask, kv=None, use_cache=False):
         """
@@ -81,24 +131,33 @@ class MultiHeadAttention(nn.Module):
         Input is (bs, qlen, dim)
         Mask is (bs, klen) (non-causal) or (bs, klen, klen)
         """
-        assert not (use_cache and self.cache is None)
+        assert not (use_cache and self.cache is None) # ensure cache is provided if use_cache is True
         bs, qlen, dim = input.size()
-        if kv is None:
+        if kv is None: #self-attention
             klen = qlen if not use_cache else self.cache["slen"] + qlen
         else:
             klen = kv.size(1)
         assert dim == self.dim, "Dimensions do not match: %s input vs %s configured" % (dim, self.dim)
         n_heads = self.n_heads
         dim_per_head = dim // n_heads
-        mask_reshape = (bs, 1, qlen, klen) if mask.dim() == 3 else (bs, 1, 1, klen)
+        mask_reshape = (bs, 1, qlen, klen) if mask.dim() == 3 else (bs, 1, 1, klen) #The raw attention scores have shape: (bs, H, qlen, klen). 
+                                                                                    #For H=1, causal mask applied to all heads. For H=qlen=1, 
+                                                                                    # same mask applied to all queries and heads.
 
+
+        #reshaping utilities to go between [bs, len, dim] and [bs, n_heads, len, dim_per_head].
         def shape(x):
-            """projection"""
-            return x.view(bs, -1, self.n_heads, dim_per_head).transpose(1, 2)
+            """projection
+                QKV: (bs, len, dim) -> (bs, n_heads, len, dim_per_head)"""
+            return x.view(bs, -1, self.n_heads, dim_per_head).transpose(1, 2) #transpose is necessary because of how reshaping matrices work...
+        #Note: -1 in a .view(...) just means “infer this dimension from the others.”
 
         def unshape(x):
-            """compute context"""
-            return x.transpose(1, 2).contiguous().view(bs, -1, self.n_heads * dim_per_head)
+            """compute context
+                QKV: (bs, n_heads, len, dim_per_head) -> (bs, len, dim)"""
+            return x.transpose(1, 2).contiguous().view(bs, -1, self.n_heads * dim_per_head) #contiguous() makes sure the tensor is stored in a contiguous chunk of memory, 
+                                                                                            #which is often required after operations like transpose.
+
 
         q = shape(self.q_lin(input))  # (bs, n_heads, qlen, dim_per_head)
         if kv is None:
@@ -109,11 +168,11 @@ class MultiHeadAttention(nn.Module):
             k = shape(self.k_lin(k))  # (bs, n_heads, qlen, dim_per_head)
             v = shape(self.v_lin(v))  # (bs, n_heads, qlen, dim_per_head)
 
-        if use_cache:
+        if use_cache: # caching is not used in training, it’s only for autoregressive inference (decoding).
             if self.layer_id in self.cache:
                 if kv is None:
                     k_, v_ = self.cache[self.layer_id]
-                    k = torch.cat([k_, k], dim=2)  # (bs, n_heads, klen, dim_per_head)
+                    k = torch.cat([k_, k], dim=2)  # (bs, n_heads, klen, dim_per_head) Concatenate along klen dimension.
                     v = torch.cat([v_, v], dim=2)  # (bs, n_heads, klen, dim_per_head)
                 else:
                     k, v = self.cache[self.layer_id]
@@ -121,11 +180,12 @@ class MultiHeadAttention(nn.Module):
 
         q = q / math.sqrt(dim_per_head)  # (bs, n_heads, qlen, dim_per_head)
         scores = torch.matmul(q, k.transpose(2, 3))  # (bs, n_heads, qlen, klen)
-        mask = (mask == 0).view(mask_reshape).expand_as(scores)  # (bs, n_heads, qlen, klen)
+        mask = (mask == 0).view(mask_reshape).expand_as(scores)  # (bs, n_heads, qlen, klen). Original mask was (1=keep, 0=pad), new is (True=pad, False=keep). 
+                                                                #Expand to same shape as scores for broadcasting.   
         scores.masked_fill_(mask, -float("inf"))  # (bs, n_heads, qlen, klen)
 
-        weights = F.softmax(scores.float(), dim=-1).type_as(scores)  # (bs, n_heads, qlen, klen)
-        weights = F.dropout(weights, p=self.dropout, training=self.training)  # (bs, n_heads, qlen, klen)
+        weights = F.softmax(scores.float(), dim=-1).type_as(scores)  # (bs, n_heads, qlen, klen). Softmax along klen dimension to get attention weights.
+        weights = F.dropout(weights, p=self.dropout, training=self.training)  # (bs, n_heads, qlen, klen) #Dropout for regularization during training. self.training is True during training, False during eval.
         context = torch.matmul(weights, v)  # (bs, n_heads, qlen, dim_per_head)
         context = unshape(context)  # (bs, qlen, dim)
 
@@ -147,7 +207,7 @@ class TransformerFFN(nn.Module):
         x = self.lin1(input)
         x = F.relu(x)
         x = self.lin2(x)
-        x = F.dropout(x, p=self.dropout, training=self.training)
+        x = F.dropout(x, p=self.dropout, training=self.training)  
         return x
 
 
@@ -165,13 +225,13 @@ class TransformerModel(nn.Module):
         self.dtype = torch.half if params.fp16 else torch.float
         self.is_encoder = is_encoder
         self.is_decoder = not is_encoder
-        self.with_output = with_output
+        self.with_output = with_output #True for decoder with output layer, False for encoder or decoder without output layer.
 
         # dictionary
         self.n_words = params.n_words
         self.eos_index = params.eos_index
         self.pad_index = params.pad_index
-        self.id2word = id2word
+        self.id2word = id2word #Mapping from word IDs to words.
         assert len(self.id2word) == self.n_words
 
         # model parameters
@@ -192,15 +252,15 @@ class TransformerModel(nn.Module):
         self.layer_norm_emb = nn.LayerNorm(self.dim, eps=1e-12)
 
         # transformer layers
-        self.attentions = nn.ModuleList()
-        self.layer_norm1 = nn.ModuleList()
-        self.ffns = nn.ModuleList()
-        self.layer_norm2 = nn.ModuleList()
+        self.attentions = nn.ModuleList() #List to hold multiple attention layers.
+        self.layer_norm1 = nn.ModuleList() #layer normalization layer after self-attention.
+        self.ffns = nn.ModuleList() #Feed-Forward Network (FFN) layers.
+        self.layer_norm2 = nn.ModuleList() #layer normalization layer after FFN.
         if self.is_decoder:
             self.layer_norm15 = nn.ModuleList()
             self.encoder_attn = nn.ModuleList()
 
-        for layer_id in range(self.n_layers):
+        for layer_id in range(self.n_layers): #Build each layer of the Transformer.
             self.attentions.append(MultiHeadAttention(self.n_heads, self.dim, dropout=self.attention_dropout))
             self.layer_norm1.append(nn.LayerNorm(self.dim, eps=1e-12))
             if self.is_decoder:
@@ -213,21 +273,21 @@ class TransformerModel(nn.Module):
 
         # output layer
         if self.with_output:
-            self.proj = nn.Linear(self.dim, params.n_words, bias=True)
-            if params.share_inout_emb:
+            self.proj = nn.Linear(self.dim, params.n_words, bias=True) #Linear layer to project the final hidden states to vocabulary size for word prediction.
+            if params.share_inout_emb: #Share input and output embeddings to reduce the number of parameters and improve performance.
                 self.proj.weight = self.embeddings.weight
 
     def forward(self, mode, **kwargs):
         """
         Forward function with different forward modes.
-        ### Small hack to handle PyTorch distributed.
+        ### Small hack to handle PyTorch distributed. (?)
         """
         if mode == "fwd":
-            return self.fwd(**kwargs)
+            return self.fwd(**kwargs) # call the fwd method with the provided keyword arguments.
         elif mode == "predict":
-            return self.predict(**kwargs)
+            return self.predict(**kwargs) # call the predict method with the provided keyword arguments.
         else:
-            raise Exception("Unknown mode: %s" % mode)
+            raise Exception("Unknown mode: %s" % mode) # raise an exception if the mode is not recognized.
 
     def fwd(self, x, lengths, causal, src_enc=None, src_len=None, positions=None, use_cache=False):
         """
@@ -260,10 +320,10 @@ class TransformerModel(nn.Module):
                 src_mask = torch.arange(src_len.max(), dtype=torch.long, device=lengths.device) < src_len[:, None]
 
         # positions
-        if positions is None:
+        if positions is None: #If positions are not provided, generate default positions using arange.
             positions = x.new(slen).long()
             positions = torch.arange(slen, out=positions).unsqueeze(0)
-        else:
+        else: #for decoding with cache, positions are provided as input.
             assert positions.size() == (slen, bs)
             positions = positions.transpose(0, 1)
 
@@ -327,19 +387,25 @@ class TransformerModel(nn.Module):
         """
         Given the last hidden state, compute word scores and/or the loss.
             `pred_mask` is a ByteTensor of shape (slen, bs), filled with 1 when
-                we need to predict a word
+                we need to predict a word. Non-predictive tokens are like <BOS> or <PAD> or <EOS>.
             `y` is a LongTensor of shape (pred_mask.sum(),)
             `get_scores` is a boolean specifying whether we need to return scores
         """
-        x = tensor[pred_mask.unsqueeze(-1).expand_as(tensor)].view(-1, self.dim)
+        x = tensor[pred_mask.unsqueeze(-1).expand_as(tensor)].view(-1, self.dim) #Extract the hidden states at positions where pred_mask is True.
+        #In PyTorch, putting a boolean mask inside tensor[...] means boolean indexing: it flattens both arrays and returns all elements of tensor where the mask is True.
         assert (y == self.pad_index).sum().item() == 0
-        scores = self.proj(x).view(-1, self.n_words)
+        scores = self.proj(x).view(-1, self.n_words) #Project the selected hidden states to vocabulary size to get word scores. first dimension is number of predictions, second is vocabulary size.
         loss = F.cross_entropy(scores.float(), y, reduction="mean")
         return scores, loss
 
     def generate(self, src_enc, src_len, max_len=200, sample_temperature=None):
         """
-        Decode a sentence given initial start.
+        Decode (greedy/ temperature) a sentence given initial start.
+
+        src_enc (slen, bs, dim): Encoded source representations from the encoder. Used in the decoder for cross-attention.
+
+        src_len (bs,): Lengths of the source sequences in the batch.
+
         `x`:
             - LongTensor(bs, slen)
                 <EOS> W1 W2 W3 <EOS> <PAD>
@@ -372,7 +438,7 @@ class TransformerModel(nn.Module):
         # cache compute states
         self.cache = {"slen": 0}
 
-        while cur_len < max_len:
+        while cur_len < max_len: #Decoding loop until max_len is reached.
 
             # compute word scores
             tensor = self.forward(
@@ -417,7 +483,7 @@ class TransformerModel(nn.Module):
 
     def generate_beam(self, src_enc, src_len, beam_size, length_penalty, early_stopping, max_len=200):
         """
-        Decode a sentence given initial start.
+        Decode (beam search) a sentence given initial start.
         `x`:
             - LongTensor(bs, slen)
                 <EOS> W1 W2 W3 <EOS> <PAD>
@@ -574,7 +640,7 @@ class TransformerModel(nn.Module):
         return decoded, tgt_len, generated_hyps
 
 
-class BeamHypotheses(object):
+class BeamHypotheses(object): #Helper class to manage a list of beam search hypotheses.
 
     def __init__(self, n_hyp, max_len, length_penalty, early_stopping):
         """
