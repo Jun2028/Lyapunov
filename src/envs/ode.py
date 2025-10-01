@@ -2054,7 +2054,7 @@ class ODEEnvironment(object):
                             return "error:hg"
         return system, stability
 
-    @timeout(30)
+    @timeout(30) # to avoid infinite loops
     def gen_lyapunov(self):
         """
         Generate Lyapunov function, get its gradient, build a base of the orthogonal hyperplan, generate problem.

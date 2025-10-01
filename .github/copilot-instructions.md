@@ -1,6 +1,9 @@
 # Copilot Instructions for Lyapunov Codebase
 
 ## Project Overview
+# Copilot Instructions for Lyapunov Codebase
+
+## Project Overview
 This repository implements symbolic transformer models for discovering global Lyapunov functions, as described in the NeurIPS 2024 paper "Symbolic Transformers for Global Lyapunov Function Discovery" (DOI: 10.48550/arXiv.2406.12345). The codebase is organized for dataset generation, cleaning, and model training/evaluation, primarily using PyTorch.
 
 ## Architecture & Key Components
@@ -58,5 +61,4 @@ This repository implements symbolic transformer models for discovering global Ly
 - For benchmarks, see files in `benchmarks/`.
 - For model details, see `src/model/transformer.py`.
 
----
 If any section is unclear or missing details, please specify which workflows, flags, or architectural choices need further documentation.

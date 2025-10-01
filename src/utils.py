@@ -56,7 +56,7 @@ def initialize_exp(params):
     """
     # dump parameters
     get_dump_path(params)
-    pickle.dump(params, open(os.path.join(params.dump_path, "params.pkl"), "wb"))
+    pickle.dump(params, open(os.path.join(params.dump_path, "params.pkl"), "wb")) #creates the pkl file by open(), dump params to pickle file
 
     # get running command
     command = ["python", sys.argv[0]]

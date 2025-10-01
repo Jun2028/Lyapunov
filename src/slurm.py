@@ -10,7 +10,7 @@ import os
 import sys
 import torch
 import socket
-import signal
+import signal # for handling asynchronous events like operating system signals
 import subprocess
 
 

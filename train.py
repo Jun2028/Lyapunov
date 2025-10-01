@@ -14,7 +14,7 @@ import os
 import pickle
 
 import src
-from src.slurm import init_signal_handler, init_distributed_mode
+from src.pbs import   init_signal_handler, init_distributed_mode
 from src.utils import bool_flag, initialize_exp
 from src.model import check_model_params, build_modules
 from src.envs import ENVS, build_env
@@ -88,7 +88,7 @@ def get_parser():
 
     # environment parameters
     parser.add_argument("--env_name", type=str, default="ode", help="Environment name")
-    ENVS[parser.parse_known_args()[0].env_name].register_args(parser)
+    ENVS[parser.parse_known_args()[0].env_name].register_args(parser) #parser.parse_known_args() returns a tuple: (namespace, list_of_unknown_args). We only need the namespace here. .env_name gets the value of the --env_name argument (default is "ode"). So it would be ODEEnvironment.register_args(parser).
 
     # tasks
     parser.add_argument("--tasks", type=str, default="ode_lyapunov", help="Tasks")
@@ -135,7 +135,7 @@ def get_parser():
 def main(params):
 
     # initialize the multi-GPU / multi-node training
-    # initialize experiment / SLURM signal handler for time limit / pre-emption
+    # initialize experiment / SLURM signal handler for time limit / pre-emption (revamped to PBS)
     init_distributed_mode(params)
     logger = initialize_exp(params)
     init_signal_handler()
@@ -206,14 +206,14 @@ if __name__ == "__main__":
 
     # generate parser / parse parameters
     parser = get_parser()  
-    params = parser.parse_args() 
+    params = parser.parse_args()  # Namespace object. each parameter is accessible through params.parameter_name
 
-    if params.eval_only and params.eval_from_exp != "":
+    if params.eval_only and params.eval_from_exp != "": #evaluation mode
         # read params from pickle
-        pickle_file = params.eval_from_exp + "/params.pkl"
+        pickle_file = params.eval_from_exp + "/params.pkl" # amending to path of pickled params object, see utils.py
         exp_str = params.eval_from_exp
         assert os.path.isfile(pickle_file)
-        pk = pickle.load(open(pickle_file, "rb"))
+        pk = pickle.load(open(pickle_file, "rb")) # load the pickled params object, update params below
         pickled_args = pk.__dict__
         del pickled_args["exp_id"]
         del pickled_args["dump_path"]
