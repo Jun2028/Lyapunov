@@ -18,8 +18,12 @@ def _sigusr1(signum, frame):
     logger.warning("SIGUSR1 received; exiting for scheduler to resubmit if configured.")
     sys.exit(-1) #force exit with exit code -1
 
+    #This needs to be rewritten to use the same logic as in slurm.py
+
 def _sigterm(signum, frame):
-    logger.warning("SIGTERM received; bypassing to allow graceful shutdown by training loop.")
+    logger.warning("SIGTERM received; bypassing.") # do nothing, 
+    #
+    # This better be changed
 
 def init_signal_handler():
     """Handle preemption/time-limit signals on PBS."""
