@@ -1,0 +1,8 @@
+libdir=/home/svu/e0588224/Lyapunov/miniconda3/lib
+includedir=/home/svu/e0588224/Lyapunov/miniconda3/include
+
+Name: libsolv
+Description: Library for solving packages
+Version: 0.7.30
+Libs: -L${libdir} -lsolv
+Cflags: -I${includedir}

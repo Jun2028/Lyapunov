@@ -1,0 +1,397 @@
+{
+  "paths": [
+    {
+      "_path": "bin/conda-token",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/croot/anaconda-cloud-auth-split_1747863777058/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+      "sha256": "9e3f64290189c25f4c514cc936114dc2d5f8b3779f8a3cfcd24f126fd68791b2",
+      "size_in_bytes": 512
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth-0.8.6.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth-0.8.6.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "126947f27751b41973bae53e48a0c19d248f5ca46cb981a891658b1b851428ab",
+      "size_in_bytes": 13128
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth-0.8.6.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "ef6243091ad4575d016ed09f32da8959029f55fb92b6817aeaf95f25482b5e54",
+      "size_in_bytes": 4805
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth-0.8.6.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth-0.8.6.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+      "size_in_bytes": 87
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth-0.8.6.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "7e0c38b356e6ad6698aefa9bd6b9790938a7703835fe1abc63855911f0e50d7e",
+      "size_in_bytes": 85
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth-0.8.6.dist-info/entry_points.txt",
+      "path_type": "hardlink",
+      "sha256": "a052e93b8f46a7d2feb8a2570603693e657b53dde536c4af8a1a2ac612939bc3",
+      "size_in_bytes": 320
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth-0.8.6.dist-info/licenses/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "8372f6c92cbeb44c769041fd46cdaf12946c48743ed714c29059b0d917626cb8",
+      "size_in_bytes": 1544
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "2d103d440a2460dbb77f853bda5ad34751cb3501e4849b439274fe56ecacaf42",
+      "size_in_bytes": 370
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/__main__.py",
+      "path_type": "hardlink",
+      "sha256": "7a1f4b91951c509f4781244661b5557e6ec0fc648334abe4c65d9d4041e1502f",
+      "size_in_bytes": 72
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/__pycache__/__init__.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "3f7b908a202380b5566b745e2512e88c9381ce9b7ef5019464035b557064d120",
+      "size_in_bytes": 500
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/__pycache__/__main__.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "2eb44c3b651efe7c9b3d8592257529dfa5ed5ffd8f273960f77136c880b374a9",
+      "size_in_bytes": 265
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/__pycache__/_version.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "f9e252b0692e91d2be814bf0c305144a0dd4e2d775af9729b161ec5d733331b2",
+      "size_in_bytes": 622
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/__pycache__/actions.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "0ecae7f17f3f665876c94f69d5f9b518069e04651f7fe4111e485d8d565bc8bf",
+      "size_in_bytes": 9075
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/__pycache__/cli.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "cc6ae68b408ef5946d9f796e3f5f57dfd085208972dc77f42b4f7301d7cb0330",
+      "size_in_bytes": 10406
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/__pycache__/client.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "337387392e25ee626da43f6e3e322ac9d265475d39893340a6ede988ef37028e",
+      "size_in_bytes": 11572
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/__pycache__/config.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "ae393fd2069b5d602031ef6dcabe74a0fb1683898b48f11b56730ab2bb9cf6d8",
+      "size_in_bytes": 7723
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/__pycache__/exceptions.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "257ef4dc5bdc2113eca9503457a6b460b3d40779a3825b70dde120ee6ff5cfa3",
+      "size_in_bytes": 1074
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/__pycache__/handlers.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "aa8ae501263a6c3a22163610434de209434d116ebeafab0cbfafd397622854e2",
+      "size_in_bytes": 8485
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/__pycache__/panel.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "a83971343ac4fc7306c39a373750933d2c7b7a8a169a780f682cfacdb88b5a55",
+      "size_in_bytes": 2784
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/__pycache__/repo.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "3b44186275a045740316eeb88ebc2b75c8881db4a2f1df8c6eb981e2eec7b48d",
+      "size_in_bytes": 13006
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/__pycache__/token.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "6a2388f17b5854e39186dde51fcedeedc45b5d2a995dc5a6b6e065d50951ec1c",
+      "size_in_bytes": 17789
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/_conda/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "7a55de30f465d945e2eee5ee282b1f480d3bfc8bc6a298a5d50168b827d83950",
+      "size_in_bytes": 590
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/_conda/__pycache__/__init__.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "ed06bf0a7443eeca6ac473aa994167304ffdb9a6b86a4f83a9c0c6a29a0b8314",
+      "size_in_bytes": 761
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/_conda/__pycache__/auth_handler.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "9b8cf43495f4d76321951a2a7415d57f9917637c7baf3e014a05b17aeeba7921",
+      "size_in_bytes": 5989
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/_conda/__pycache__/conda_token.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "d377723058e5f34c32e4532608282b52bac5b7d0d9a47b248f75ee5cf7150cc0",
+      "size_in_bytes": 6436
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/_conda/__pycache__/condarc.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "3757fd170454dcd0bc1dcef09fd0ca5ddcf7e5fc6488d89704fe288eb1f85993",
+      "size_in_bytes": 4832
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/_conda/__pycache__/entrypoint.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "a0eb6e75f3318de78d4b72203fb67121e112a366709cbe74fbb80bc4f6528ae9",
+      "size_in_bytes": 284
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/_conda/__pycache__/plugins.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "953a043e280f7e322691953f6280888ce296fc7650539b2938ad798e09edd6aa",
+      "size_in_bytes": 1204
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/_conda/__pycache__/repo_config.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "517b8d2986182bd3752d07210832fc324bb280354d28213561c40cf2422e8dfc",
+      "size_in_bytes": 18908
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/_conda/auth_handler.py",
+      "path_type": "hardlink",
+      "sha256": "c7a21b370699211990704121613f92810ca944bf74d15a71b8f607873cbcea98",
+      "size_in_bytes": 4789
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/_conda/conda_token.py",
+      "path_type": "hardlink",
+      "sha256": "5a957002de017c304fd712088259ef209461ef6dca55cf30efdf4b9c6d0f49cc",
+      "size_in_bytes": 4630
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/_conda/condarc.py",
+      "path_type": "hardlink",
+      "sha256": "d1cf58ea4ed77d99b72a584c79a1712aca695021c2bf8c1b20320ae7a2460fb8",
+      "size_in_bytes": 2806
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/_conda/entrypoint.py",
+      "path_type": "hardlink",
+      "sha256": "fb75b94bdbe0ecf111cf11a55ef1094c96cdfcfb0d697148727516ad811012f1",
+      "size_in_bytes": 385
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/_conda/plugins.py",
+      "path_type": "hardlink",
+      "sha256": "11458bd03036453dc5814f85ba430c000f39bfdaeff3de90a80d3b8c99f6c7f0",
+      "size_in_bytes": 845
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/_conda/repo_config.py",
+      "path_type": "hardlink",
+      "sha256": "0f582ee961fee2c96eb1d3640da7dab6d04b809d5103d562264c6ff3c1adf4be",
+      "size_in_bytes": 15816
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/_version.py",
+      "path_type": "hardlink",
+      "sha256": "fde99fa357ef55716ba95456c8a685d5df6e2d01641b4604b989a7113163bf3f",
+      "size_in_bytes": 511
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/actions.py",
+      "path_type": "hardlink",
+      "sha256": "597139a42ea8d5f558ddb8aee293f3972aa69b8e1c5771245821cf1cdbf93a28",
+      "size_in_bytes": 7517
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/cli.py",
+      "path_type": "hardlink",
+      "sha256": "6fc072976dba5ec7be049ef59dd3fd16b13c834466d2bd14cec5d49bcadfca73",
+      "size_in_bytes": 7766
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/client.py",
+      "path_type": "hardlink",
+      "sha256": "c63d7e4ccedb1a10e9238c11548b2814aad1161af9dea436f3d5726f7f338952",
+      "size_in_bytes": 7923
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/config.py",
+      "path_type": "hardlink",
+      "sha256": "cf02916a941186fc2a90c7e13ad938c93f30d5f55429a01ef255bd28366ee54e",
+      "size_in_bytes": 5634
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/exceptions.py",
+      "path_type": "hardlink",
+      "sha256": "e054b868d94d4cf3cb437e463dff1a8b41fb5e2573a174fa54ecf9a9f09f33e9",
+      "size_in_bytes": 247
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/handlers.py",
+      "path_type": "hardlink",
+      "sha256": "1b47dcfbcc338dd71839413d42221b3fbfaeb78b5491f39724b5de0f997166b4",
+      "size_in_bytes": 5622
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/panel.py",
+      "path_type": "hardlink",
+      "sha256": "a246db4e05cf5eefdc2ef8406dd54059381bba11caed26cab172f5c9b09e422b",
+      "size_in_bytes": 1604
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/py.typed",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/repo.py",
+      "path_type": "hardlink",
+      "sha256": "ed752706853445755393500d1b6b0ad25b96603ec7a72937c4d1e05d1a199b6b",
+      "size_in_bytes": 8607
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_auth/token.py",
+      "path_type": "hardlink",
+      "sha256": "da2fab2afea8cf59e53a52da479499cc82135eb5567683fbedc1f006ae1d9e70",
+      "size_in_bytes": 13066
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_cloud_auth/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "49d9a77b074dc9f4e7be3be97cb85bd7420a68cbdce5352bd24ac76327658871",
+      "size_in_bytes": 391
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_cloud_auth/__pycache__/__init__.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "27cfb83b8f3091493b63e90636c704e5b08e9b29fe8403175918746b699b7336",
+      "size_in_bytes": 642
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_cloud_auth/__pycache__/actions.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "3fc7cc2bf1851767085982fdd602150159e0e5331dda0e420e8edbebff0a68ce",
+      "size_in_bytes": 304
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_cloud_auth/__pycache__/cli.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "7f3fb2dc8d852091cc97c0a90b214955eb56a42a79dfff53b0c6dd73d8ff817a",
+      "size_in_bytes": 227
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_cloud_auth/__pycache__/client.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "73a12a99f7c83c5082b80d18733abe43101bc270145d2eefd7167e6109182797",
+      "size_in_bytes": 388
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_cloud_auth/__pycache__/config.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "27132947fd10ee1e203d52b252b6ebf5de29a1d5271befd50745720fadf610f5",
+      "size_in_bytes": 365
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_cloud_auth/__pycache__/exceptions.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "dae101f75ebfe207d072e1be41683aaa9ce95fc1881a76735dd6429f845b04e5",
+      "size_in_bytes": 273
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_cloud_auth/__pycache__/handlers.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "77182dbc2a954d00c52d1a9e530c9478d2dc6b9b57dba67aabae3db082287b60",
+      "size_in_bytes": 269
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_cloud_auth/__pycache__/token.cpython-313.pyc",
+      "path_type": "hardlink",
+      "sha256": "8f2cd646676b5ca8d298afab325080f205224c924cd46b074926a2365c7dd126",
+      "size_in_bytes": 263
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_cloud_auth/actions.py",
+      "path_type": "hardlink",
+      "sha256": "92805eb9a93560547504542b3b3292bc60f04eb2335fcb046ffcae25d44e65de",
+      "size_in_bytes": 171
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_cloud_auth/cli.py",
+      "path_type": "hardlink",
+      "sha256": "9408842bdf52f2d1d9b8d5a6a3613f92c9628c4e7d7581e81219fb7c643f7511",
+      "size_in_bytes": 53
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_cloud_auth/client.py",
+      "path_type": "hardlink",
+      "sha256": "8040e7f1b569f41d30ffa6cf431662c9ea0839142c2ca86920acd50b4070ee52",
+      "size_in_bytes": 391
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_cloud_auth/config.py",
+      "path_type": "hardlink",
+      "sha256": "46eadb98b43ec813bc07466add86376629a987471a34b15f5da95268cdca208a",
+      "size_in_bytes": 218
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_cloud_auth/exceptions.py",
+      "path_type": "hardlink",
+      "sha256": "44697694b040354b471bf19f18786186a813909ec9fbfaabc55cb516e5deda0d",
+      "size_in_bytes": 112
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_cloud_auth/handlers.py",
+      "path_type": "hardlink",
+      "sha256": "e1d59acf04ad2004467db491e945e7fb6ac745ce4e590731a2708d49d8dcd16c",
+      "size_in_bytes": 110
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_cloud_auth/py.typed",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.13/site-packages/anaconda_cloud_auth/token.py",
+      "path_type": "hardlink",
+      "sha256": "d5c2f43c0605332e7f359fa3b843520ccf1edad4184bb572aea30e077395a4e1",
+      "size_in_bytes": 107
+    }
+  ],
+  "paths_version": 1
+}

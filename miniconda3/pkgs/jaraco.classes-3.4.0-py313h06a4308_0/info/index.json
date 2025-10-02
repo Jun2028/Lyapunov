@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "py313h06a4308_0",
+  "build_number": 0,
+  "depends": [
+    "more-itertools",
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "jaraco.classes",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1755516354462,
+  "version": "3.4.0"
+}

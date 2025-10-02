@@ -1,0 +1,52 @@
+{
+  "arch": "x86_64",
+  "build": "py313h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313",
+    "typing_extensions >=4.12.0"
+  ],
+  "extracted_package_dir": "/home/svu/e0588224/Lyapunov/miniconda3/pkgs/typing-inspection-0.4.0-py313h06a4308_0",
+  "files": [
+    "lib/python3.13/site-packages/typing_inspection-0.4.0.dist-info/INSTALLER",
+    "lib/python3.13/site-packages/typing_inspection-0.4.0.dist-info/METADATA",
+    "lib/python3.13/site-packages/typing_inspection-0.4.0.dist-info/RECORD",
+    "lib/python3.13/site-packages/typing_inspection-0.4.0.dist-info/REQUESTED",
+    "lib/python3.13/site-packages/typing_inspection-0.4.0.dist-info/WHEEL",
+    "lib/python3.13/site-packages/typing_inspection-0.4.0.dist-info/direct_url.json",
+    "lib/python3.13/site-packages/typing_inspection-0.4.0.dist-info/licenses/LICENSE",
+    "lib/python3.13/site-packages/typing_inspection/__init__.py",
+    "lib/python3.13/site-packages/typing_inspection/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/typing_inspection/__pycache__/introspection.cpython-313.pyc",
+    "lib/python3.13/site-packages/typing_inspection/__pycache__/typing_objects.cpython-313.pyc",
+    "lib/python3.13/site-packages/typing_inspection/introspection.py",
+    "lib/python3.13/site-packages/typing_inspection/py.typed",
+    "lib/python3.13/site-packages/typing_inspection/typing_objects.py",
+    "lib/python3.13/site-packages/typing_inspection/typing_objects.pyi"
+  ],
+  "fn": "typing-inspection-0.4.0-py313h06a4308_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/svu/e0588224/Lyapunov/miniconda3/pkgs/typing-inspection-0.4.0-py313h06a4308_0",
+    "type": 1
+  },
+  "md5": "b9349b70ca836c55debbaa5b544b0c3c",
+  "name": "typing-inspection",
+  "package_tarball_full_path": "/home/svu/e0588224/Lyapunov/miniconda3/pkgs/typing-inspection-0.4.0-py313h06a4308_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::typing-inspection==0.4.0=py313h06a4308_0[md5=b9349b70ca836c55debbaa5b544b0c3c]",
+  "sha256": "a7ee229f680a8be87864c90f83478b27a72f4ebc182d62619cc224f2a9248839",
+  "size": 31152,
+  "subdir": "linux-64",
+  "timestamp": 1746023589000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/typing-inspection-0.4.0-py313h06a4308_0.conda",
+  "version": "0.4.0"
+}

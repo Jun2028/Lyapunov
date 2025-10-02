@@ -1,0 +1,11 @@
+prefix=/home/svu/e0588224/Lyapunov/miniconda3
+exec_prefix=${prefix}
+includedir=/home/svu/e0588224/Lyapunov/miniconda3/include
+libdir=/home/svu/e0588224/Lyapunov/miniconda3/lib
+
+Name: Yaml-cpp
+Description: A YAML parser and emitter for C++
+Version: 0.8.0
+Requires:
+Libs: -L${libdir} -lyaml-cpp
+Cflags: -I${includedir}

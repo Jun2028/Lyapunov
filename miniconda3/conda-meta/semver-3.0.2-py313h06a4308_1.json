@@ -1,0 +1,71 @@
+{
+  "arch": "x86_64",
+  "build": "py313h06a4308_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "extracted_package_dir": "/home/svu/e0588224/Lyapunov/miniconda3/pkgs/semver-3.0.2-py313h06a4308_1",
+  "files": [
+    "bin/pysemver",
+    "lib/python3.13/site-packages/semver-3.0.2.dist-info/INSTALLER",
+    "lib/python3.13/site-packages/semver-3.0.2.dist-info/LICENSE.txt",
+    "lib/python3.13/site-packages/semver-3.0.2.dist-info/METADATA",
+    "lib/python3.13/site-packages/semver-3.0.2.dist-info/RECORD",
+    "lib/python3.13/site-packages/semver-3.0.2.dist-info/REQUESTED",
+    "lib/python3.13/site-packages/semver-3.0.2.dist-info/WHEEL",
+    "lib/python3.13/site-packages/semver-3.0.2.dist-info/direct_url.json",
+    "lib/python3.13/site-packages/semver-3.0.2.dist-info/entry_points.txt",
+    "lib/python3.13/site-packages/semver-3.0.2.dist-info/top_level.txt",
+    "lib/python3.13/site-packages/semver/__about__.py",
+    "lib/python3.13/site-packages/semver/__init__.py",
+    "lib/python3.13/site-packages/semver/__main__.py",
+    "lib/python3.13/site-packages/semver/__pycache__/__about__.cpython-313.pyc",
+    "lib/python3.13/site-packages/semver/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/semver/__pycache__/__main__.cpython-313.pyc",
+    "lib/python3.13/site-packages/semver/__pycache__/_deprecated.cpython-313.pyc",
+    "lib/python3.13/site-packages/semver/__pycache__/_types.cpython-313.pyc",
+    "lib/python3.13/site-packages/semver/__pycache__/cli.cpython-313.pyc",
+    "lib/python3.13/site-packages/semver/__pycache__/version.cpython-313.pyc",
+    "lib/python3.13/site-packages/semver/_deprecated.py",
+    "lib/python3.13/site-packages/semver/_types.py",
+    "lib/python3.13/site-packages/semver/cli.py",
+    "lib/python3.13/site-packages/semver/py.typed",
+    "lib/python3.13/site-packages/semver/version.py"
+  ],
+  "fn": "semver-3.0.2-py313h06a4308_1.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/svu/e0588224/Lyapunov/miniconda3/pkgs/semver-3.0.2-py313h06a4308_1",
+    "type": 1
+  },
+  "md5": "42fd2505022b95daa0061e091c9ddcda",
+  "name": "semver",
+  "package_tarball_full_path": "/home/svu/e0588224/Lyapunov/miniconda3/pkgs/semver-3.0.2-py313h06a4308_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/pysemver",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/semver_1736540782504/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "719db183c525354cb39e3977f44ec4ce1d67c814c875caadd027b2111c2f1931",
+        "sha256_in_prefix": "7597bb0d08a51e30723669882270378ac10008bedb21484765b499467864cf16",
+        "size_in_bytes": 492
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::semver==3.0.2=py313h06a4308_1[md5=42fd2505022b95daa0061e091c9ddcda]",
+  "sha256": "faa64604b250593e58623a1f3c3c549a4ea41747822a820c6d3233c3a4ed0b41",
+  "size": 44792,
+  "subdir": "linux-64",
+  "timestamp": 1736540808000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/semver-3.0.2-py313h06a4308_1.conda",
+  "version": "3.0.2"
+}

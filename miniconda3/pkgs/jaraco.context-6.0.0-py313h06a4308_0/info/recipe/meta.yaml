@@ -1,0 +1,67 @@
+# This file created by conda-build 24.1.2
+# meta.yaml template originally from:
+# /io/perseverance-python-buildout/aggregate/jaraco.context-feedstock/recipe, last modified Fri Nov 15 17:33:54 2024
+# ------------------------------------------------
+
+package:
+  name: jaraco.context
+  version: 6.0.0
+source:
+  sha256: 2aa8ca1ac7301b9034c17fc7b0b444faea194c4ded2d6909fa9d8fe723aefee4
+  url: https://github.com/jaraco/jaraco.context/archive/refs/tags/v6.0.0.tar.gz
+build:
+  number: '0'
+  script: /io/perseverance-python-buildout/croot/jaraco.context_1731706750665/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_/bin/python
+    -m pip install . -vv --no-deps --no-build-isolation
+  string: py313h06a4308_0
+requirements:
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - bzip2 1.0.8 h5eee18b_6
+    - ca-certificates 2024.9.24 h06a4308_0
+    - expat 2.6.3 h6a678d5_0
+    - ld_impl_linux-64 2.40 h12ee557_0
+    - libffi 3.4.4 h6a678d5_1
+    - libgcc-ng 11.2.0 h1234567_1
+    - libgomp 11.2.0 h1234567_1
+    - libmpdec 4.0.0 h5eee18b_0
+    - libstdcxx-ng 11.2.0 h1234567_1
+    - libuuid 1.41.5 h5eee18b_0
+    - ncurses 6.4 h6a678d5_0
+    - openssl 3.0.15 h5eee18b_0
+    - pip 24.2 py313h06a4308_0
+    - python 3.13.0 hf623796_100_cp313
+    - python_abi 3.13 0_cp313
+    - readline 8.2 h5eee18b_0
+    - setuptools 75.1.0 py313h06a4308_0
+    - sqlite 3.45.3 h5eee18b_0
+    - tk 8.6.14 h39e8969_0
+    - toml 0.10.2 pyhd3eb1b0_0
+    - tzdata 2024b h04d1e81_0
+    - wheel 0.44.0 py313h06a4308_0
+    - xz 5.4.6 h5eee18b_1
+    - zlib 1.2.13 h5eee18b_1
+  run:
+    - python >=3.13,<3.14.0a0
+    - python_abi 3.13.* *_cp313
+test:
+  commands:
+    - pip check
+  imports:
+    - jaraco.context
+  requires:
+    - pip
+about:
+  dev_url: https://github.com/jaraco/jaraco.context
+  doc_url: https://jaracocontext.readthedocs.io/
+  home: https://github.com/jaraco/jaraco.context
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: Context managers by jaraco
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - carlodri

@@ -1,0 +1,13 @@
+prefix=/home/svu/e0588224/Lyapunov/miniconda3
+exec_prefix=/home/svu/e0588224/Lyapunov/miniconda3
+libdir=/home/svu/e0588224/Lyapunov/miniconda3/lib
+sharedlibdir=/home/svu/e0588224/Lyapunov/miniconda3/lib
+includedir=/home/svu/e0588224/Lyapunov/miniconda3/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

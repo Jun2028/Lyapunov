@@ -1,0 +1,69 @@
+{
+  "arch": "x86_64",
+  "build": "py313h06a4308_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "jsonpointer >=1.9",
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "extracted_package_dir": "/home/svu/e0588224/Lyapunov/miniconda3/pkgs/jsonpatch-1.33-py313h06a4308_1",
+  "files": [
+    "bin/jsondiff",
+    "bin/jsonpatch",
+    "lib/python3.13/site-packages/__pycache__/jsonpatch.cpython-313.pyc",
+    "lib/python3.13/site-packages/jsonpatch-1.33.dist-info/AUTHORS",
+    "lib/python3.13/site-packages/jsonpatch-1.33.dist-info/INSTALLER",
+    "lib/python3.13/site-packages/jsonpatch-1.33.dist-info/LICENSE",
+    "lib/python3.13/site-packages/jsonpatch-1.33.dist-info/METADATA",
+    "lib/python3.13/site-packages/jsonpatch-1.33.dist-info/RECORD",
+    "lib/python3.13/site-packages/jsonpatch-1.33.dist-info/REQUESTED",
+    "lib/python3.13/site-packages/jsonpatch-1.33.dist-info/WHEEL",
+    "lib/python3.13/site-packages/jsonpatch-1.33.dist-info/direct_url.json",
+    "lib/python3.13/site-packages/jsonpatch-1.33.dist-info/top_level.txt",
+    "lib/python3.13/site-packages/jsonpatch.py"
+  ],
+  "fn": "jsonpatch-1.33-py313h06a4308_1.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/svu/e0588224/Lyapunov/miniconda3/pkgs/jsonpatch-1.33-py313h06a4308_1",
+    "type": 1
+  },
+  "md5": "8cb4b1755a4a8fd6a57883863236ef2b",
+  "name": "jsonpatch",
+  "package_tarball_full_path": "/home/svu/e0588224/Lyapunov/miniconda3/pkgs/jsonpatch-1.33-py313h06a4308_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/jsondiff",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/work/perseverance-python-buildout/croot/jsonpatch_1728399595941/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "ed8bce148ce1dce99221f5af22be85a9aafc399bbe0633bd16454072cb35050f",
+        "sha256_in_prefix": "10bd60040c7f9e2df99513262cede5e9c128b70c74adf7e0a72fa6d99c075421",
+        "size_in_bytes": 1447
+      },
+      {
+        "_path": "bin/jsonpatch",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/work/perseverance-python-buildout/croot/jsonpatch_1728399595941/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "675317969cdc21d6da9336da0dd661ed40e2d725f50ee27a29071a428a8a19e5",
+        "sha256_in_prefix": "478c572403cc5a869fe9e565ffd754da6cffe1c346064c58c25c4c9c167c398a",
+        "size_in_bytes": 4108
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::jsonpatch==1.33=py313h06a4308_1[md5=8cb4b1755a4a8fd6a57883863236ef2b]",
+  "sha256": "a84eba19b44745aa7892ed30a461b4da6b315e93b50d468de72486d0a8a9f892",
+  "size": 36479,
+  "subdir": "linux-64",
+  "timestamp": 1728399618000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/jsonpatch-1.33-py313h06a4308_1.conda",
+  "version": "1.33"
+}

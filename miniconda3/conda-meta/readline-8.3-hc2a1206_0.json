@@ -1,0 +1,85 @@
+{
+  "arch": "x86_64",
+  "build": "hc2a1206_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc-ng >=11.2.0",
+    "ncurses >=6.5,<7.0a0"
+  ],
+  "extracted_package_dir": "/home/svu/e0588224/Lyapunov/miniconda3/pkgs/readline-8.3-hc2a1206_0",
+  "files": [
+    "include/readline/chardefs.h",
+    "include/readline/history.h",
+    "include/readline/keymaps.h",
+    "include/readline/readline.h",
+    "include/readline/rlconf.h",
+    "include/readline/rlstdc.h",
+    "include/readline/rltypedefs.h",
+    "include/readline/tilde.h",
+    "lib/libhistory.a",
+    "lib/libhistory.so",
+    "lib/libhistory.so.8",
+    "lib/libhistory.so.8.3",
+    "lib/libreadline.a",
+    "lib/libreadline.so",
+    "lib/libreadline.so.8",
+    "lib/libreadline.so.8.3",
+    "lib/pkgconfig/history.pc",
+    "lib/pkgconfig/readline.pc",
+    "share/doc/readline/CHANGES",
+    "share/doc/readline/INSTALL",
+    "share/doc/readline/README",
+    "share/doc/readline/history.html",
+    "share/doc/readline/readline.html",
+    "share/doc/readline/rluserman.html",
+    "share/info/history.info",
+    "share/info/readline.info",
+    "share/info/rluserman.info",
+    "share/man/man3/history.3",
+    "share/man/man3/readline.3"
+  ],
+  "fn": "readline-8.3-hc2a1206_0.conda",
+  "license": "GPL-3.0-only",
+  "license_family": "GPL",
+  "link": {
+    "source": "/home/svu/e0588224/Lyapunov/miniconda3/pkgs/readline-8.3-hc2a1206_0",
+    "type": 1
+  },
+  "md5": "8578e006d4ef5cb98a6cda232b3490f6",
+  "name": "readline",
+  "package_tarball_full_path": "/home/svu/e0588224/Lyapunov/miniconda3/pkgs/readline-8.3-hc2a1206_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/pkgconfig/history.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/readline_1754485605901/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "96ae678a723fec65a477316b3458775627693596c0548115e7b8594fc3c8a12a",
+        "sha256_in_prefix": "55cace4d6e703bb21dd8725ed8c0b5367cedaa1d619cc9196c60e8734c1a76ac",
+        "size_in_bytes": 548
+      },
+      {
+        "_path": "lib/pkgconfig/readline.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/croot/readline_1754485605901/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "27ae4e26e244af80d3e3d63f62c93667921577acaef82d80ddca6289260939da",
+        "sha256_in_prefix": "0d09d463d364629e2c3e2d67fcb83bfac7ae58b4a1a9b4128f2802f9cb3a0359",
+        "size_in_bytes": 562
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::readline==8.3=hc2a1206_0[md5=8578e006d4ef5cb98a6cda232b3490f6]",
+  "sha256": "0a438fa74f2776bde137017d6c18214b5da65b557f6a59f877fa4e091582f789",
+  "size": 481826,
+  "subdir": "linux-64",
+  "timestamp": 1754485653000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/readline-8.3-hc2a1206_0.conda",
+  "version": "8.3"
+}

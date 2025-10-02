@@ -1,0 +1,62 @@
+{
+  "arch": "x86_64",
+  "build": "py313hfc0e8ea_100",
+  "build_number": 100,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [
+    "conda >=23.7"
+  ],
+  "depends": [
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "extracted_package_dir": "/home/svu/e0588224/Lyapunov/miniconda3/pkgs/anaconda-anon-usage-0.7.2-py313hfc0e8ea_100",
+  "files": [
+    "lib/python3.13/site-packages/anaconda_anon_usage-0.7.2.dist-info/INSTALLER",
+    "lib/python3.13/site-packages/anaconda_anon_usage-0.7.2.dist-info/METADATA",
+    "lib/python3.13/site-packages/anaconda_anon_usage-0.7.2.dist-info/RECORD",
+    "lib/python3.13/site-packages/anaconda_anon_usage-0.7.2.dist-info/REQUESTED",
+    "lib/python3.13/site-packages/anaconda_anon_usage-0.7.2.dist-info/WHEEL",
+    "lib/python3.13/site-packages/anaconda_anon_usage-0.7.2.dist-info/direct_url.json",
+    "lib/python3.13/site-packages/anaconda_anon_usage-0.7.2.dist-info/entry_points.txt",
+    "lib/python3.13/site-packages/anaconda_anon_usage-0.7.2.dist-info/licenses/LICENSE",
+    "lib/python3.13/site-packages/anaconda_anon_usage-0.7.2.dist-info/top_level.txt",
+    "lib/python3.13/site-packages/anaconda_anon_usage/__init__.py",
+    "lib/python3.13/site-packages/anaconda_anon_usage/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/anaconda_anon_usage/__pycache__/_version.cpython-313.pyc",
+    "lib/python3.13/site-packages/anaconda_anon_usage/__pycache__/heartbeat.cpython-313.pyc",
+    "lib/python3.13/site-packages/anaconda_anon_usage/__pycache__/install.cpython-313.pyc",
+    "lib/python3.13/site-packages/anaconda_anon_usage/__pycache__/patch.cpython-313.pyc",
+    "lib/python3.13/site-packages/anaconda_anon_usage/__pycache__/plugin.cpython-313.pyc",
+    "lib/python3.13/site-packages/anaconda_anon_usage/__pycache__/tokens.cpython-313.pyc",
+    "lib/python3.13/site-packages/anaconda_anon_usage/__pycache__/utils.cpython-313.pyc",
+    "lib/python3.13/site-packages/anaconda_anon_usage/_version.py",
+    "lib/python3.13/site-packages/anaconda_anon_usage/heartbeat.py",
+    "lib/python3.13/site-packages/anaconda_anon_usage/patch.py",
+    "lib/python3.13/site-packages/anaconda_anon_usage/plugin.py",
+    "lib/python3.13/site-packages/anaconda_anon_usage/tokens.py",
+    "lib/python3.13/site-packages/anaconda_anon_usage/utils.py"
+  ],
+  "fn": "anaconda-anon-usage-0.7.2-py313hfc0e8ea_100.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/svu/e0588224/Lyapunov/miniconda3/pkgs/anaconda-anon-usage-0.7.2-py313hfc0e8ea_100",
+    "type": 1
+  },
+  "md5": "c6ea2f8456510ea049a5f05fead4b9b1",
+  "name": "anaconda-anon-usage",
+  "package_tarball_full_path": "/home/svu/e0588224/Lyapunov/miniconda3/pkgs/anaconda-anon-usage-0.7.2-py313hfc0e8ea_100.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::anaconda-anon-usage==0.7.2=py313hfc0e8ea_100[md5=c6ea2f8456510ea049a5f05fead4b9b1]",
+  "sha256": "a23e9c52658c2eb506fa3db3cffd4dfcaf0b337dbe5aaf3aa7d24a8e1c6cb25d",
+  "size": 41497,
+  "subdir": "linux-64",
+  "timestamp": 1753980651000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/anaconda-anon-usage-0.7.2-py313hfc0e8ea_100.conda",
+  "version": "0.7.2"
+}

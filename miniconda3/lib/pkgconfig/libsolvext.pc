@@ -1,0 +1,9 @@
+libdir=/home/svu/e0588224/Lyapunov/miniconda3/lib
+includedir=/home/svu/e0588224/Lyapunov/miniconda3/include
+
+Name: libsolvext
+Description: Library for reading repositories
+Version: 0.7.30
+Requires: libsolv
+Libs: -L${libdir} -lsolvext
+Cflags: -I${includedir}
