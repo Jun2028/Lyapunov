@@ -33,7 +33,7 @@ def get_parser():
     parser = argparse.ArgumentParser(description="Language transfer")
 
     # main parameters
-    parser.add_argument("--dump_path", type=str, default="/path/to/your/storage", help="Experiment dump path")  # amend to match the experiment folder name
+    parser.add_argument("--dump_path", type=str, default="/scratch/e0588224/data", help="Experiment dump path")  # amend to match the experiment folder name
     parser.add_argument("--exp_name", type=str, default="debug", help="Experiment name")
     parser.add_argument("--save_periodic", type=int, default=0, help="Save the model periodically (0 to disable)")
     parser.add_argument("--exp_id", type=str, default="", help="Experiment ID")
@@ -77,11 +77,11 @@ def get_parser():
     parser.add_argument("--num_workers", type=int, default=10, help="Number of CPU workers for DataLoader")
 
     # export data / reload it
-    parser.add_argument("--export_data", type=bool_flag, default=False, help="Export data and disable training.")
+    parser.add_argument("--export_data", type=bool_flag, default=False, help="Export data and disable training.") # if False and reload_data is empty, then generate data(default backward) on the fly + train.
     parser.add_argument(
-        "--reload_data",
+        "--reload_data", 
         type=str,
-        default="",
+        default="", # if not empty, then load dataset from disk
         help="Load dataset from the disk (task1,train_path1,valid_path1,test_path1_1,...;task2,train_path2,valid_path2,test_path2_1,...)",
     )
     parser.add_argument("--reload_size", type=int, default=-1, help="Reloaded training set size (-1 for everything)")
@@ -148,7 +148,7 @@ def main(params):
     src.utils.CUDA = not params.cpu
 
     # build environment / modules / trainer / evaluator
-    env = build_env(params)
+    env = build_env(params) #builds the environment based on the env_name parameter, which is "ode" by default. This calls the ODEEnvironment constructor with params as argument.
     modules = build_modules(env, params)
     trainer = Trainer(modules, env, params)
     evaluator = Evaluator(trainer)
@@ -208,7 +208,8 @@ if __name__ == "__main__":
     parser = get_parser()  
     params = parser.parse_args()  # Namespace object. each parameter is accessible through params.parameter_name
 
-    if params.eval_only and params.eval_from_exp != "": #evaluation mode
+    #evaluation mode
+    if params.eval_only and params.eval_from_exp != "": 
         # read params from pickle
         pickle_file = params.eval_from_exp + "/params.pkl" # amending to path of pickled params object, see utils.py
         exp_str = params.eval_from_exp
