@@ -343,8 +343,9 @@ class Trainer(object):
                 logger.info(
                     "Stopping criterion has been below its best value for more " "than %i epochs. Ending the experiment..." % self.decrease_counts_max
                 )
-                if self.params.multi_gpu and "SLURM_JOB_ID" in os.environ:
-                    os.system("scancel " + os.environ["SLURM_JOB_ID"])
+                # Cancel PBS job
+                if self.params.multi_gpu and "PBS_JOBID" in os.environ:
+                    os.system("qdel " + os.environ["PBS_JOBID"])
                 exit()
         self.save_checkpoint("checkpoint")
         self.epoch += 1
@@ -360,12 +361,12 @@ class Trainer(object):
                 "An unknown exception of type {0} occurred in line {1} when fetching batch. "
                 "Arguments:{2!r}. Restarting ...".format(type(e).__name__, sys.exc_info()[-1].tb_lineno, e.args)
             )
-            if self.params.is_slurm_job:
-                if int(os.environ["SLURM_PROCID"]) == 0:
-                    logger.warning("Requeuing job " + os.environ["SLURM_JOB_ID"])
-                    os.system("scontrol requeue " + os.environ["SLURM_JOB_ID"])
-                else:
-                    logger.warning("Not the master process, no need to requeue.")
+            # Requeue PBS job if master process
+            if self.params.is_master and "PBS_JOBID" in os.environ:
+                logger.warning("Requeuing job " + os.environ["PBS_JOBID"])
+                os.system("qsub -r y -W depend=afterok:$PBS_JOBID $PBS_JOBID")
+            else:
+                logger.warning("Not the master process or not a PBS job, no need to requeue.")
             raise
 
         return batch
@@ -396,8 +397,8 @@ class Trainer(object):
         """
         Encoding / decoding step.
         """
-        params = self.params
-        encoder, decoder = self.modules["encoder"], self.modules["decoder"]
+                    if self.params.multi_gpu and "PBS_JOBID" in os.environ:
+                        os.system("qdel " + os.environ["PBS_JOBID"])
         encoder.train()
         decoder.train()
 

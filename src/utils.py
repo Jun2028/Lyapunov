@@ -103,9 +103,9 @@ def get_dump_path(params):
     # otherwise, it is randomly generated
     if params.exp_id == "":
         chronos_job_id = os.environ.get("CHRONOS_JOB_ID")
-        slurm_job_id = os.environ.get("SLURM_JOB_ID")
-        assert chronos_job_id is None or slurm_job_id is None
-        exp_id = chronos_job_id if chronos_job_id is not None else slurm_job_id
+        pbs_job_id = os.environ.get("PBS_JOBID")
+        assert chronos_job_id is None or pbs_job_id is None
+        exp_id = chronos_job_id if chronos_job_id is not None else pbs_job_id
         if exp_id is None:
             chars = "abcdefghijklmnopqrstuvwxyz0123456789"
             while True:

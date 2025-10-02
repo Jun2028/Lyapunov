@@ -121,13 +121,13 @@ def get_parser():
     parser.add_argument("--eval_verbose_print", type=bool_flag, default=False, help="Print evaluation details")
 
     # debug
-    parser.add_argument("--debug_slurm", type=bool_flag, default=False, help="Debug multi-GPU / multi-node within a SLURM job")
+    parser.add_argument("--debug_pbs", type=bool_flag, default=False, help="Debug multi-GPU / multi-node within a PBS job")
     parser.add_argument("--debug", help="Enable all debug flags", action="store_true")
 
     # CPU / multi-gpu / multi-node
     parser.add_argument("--cpu", type=bool_flag, default=False, help="Run on CPU")
     parser.add_argument("--local_rank", type=int, default=-1, help="Multi-GPU - Local rank")
-    parser.add_argument("--master_port", type=int, default=-1, help="Master port (for multi-node SLURM jobs)")
+    parser.add_argument("--master_port", type=int, default=-1, help="Master port (for multi-node PBS jobs)")
 
     return parser
 
@@ -135,7 +135,7 @@ def get_parser():
 def main(params):
 
     # initialize the multi-GPU / multi-node training
-    # initialize experiment / SLURM signal handler for time limit / pre-emption (revamped to PBS)
+    # initialize experiment / PBS signal handler for time limit / pre-emption
     init_distributed_mode(params)
     logger = initialize_exp(params)
     init_signal_handler()
@@ -250,7 +250,7 @@ if __name__ == "__main__":
         params.exp_name = "debug"
         if params.exp_id == "":
             params.exp_id = "debug_%08i" % random.randint(0, 100000000)
-        params.debug_slurm = True
+        params.debug_pbs = True
 
     # check parameters
     check_model_params(params)

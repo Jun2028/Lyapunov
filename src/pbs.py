@@ -15,15 +15,19 @@ logger = getLogger()
 # ---------------- signals ----------------
 
 def _sigusr1(signum, frame):
-    logger.warning("SIGUSR1 received; exiting for scheduler to resubmit if configured.")
-    sys.exit(-1) #force exit with exit code -1
-
-    #This needs to be rewritten to use the same logic as in slurm.py
+    logger.warning("SIGUSR1 received; performing clean exit for PBS preemption")
+    # PBS requeues job on SIGUSR1 if configured with -r y flag
+    sys.exit(-1)
 
 def _sigterm(signum, frame):
-    logger.warning("SIGTERM received; bypassing.") # do nothing, 
-    #
-    # This better be changed
+    logger.warning("SIGTERM received from PBS; initiating clean shutdown")
+    # Perform cleanup if needed before termination
+    if dist.is_initialized():
+        try:
+            dist.destroy_process_group()
+        except:
+            pass
+    sys.exit(0)  # Exit gracefully
 
 def init_signal_handler():
     """Handle preemption/time-limit signals on PBS."""
@@ -36,6 +40,9 @@ def init_signal_handler():
 # ---------------- helpers ----------------
 
 def _pbs_nodes():
+    '''
+    Get the list of nodes allocated to this job by PBS.
+    '''
     nf = os.getenv("PBS_NODEFILE")
     if nf and os.path.exists(nf):
         seen, nodes = set(), []
@@ -48,13 +55,17 @@ def _pbs_nodes():
     return [socket.gethostname()]
 
 def _infer_gpus_per_node():
+    '''
+    Infer the number of GPUs per node.
+    '''
     v = os.getenv("GPUS_PER_NODE")
     if v and v.isdigit():
         return int(v)
     cvd = os.getenv("CUDA_VISIBLE_DEVICES")
     if cvd:
-        ids = [x for x in cvd.split(",") if x.strip() != ""]
-        if ids: return len(ids)
+        ids = [x for x in cvd.split(",") if x.strip() != ""] #split and filter out empty strings
+        if ids: 
+            return len(ids)
     try:
         out = subprocess.check_output(["nvidia-smi","-L"], stderr=subprocess.DEVNULL).decode()
         return sum(1 for l in out.splitlines() if "GPU " in l)
@@ -67,19 +78,19 @@ def init_distributed_mode(params):
     """
     PBS / torchrun DDP setup. Mirrors the API used by train.py.
     Sets:
-      is_slurm_job, job_id, n_nodes, n_gpu_per_node, world_size,
-      global_rank, local_rank, is_master, multi_gpu, master_addr, master_port.
-    Also backfills SLURM_* envs from PBS_* for utils.get_dump_path().
+      job_id: PBS job identifier
+      n_nodes: Number of allocated nodes
+      n_gpu_per_node: GPUs available per node
+      world_size: Total number of processes
+      global_rank: Global process rank
+      local_rank: Local process rank
+      is_master: Whether this is the master process
+      multi_gpu: Whether using multiple GPUs
+      master_addr: Address of the master node
+      master_port: Port for distributed coordination
     """
-    # Backfill env so existing utils pick up job ids
-    if "PBS_JOBID" in os.environ and "SLURM_JOB_ID" not in os.environ:
-        os.environ["SLURM_JOB_ID"] = os.environ["PBS_JOBID"]
-    if "PBS_ARRAYID" in os.environ and "SLURM_ARRAY_TASK_ID" not in os.environ:
-        os.environ["SLURM_ARRAY_TASK_ID"] = os.environ["PBS_ARRAYID"]
-
     # Identify context
     nodes = _pbs_nodes()
-    params.is_slurm_job = False                         # avoid problem with existing code
     params.job_id = os.getenv("PBS_JOBID", "local")
     params.n_nodes = len(nodes)
     params.n_gpu_per_node = _infer_gpus_per_node()
