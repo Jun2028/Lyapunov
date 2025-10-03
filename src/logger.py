@@ -28,6 +28,12 @@ def create_logger(filepath, rank):
     """
     Create a logger.
     Use a different log file for each process.
+
+    Args:
+        filepath: path to the log file
+        rank: rank of the current process
+    Returns:
+        logger: the logger
     """
     # create log formatter
     log_formatter = LogFormatter()

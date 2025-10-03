@@ -109,10 +109,15 @@ def simplify(f, seconds):
     return _simplify(f)
 
 
-def expr_to_fun(x, f, point): #already deprecated
+def expr_to_fun(x, f, point): 
     """
     Transforms a sympy expression into a callable function that returns a float for optimization.
-    To be deprecated in the future using sympy lambdify that is much faster
+    To be deprecated in the future using sympy lambdify that is much faster.
+
+    Args:
+        x: input values
+        f: sympy expression
+        point: generic point to determine the number of variables
     """
     for i in range(len(point)):
         v = "x" + str(i)
@@ -128,6 +133,15 @@ def test_V_positive(V, point, domain: Optional[List["Node"]] = None, debug=False
     """
     Take an object, a sympy expression, and a point and test the positivity of V.
     To be deprecated in the future using sympy lambdify that is much faster
+
+    Args:
+        V: sympy expression
+        point: generic point to determine the number of variables
+        domain: list of constraints (Node objects) that define the domain where V should be positive
+        debug: whether to print debug information
+    
+    Returns:
+        c = 1 if V is positive, 0 if V is non-positive, -1 if the test failed
     """
     n_vars = len(point)
     # Compute the gradient for the minimization
@@ -149,7 +163,7 @@ def test_V_positive(V, point, domain: Optional[List["Node"]] = None, debug=False
             bounds.append((-10, 10)) # Search for the minimum in the box [-10, 10]^n, recall that global mini
 
         y = opt.shgo( #simplicial homology global optimization algorithm from SciPy: finds the global minimum of a function over a given bounded domain.
-            expr_to_fun,
+            expr_to_fun, #to be deprecated.
             bounds,
             args=(V, point),
             sampling_method="simplicial",
@@ -161,7 +175,7 @@ def test_V_positive(V, point, domain: Optional[List["Node"]] = None, debug=False
             return 0
         if not y.success:
             return -1
-        c = 1 if y.fun > -EPSILON else 0
+        c = 1 if y.fun > -EPSILON else 0 #EPSILON = 1e-14
     else:
         ### Function is defined on a domain only
         cons_sympy = []
@@ -205,7 +219,9 @@ def test_V_positive(V, point, domain: Optional[List["Node"]] = None, debug=False
 
 class TreeParser:
     """
-    Class for parsing mathematical expressions (that are represented as a tree by default)
+    Class for parsing mathematical expressions (that are represented as a tree by default) into Node objects.
+
+    Turns out not used besides when creating an instance for ODEEnvironment?
     """
 
     def __init__(self, adds, muls, funcs, variables, int_base, mulcode="*"):
@@ -218,6 +234,9 @@ class TreeParser:
         self.symbols = ["(", ")"] + self.adds + self.muls + self.funcs + self.variables
 
     def next_token(self, s):
+        '''
+        Get the next token from the input string (s).
+        '''
         i = 0
         while i < len(s) and s[i] in [" ", "\t"]:
             i += 1
@@ -225,17 +244,23 @@ class TreeParser:
             return "EOS", i
         for symb in self.symbols:
             if s[i:].startswith(symb):
-                return symb, i + len(symb)
+                return symb, i + len(symb) # recognized symbol
         if s[i].isdigit():
             val = int(s[i])
             i += 1
             while i < len(s) and s[i].isdigit():
                 val = val * self.int_base + int(s[i])
                 i += 1
-            return val, i
-        return "wut", i + 1
+            return val, i # integer
+        return "wut", i + 1 # unrecognized symbol
 
     def read_expr(self, s, node):
+        '''
+        Read an expression from the input string (s) and build a tree representation.
+        An expression is defined as a sequence of terms separated by + or - operators (the lowest precedence).
+        For example, the expression "2 * 3 + 4 * 5" would be parsed as: "2 * 3" and "+" and "4 * 5".
+        Also handles parentheses to manage precedence.
+        '''
         e, i = self.next_token(s)
         if e == "(":
             i2 = self.read_expr(s[i:], node)
@@ -261,6 +286,10 @@ class TreeParser:
                 return pos
 
     def read_term(self, s, node):
+        '''
+        Read a term from the input string (s) and build a tree representation.
+        A term is defined as a sequence of factors separated by * or / operators (the second lowest precedence).
+        '''
         son1 = Node(None)
         pos = self.read_neg(s, son1)
         e, i = self.next_token(s[pos:])
@@ -277,10 +306,15 @@ class TreeParser:
             return pos
 
     def read_neg(self, s, node):
+        '''
+        Read a negation from the input string (s) and build a tree representation.
+        A negation is defined as a sequence of - operators followed by a factor.
+        It handles multiple negations (e.g., --x becomes x).
+        '''
         e, i = self.next_token(s)
         cnt = 0
         pos = 0
-        while e == "-":
+        while e == "-": # Handle multiple negations
             cnt += 1
             pos += i
             e, i = self.next_token(s[pos:])
@@ -302,6 +336,11 @@ class TreeParser:
             return pos + i
 
     def read_factor(self, s, node):
+        '''
+        Read a factor from the input string (s) and build a tree representation.
+        A factor can be a variable, a number, a function call, or a parenthesized expression. (atomic unit)
+        Also manages parentheses by calling read_expr recursively.
+        '''
         e, i = self.next_token(s)
         if e in self.funcs:
             node.value = e
