@@ -365,12 +365,12 @@ class TreeParser:
 
 class Node:
     """
-    Class representing the mathematical expression as Trees.
-    So that we can write them as prefix (polish notation), infix, etc.
+    Class representing the mathematical expression as Trees. A tree is just the top node. see generate_tree in ODEEnvironment for actual generation of trees with push_child.
+    So that we can write them as prefix (polish notation), infix, etc. Can see the diagram in the paper for an example.
     """
     def __init__(self, value, children=None):
-        self.value = value
-        self.children: List["Node"] = children if children else []
+        self.value = value #the value of the node, can be an operator (e.g., '+', '*') or an operand (e.g., variable, constant).
+        self.children: List["Node"] = children if children else [] # ": List["Node"]" is a type hint that children is a list of Node objects. "if children" is a Python truthy check, if children is not None or empty, use it; otherwise, use an empty list.
         self._domain: Optional[List["Node"]] = None
 
     def push_child(self, child):
@@ -381,11 +381,11 @@ class Node:
         Enumerate tree in prefix expression (DFS manner).
         """
         s = str(self.value)
-        for c in self.children:
-            s += ", " + c.prefix()
+        for c in self.children: #self.children is recursively a list of Node objects, as defined below.
+            s += ", " + c.prefix() #recursively down the tree
         return s
 
-    # export to latex qtree format: prefix with \Tree, use package qtree
+    # export to latex qtree format: prefix with \Tree, use package qtree. Probably not used in the repo.
     def qtree_prefix(self):
         s = "[.$" + str(self.value) + "$ "
         for c in self.children:
@@ -401,12 +401,12 @@ class Node:
         nb_children = len(self.children)
         if nb_children <= 1:
             s = str(self.value)
-            if isinstance(self.value, int) and self.value < 0:
-                s = "(" + s + ")"
+            if isinstance(self.value, int) and self.value < 0: 
+                s = "(" + s + ")" #e.g. (3), given by Node(3).
             elif nb_children == 1:
-                s += "(" + self.children[0].infix() + ")"
+                s += "(" + self.children[0].infix() + ")" #e.g. sin(x)
             return s
-        s = "(" + self.children[0].infix()
+        s = "(" + self.children[0].infix() + ")" #the recursive case
         for c in self.children[1:]:
             s = s + " " + str(self.value) + " " + c.infix()
         return s + ")"
@@ -535,13 +535,14 @@ class Node:
         return Node(self.value, [c.remove_ops(ops, self, i) for i, c in enumerate(self.children)])
 
     def _find_domain(self, refresh=False):
-        self._domain: List["Node"] = []
+        #refresh: whether to recompute the domain even if it was already computed.
+        self._domain: List["Node"] = [] # List of constraints (Node objects) that define the domain where the expression is valid.
         for c in self.children:
             if refresh or c.domain() is None:
                 c._find_domain(refresh)
             self._domain.extend(c.domain())
         if self.value in {"acos", "asin"}:
-            self._domain.append(self.children[0] + Node(1) >= 0)
+            self._domain.append(self.children[0] + Node(1) >= 0) # e.g. acos(x) -> x+1>=0 and 1-x>=0
             self._domain.append(Node(1) - self.children[0] >= 0)
         if self.value == "tan":
             self._domain.append(self.children[0] + Node("/", [Node("pi"), Node(2)]) > 0)

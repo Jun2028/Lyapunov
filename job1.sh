@@ -11,3 +11,4 @@ conda activate Lyapunov
 python Lyapunov/train.py --export_data true --cpu true --reload_data '' --env_base_seed -1  --num_workers 72 
 
 
+# qsub -I -l select=2 -l place=pack -l walltime=03:00:00
