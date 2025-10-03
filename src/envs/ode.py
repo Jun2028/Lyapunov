@@ -365,7 +365,8 @@ class TreeParser:
 
 class Node:
     """
-    Class representing the mathematical expression as Trees
+    Class representing the mathematical expression as Trees.
+    So that we can write them as prefix (polish notation), infix, etc.
     """
     def __init__(self, value, children=None):
         self.value = value
@@ -377,7 +378,7 @@ class Node:
 
     def prefix(self):
         """
-        Enumerate tree in prefix expression
+        Enumerate tree in prefix expression (DFS manner).
         """
         s = str(self.value)
         for c in self.children:
