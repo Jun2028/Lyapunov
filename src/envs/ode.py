@@ -535,7 +535,10 @@ class Node:
         return Node(self.value, [c.remove_ops(ops, self, i) for i, c in enumerate(self.children)])
 
     def _find_domain(self, refresh=False):
-        #refresh: whether to recompute the domain even if it was already computed.
+        '''
+        refresh: whether to recompute the domain even if it was already computed.
+        find the domain of the mathematical expression represented by the Node.
+        '''
         self._domain: List["Node"] = [] # List of constraints (Node objects) that define the domain where the expression is valid.
         for c in self.children:
             if refresh or c.domain() is None:
