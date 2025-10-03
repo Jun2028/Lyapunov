@@ -113,7 +113,17 @@ def get_dump_path(params):
                 if not os.path.isdir(os.path.join(sweep_path, exp_id)):
                     break
         else:
-            assert exp_id.isdigit()
+            # Handle job IDs that may contain non-digit characters safely
+            # Replace invalid filesystem characters but preserve uniqueness
+            import re
+            # Replace dots, slashes, and other problematic chars with underscores
+            exp_id = re.sub(r'[^a-zA-Z0-9_-]', '_', exp_id)
+            # Ensure the directory doesn't already exist (handle potential collisions)
+            original_exp_id = exp_id
+            counter = 1
+            while os.path.isdir(os.path.join(sweep_path, exp_id)):
+                exp_id = f"{original_exp_id}_{counter}"
+                counter += 1
         params.exp_id = exp_id
 
     # create the dump folder / update parameters
