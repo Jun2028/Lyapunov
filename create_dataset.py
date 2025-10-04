@@ -64,7 +64,7 @@ def create_mixture(files, weights, new_file):
         total_size = len(lines)
         alpha = math.log(total_size - 0.5) / math.log(size)
         indices = [int(i**alpha) for i in range(1, size + 1)]
-        to_store.extend(lines[i] for i in indices)
+        to_store.extend(lines[i] for i in indices) #add the lines from files to to_store
 
     random.shuffle(to_store)
 
@@ -132,15 +132,15 @@ def clean_validation(old_file):
 
 
 def run_mixture(files, weights):
-    new_file = "/path/to/your/dataset"  # amend this path
+    new_file = "/scratch/e0588224/data/debug/"
     new_file += ".".join([file.split("/")[-1] + "." + str(int(100 * weight)) for file, weight in zip(files, weights)])
     create_mixture(files, weights, new_file)
     new_file_cleaned = new_file + ".cleaned"
     remove_duplicate_in_the_file(new_file, new_file_cleaned, separator=True)
-    split_mixture_train_eval_test(new_file_cleaned, 200, True, [".train", ".valid", ".test"])
+    split_mixture_train_eval_test(new_file_cleaned, 200, True, [".train", ".valid", ".test"]) #default 200 for vld_tst
     clean_validation(new_file_cleaned)
     print(new_file_cleaned)
 
 
-# Warning: amend the two paths to mix the data for training
-run_mixture(["/path/to/your/bwd_dataset", "/path/to/your/fwd_dataset"], [1.0, 1.0])
+# Amend the two paths to mix the data for training. Also works for more than two datasets, just adjust accordingly.
+run_mixture(["/scratch/e0588224/data/debug/250439_stdct-mgmt-02/data.prefix", "/scratch/e0588224/data/debug/254699_stdct-mgmt-02/data.prefix"], [1.0, 1.0])

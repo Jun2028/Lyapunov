@@ -3,7 +3,7 @@
     "n_dec_layers": [6],
     "emb_dim": [640],
     "n_heads": [10],
-    "batch_size": [4],
+    "batch_size": [6],
     "batch_size_eval": [16],
 
     "max_src_len": [0],

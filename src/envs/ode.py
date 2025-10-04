@@ -2427,7 +2427,7 @@ class ODEEnvironment(object):
             type=bool_flag,
             default=False,
             help="The h used to generate the system with the gradient of the Lyapunov function is purely polynomial",
-        )
+        ) # To be looked at
         parser.add_argument("--lyap_cross_term", type=bool_flag, default=True, help="cross term in lyapunov function")
         parser.add_argument("--lyap_max_nb_cross_term", type=int, default=2, help="cross term in lyapunov function")
         parser.add_argument(
