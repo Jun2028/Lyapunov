@@ -406,7 +406,7 @@ class Node:
             elif nb_children == 1:
                 s += "(" + self.children[0].infix() + ")" #e.g. sin(x)
             return s
-        s = "(" + self.children[0].infix() + ")" #the recursive case
+        s = "(" + self.children[0].infix() #the recursive case
         for c in self.children[1:]:
             s = s + " " + str(self.value) + " " + c.infix()
         return s + ")"
@@ -657,7 +657,7 @@ class ODEEnvironment(object):
 
         assert self.lyap_pure_polynomial or (
             not self.lyap_SOS_checker and not self.lyap_SOS_fwd_gen
-        )  # SOS checker only makes sense for pure polynomial
+        )  # SOS checker only makes sense for pure polynomial. This logic is kinda misleading since lyap_pure_polynomial supposed does noot affect training but is forced to be set true in training if SOS is used.
 
         self.lyap_only_2_norm = params.lyap_only_2_norm
         self.lyap_proba_diagonal = params.lyap_proba_diagonal
@@ -667,14 +667,14 @@ class ODEEnvironment(object):
         self.lyap_proba_cross_multiply = params.lyap_proba_cross_multiply
         self.lyap_basic_functions_num = params.lyap_basic_functions_num  # see parser metadata
         self.lyap_basic_functions_den = params.lyap_basic_functions_den
-        assert (not self.lyap_pure_polynomial) or (self.lyap_polynomial_H and self.lyap_polynomial_V)
+        assert (not self.lyap_pure_polynomial) or (self.lyap_polynomial_H and self.lyap_polynomial_V) # if pure polynomial, both H and V should be polynomial
         assert (not self.lyap_only_2_norm) or self.lyap_proba_diagonal == 1
-        if self.lyap_pure_polynomial:
+        if self.lyap_pure_polynomial: 
             assert self.lyap_proba_cross_composition == 0
             assert self.lyap_proba_proper_composition == 0
             assert self.lyap_proba_cross_multiply == 0
             assert self.lyap_proba_proper_multiply == 0
-        assert self.lyap_polynomial_V or self.lyap_basic_functions_num  # No need for p2 when we are in the more generique case
+        assert self.lyap_polynomial_V or self.lyap_basic_functions_num  # No need for p2 when we are in the more generique case. where is bro from
 
         self.lyap_stable = params.lyap_stable
         self.lyap_predict_stability = params.lyap_predict_stability
@@ -2101,7 +2101,7 @@ class ODEEnvironment(object):
     @timeout(30) # to avoid infinite loops
     def gen_lyapunov(self):
         """
-        Generate Lyapunov function, get its gradient, build a base of the orthogonal hyperplan, generate problem.
+        Generate Lyapunov function, get its gradient, build a base of the orthogonal hyperplane, generate problem.
         In backward mode the Lyapunov function will be created following the formula in Appendix B Step 1c of the paper (see https://openreview.net/pdf?id=kOMrm4ZJ3m)
         The system is then generated such that \nabla f\cdot V < 0.
         Finally the system and Lyapunov functions are encoded.
@@ -2427,7 +2427,7 @@ class ODEEnvironment(object):
             type=bool_flag,
             default=False,
             help="The h used to generate the system with the gradient of the Lyapunov function is purely polynomial",
-        ) # To be looked at
+        ) # To be looked at. 
         parser.add_argument("--lyap_cross_term", type=bool_flag, default=True, help="cross term in lyapunov function")
         parser.add_argument("--lyap_max_nb_cross_term", type=int, default=2, help="cross term in lyapunov function")
         parser.add_argument(
@@ -2658,7 +2658,7 @@ class EnvDataset(Dataset):
             try:
                 if self.env.lyap_generate_sample_fwd:
                     if self.env.lyap_pure_polynomial:
-                        x = self.env.generate_polynomial_system()
+                        x = self.env.generate_polynomial_system() # generates a purely polynomial system
                     else:
                         x = self.env.generate_random_system()
                     if x is None or isinstance(x, str):

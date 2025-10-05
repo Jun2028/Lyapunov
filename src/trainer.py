@@ -397,8 +397,8 @@ class Trainer(object):
         """
         Encoding / decoding step.
         """
-        if self.params.multi_gpu and "PBS_JOBID" in os.environ:
-            os.system("qdel " + os.environ["PBS_JOBID"])
+        params = self.params
+        encoder, decoder = self.modules["encoder"], self.modules["decoder"]
         encoder.train()
         decoder.train()
 
