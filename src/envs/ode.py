@@ -395,7 +395,7 @@ class Node:
 
     def infix(self) -> "str":
         """
-        Convert tree in readable mathematical expression
+        Convert tree in readable mathematical expression (DFS manner).
         """
         assert isinstance(self, Node), self
         nb_children = len(self.children)
@@ -2372,7 +2372,7 @@ class ODEEnvironment(object):
         Register environment parameters.
         """
         parser.add_argument("--int_base", type=int, default=1000, help="Encoding base for integers")
-        parser.add_argument("--max_int", type=int, default=10, help="Maximum integer value")
+        parser.add_argument("--max_int", type=int, default=10, help="Maximum integer value") #SOS works best with small coefficients, scales terribly otherwise
         parser.add_argument("--precision", type=int, default=4, help="Float numbers precision")
         parser.add_argument("--positive", type=bool_flag, default=False, help="Do not sample negative numbers")
         parser.add_argument("--nonnull", type=bool_flag, default=True, help="Do not sample zeros")
@@ -2672,7 +2672,7 @@ class EnvDataset(Dataset):
                 break
             except MyTimeoutError:
                 continue
-            except Exception as e:
+            except Exception as e: #logs the throw-aways (a lot of them)
                 logger.error(
                     'An unknown exception of type {0} occurred for worker {4} in line {1} for expression "{2}". Arguments:{3!r}.'.format(
                         type(e).__name__, sys.exc_info()[-1].tb_lineno, "F", e.args, self.get_worker_id()

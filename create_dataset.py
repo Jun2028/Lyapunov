@@ -132,7 +132,7 @@ def clean_validation(old_file):
 
 
 def run_mixture(files, weights):
-    new_file = "/scratch/e0588224/data/debug/"
+    new_file = "/scratch/e0588224/data/debug/BPloy/"
     new_file += ".".join([file.split("/")[-1] + "." + str(int(100 * weight)) for file, weight in zip(files, weights)])
     create_mixture(files, weights, new_file)
     new_file_cleaned = new_file + ".cleaned"
@@ -142,5 +142,5 @@ def run_mixture(files, weights):
     print(new_file_cleaned)
 
 
-# Amend the two paths to mix the data for training. Also works for more than two datasets, just adjust accordingly.
-run_mixture(["/scratch/e0588224/data/debug/250439_stdct-mgmt-02/data.prefix", "/scratch/e0588224/data/debug/254699_stdct-mgmt-02/data.prefix"], [1.0, 1.0])
+# Amend the two paths to mix the data for training. Also works for any other number of datasets, just adjust accordingly.
+run_mixture(["/scratch/e0588224/data/debug/259296_stdct-mgmt-02/data.prefix"], [1.0])

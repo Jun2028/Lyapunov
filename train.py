@@ -49,7 +49,7 @@ def get_parser():
     parser.add_argument("--n_enc_layers", type=int, default=6, help="Number of Transformer layers in the encoder")
     parser.add_argument("--n_dec_layers", type=int, default=6, help="Number of Transformer layers in the decoder")
     parser.add_argument("--n_heads", type=int, default=10, help="Number of Transformer heads")
-    parser.add_argument("--dropout", type=float, default=0, help="Dropout")
+    parser.add_argument("--dropout", type=float, default=0, help="Dropout") 
     parser.add_argument("--attention_dropout", type=float, default=0, help="Dropout in the attention layer")
     parser.add_argument("--share_inout_emb", type=bool_flag, default=True, help="Share input and output embeddings")
     parser.add_argument("--sinusoidal_embeddings", type=bool_flag, default=False, help="Use sinusoidal embeddings")
