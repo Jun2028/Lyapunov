@@ -5236,3 +5236,17 @@ INFO - 10/06/25 21:37:32 - 2:57:55 -  102000 -   54.94 equations/s -  9111.16 wo
 INFO - 10/06/25 21:37:34 - 2:57:57 -  102020 -   60.80 equations/s -  8985.38 words/s - ODE-LYAPUNOV:  0.2001 - LR: 3.1308e-05
 INFO - 10/06/25 21:37:36 - 2:58:00 -  102040 -   53.42 equations/s -  9031.53 words/s - ODE-LYAPUNOV:  0.2131 - LR: 3.1305e-05
 INFO - 10/06/25 21:37:38 - 2:58:02 -  102060 -   57.14 equations/s -  8874.99 words/s - ODE-LYAPUNOV:  0.2113 - LR: 3.1302e-05
+INFO - 10/06/25 21:37:40 - 2:58:04 -  102080 -   62.83 equations/s -  8779.47 words/s - ODE-LYAPUNOV:  0.2206 - LR: 3.1299e-05
+INFO - 10/06/25 21:37:42 - 2:58:06 -  102100 -   58.49 equations/s -  9605.43 words/s - ODE-LYAPUNOV:  0.2263 - LR: 3.1296e-05
+INFO - 10/06/25 21:37:44 - 2:58:08 -  102120 -   58.00 equations/s - 10144.34 words/s - ODE-LYAPUNOV:  0.2162 - LR: 3.1293e-05
+INFO - 10/06/25 21:37:46 - 2:58:10 -  102140 -   59.81 equations/s -  9242.08 words/s - ODE-LYAPUNOV:  0.2164 - LR: 3.1290e-05
+INFO - 10/06/25 21:37:48 - 2:58:12 -  102160 -   55.68 equations/s -  9478.10 words/s - ODE-LYAPUNOV:  0.2141 - LR: 3.1287e-05
+INFO - 10/06/25 21:37:50 - 2:58:14 -  102180 -   57.25 equations/s -  9005.63 words/s - ODE-LYAPUNOV:  0.2164 - LR: 3.1284e-05
+INFO - 10/06/25 21:37:52 - 2:58:16 -  102200 -   58.98 equations/s -  9205.61 words/s - ODE-LYAPUNOV:  0.1961 - LR: 3.1281e-05
+INFO - 10/06/25 21:37:54 - 2:58:18 -  102220 -   56.54 equations/s -  9553.09 words/s - ODE-LYAPUNOV:  0.2114 - LR: 3.1278e-05
+INFO - 10/06/25 21:37:57 - 2:58:21 -  102240 -   49.05 equations/s -  8983.61 words/s - ODE-LYAPUNOV:  0.2003 - LR: 3.1274e-05
+INFO - 10/06/25 21:37:59 - 2:58:23 -  102260 -   55.69 equations/s -  9727.85 words/s - ODE-LYAPUNOV:  0.2177 - LR: 3.1271e-05
+INFO - 10/06/25 21:38:01 - 2:58:25 -  102280 -   57.98 equations/s -  9474.56 words/s - ODE-LYAPUNOV:  0.1983 - LR: 3.1268e-05
+INFO - 10/06/25 21:38:03 - 2:58:27 -  102300 -   54.80 equations/s -  9048.47 words/s - ODE-LYAPUNOV:  0.2001 - LR: 3.1265e-05
+INFO - 10/06/25 21:38:05 - 2:58:29 -  102320 -   60.02 equations/s -  8677.27 words/s - ODE-LYAPUNOV:  0.1926 - LR: 3.1262e-05
+INFO - 10/06/25 21:38:07 - 2:58:31 -  102340 -   59.21 equations/s -  9612.93 words/s - ODE-LYAPUNOV:  0.1935 - LR: 3.1259e-05
