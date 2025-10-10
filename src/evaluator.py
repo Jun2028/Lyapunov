@@ -57,9 +57,9 @@ def check_hypothesis(eq):
         is_valid = env.check_lyap_validity(src, hyp, tgt)
     except MyTimeoutError:
         is_valid = -3
-    except Exception as e:
+    except Exception as e: 
         logger.info(f"Exception: {str(e)}, {hyp}")
-        is_valid = -4
+        is_valid = -4 # other error
 
     # update hypothesis
     eq["src"] = env.input_to_infix(src)
@@ -98,9 +98,9 @@ class Evaluator(object):
 
         with torch.no_grad():
             for task in params.tasks:
-                eval_tasks = [["valid", 1]]
+                eval_tasks = [["valid", 1]] #first validation set
                 for idx in range(2, len(self.trainer.data_path[task])):
-                    eval_tasks.append(["test", idx])
+                    eval_tasks.append(["test", idx]) #then test sets
                 for data_type, data_path_idx in eval_tasks:
                     if params.beam_eval:
                         self.enc_dec_step_beam(data_type, data_path_idx, task, scores, params.eval_size)
@@ -416,7 +416,7 @@ class Evaluator(object):
                     # if the hypothesis is correct, and we did not find a correct one before
                     is_valid = gen["is_valid"]
                     if is_valid == 1 and not valid[i]:
-                        n_valid[nb_ops[i], j] += 1
+                        n_valid[nb_ops[i], j] += 1 
                         valid[i] = 1
 
                     # update beam log

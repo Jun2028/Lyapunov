@@ -657,7 +657,7 @@ class ODEEnvironment(object):
 
         assert self.lyap_pure_polynomial or (
             not self.lyap_SOS_checker and not self.lyap_SOS_fwd_gen
-        )  # SOS checker only makes sense for pure polynomial. This logic is kinda misleading since lyap_pure_polynomial supposed does noot affect training but is forced to be set true in training if SOS is used.
+        )  # SOS checker only makes sense for pure polynomial. This logic is kinda misleading since lyap_pure_polynomial supposed does not affect training but is forced to be set true in training if SOS is used.
 
         self.lyap_only_2_norm = params.lyap_only_2_norm
         self.lyap_proba_diagonal = params.lyap_proba_diagonal
@@ -2284,7 +2284,7 @@ class ODEEnvironment(object):
                     if check_sos is False:
                         return 0
                 else:
-                    min_value = test_V_positive(rescale_lyap, pp, domain_V, debug=debug)
+                    min_value = test_V_positive(rescale_lyap, pp, domain_V, debug=debug) #if not sos checker then use the general checker
                     if min_value != 1:
                         return min_value
 
@@ -2640,12 +2640,12 @@ class EnvDataset(Dataset):
         Read a sample.
         """
         while True:
-            if self.train:
+            if self.train: #if training, sample randomly
                 index = self.env.rng.randint(len(self.data))
             x, y = self.data[index]
             x = x.split()
             y = y.split()
-            if (self.env.max_len > 0 and len(x) >= self.env.max_len) or (self.env.max_output_len > 0 and len(y) >= self.env.max_output_len):
+            if (self.env.max_len > 0 and len(x) >= self.env.max_len) or (self.env.max_output_len > 0 and len(y) >= self.env.max_output_len): 
                 index += 1
                 continue
             return x, y

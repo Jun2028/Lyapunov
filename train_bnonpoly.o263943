@@ -1,0 +1,3397 @@
+infeasibility in SOS checker sqrt(3*x0**2 + 2*x1**2 + 1) contains an element of the set of generators.
+optimisation error ('sqrt(3*x0**2 + 2*x1**2 + 1) contains an element of the set of generators.',)
+infeasibility in SOS checker sqrt(-x0**2*acos(x1)**2 + 1) contains an element of the set of generators.
+optimisation error ('sqrt(-x0**2*acos(x1)**2 + 1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(pi*x0/4) contains an element of the set of generators.
+optimisation error ('cos(pi*x0/4) contains an element of the set of generators.',)
+infeasibility in SOS checker x2**(4*x0) contains an element of the set of generators.
+optimisation error ('x2**(4*x0) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1)**2 contains an element of the set of generators.
+optimisation error ('cos(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker exp(2*x1) contains an element of the set of generators.
+optimisation error ('exp(2*x1) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0)**2 contains an element of the set of generators.
+optimisation error ('sin(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker (x0 - x1)**(-2) contains an element of the set of generators.
+optimisation error ('(x0 - x1)**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(3*x1**2) contains an element of the set of generators.
+optimisation error ('sin(3*x1**2) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0)**2 contains an element of the set of generators.
+optimisation error ('sin(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(4*x0) contains an element of the set of generators.
+optimisation error ('cos(4*x0) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(7*x0**4 + 12*x0**2*x1**4 + 8*x0**2*x2 + 13*x1**8 + 7*x2**2) contains an element of the set of generators.
+optimisation error ('exp(7*x0**4 + 12*x0**2*x1**4 + 8*x0**2*x2 + 13*x1**8 + 7*x2**2) contains an element of the set of generators.',)
+infeasibility in SOS checker (x2 + exp(Abs(acos(x1))))**(2*x2) contains an element of the set of generators.
+optimisation error ('(x2 + exp(Abs(acos(x1))))**(2*x2) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0)**2 contains an element of the set of generators.
+optimisation error ('sin(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x2) contains an element of the set of generators.
+optimisation error ('cos(x2) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x2)**2 contains an element of the set of generators.
+optimisation error ('cos(x2)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0)**2 contains an element of the set of generators.
+optimisation error ('sin(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker x1**(-2) contains an element of the set of generators.
+optimisation error ('x1**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1) contains an element of the set of generators.
+optimisation error ('cos(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker log(2*x0**8 + 3*x1**8 + 2*x2**8 + 1) contains an element of the set of generators.
+optimisation error ('log(2*x0**8 + 3*x1**8 + 2*x2**8 + 1) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x1**2) contains an element of the set of generators.
+optimisation error ('exp(x1**2) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(2*x1) contains an element of the set of generators.
+optimisation error ('exp(2*x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1) contains an element of the set of generators.
+optimisation error ('cos(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x1**2) contains an element of the set of generators.
+optimisation error ('exp(x1**2) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0)**2 contains an element of the set of generators.
+optimisation error ('cos(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker tan(x1**x1)**2 contains an element of the set of generators.
+optimisation error ('tan(x1**x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1**8) contains an element of the set of generators.
+optimisation error ('sin(x1**8) contains an element of the set of generators.',)
+infeasibility in SOS checker (-tan(1))**x1 contains an element of the set of generators.
+optimisation error ('(-tan(1))**x1 contains an element of the set of generators.',)
+infeasibility in SOS checker (-2*sqrt(cos(x0*x2)))**x1 contains an element of the set of generators.
+optimisation error ('(-2*sqrt(cos(x0*x2)))**x1 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(4*x1) contains an element of the set of generators.
+optimisation error ('cos(4*x1) contains an element of the set of generators.',)
+infeasibility in SOS checker atan(x0**2)**2 contains an element of the set of generators.
+optimisation error ('atan(x0**2)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker x2**(2*asin(x0)) contains an element of the set of generators.
+optimisation error ('x2**(2*asin(x0)) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x1) contains an element of the set of generators.
+optimisation error ('exp(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x2**6) contains an element of the set of generators.
+optimisation error ('sin(x2**6) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1) contains an element of the set of generators.
+optimisation error ('sin(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0**(3/2)/(x0 + x2)) contains an element of the set of generators.
+optimisation error ('cos(x0**(3/2)/(x0 + x2)) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x0**8 + x1**2 + 2*x2**6) contains an element of the set of generators.
+optimisation error ('exp(x0**8 + x1**2 + 2*x2**6) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker exp(3*x0**8 - x0**4*x1**2) contains an element of the set of generators.
+optimisation error ('exp(3*x0**8 - x0**4*x1**2) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x2)**2 contains an element of the set of generators.
+optimisation error ('sin(x2)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0)**2 contains an element of the set of generators.
+optimisation error ('cos(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0**4*(14*x0**4 + 7*x1**2 + 13*x2)) contains an element of the set of generators.
+optimisation error ('cos(x0**4*(14*x0**4 + 7*x1**2 + 13*x2)) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0)**2 contains an element of the set of generators.
+optimisation error ('cos(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x0**2 + 3*x1**4 + x2**8) contains an element of the set of generators.
+optimisation error ('exp(x0**2 + 3*x1**4 + x2**8) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x0) contains an element of the set of generators.
+optimisation error ('exp(x0) contains an element of the set of generators.',)
+infeasibility in SOS checker acos(x0)**2 contains an element of the set of generators.
+optimisation error ('acos(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos((-1/x2)**(x0*asin(x0)) - 1.0) contains an element of the set of generators.
+optimisation error ('cos((-1/x2)**(x0*asin(x0)) - 1.0) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x0) contains an element of the set of generators.
+optimisation error ('exp(x0) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(3*x0**4) contains an element of the set of generators.
+optimisation error ('cos(3*x0**4) contains an element of the set of generators.',)
+infeasibility in SOS checker atan(x1)**2 contains an element of the set of generators.
+optimisation error ('atan(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(exp(x1) - 1.0) contains an element of the set of generators.
+optimisation error ('cos(exp(x1) - 1.0) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x1) contains an element of the set of generators.
+optimisation error ('exp(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker sqrt(2*x0**2 + 3*x1**4 + 3*x2**2 + 1) contains an element of the set of generators.
+optimisation error ('sqrt(2*x0**2 + 3*x1**4 + 3*x2**2 + 1) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0) contains an element of the set of generators.
+optimisation error ('sin(x0) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0*asin(x1**3/(x1**3 - 1)) + x1) contains an element of the set of generators.
+optimisation error ('cos(x0*asin(x1**3/(x1**3 - 1)) + x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0 - exp(x0) + 1.0) contains an element of the set of generators.
+optimisation error ('cos(x0 - exp(x0) + 1.0) contains an element of the set of generators.',)
+infeasibility in SOS checker x1**(-2) contains an element of the set of generators.
+optimisation error ('x1**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker cos((-x2 + (x0 - cos(x0))*(3**x0 + x1 - 1.0))/(x0 - cos(x0))) contains an element of the set of generators.
+optimisation error ('cos((-x2 + (x0 - cos(x0))*(3**x0 + x1 - 1.0))/(x0 - cos(x0))) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(2*x1) contains an element of the set of generators.
+optimisation error ('exp(2*x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1) contains an element of the set of generators.
+optimisation error ('cos(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker 27
+optimisation error (27,)
+infeasibility in SOS checker cos(x0) contains an element of the set of generators.
+optimisation error ('cos(x0) contains an element of the set of generators.',)
+infeasibility in SOS checker 1/sqrt(x0**2 + 1) contains an element of the set of generators.
+optimisation error ('1/sqrt(x0**2 + 1) contains an element of the set of generators.',)
+infeasibility in SOS checker log(2*x0**4 + x1**8 + 1) contains an element of the set of generators.
+optimisation error ('log(2*x0**4 + x1**8 + 1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1)**2 contains an element of the set of generators.
+optimisation error ('cos(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(pi*x0/4) contains an element of the set of generators.
+optimisation error ('cos(pi*x0/4) contains an element of the set of generators.',)
+infeasibility in SOS checker tan(1)**(2*x0*x1) contains an element of the set of generators.
+optimisation error ('tan(1)**(2*x0*x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(exp(x1) - 1.0) contains an element of the set of generators.
+optimisation error ('cos(exp(x1) - 1.0) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(3*x1**8) contains an element of the set of generators.
+optimisation error ('sin(3*x1**8) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(2*x0**6) contains an element of the set of generators.
+optimisation error ('sin(2*x0**6) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1) contains an element of the set of generators.
+optimisation error ('cos(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker tan((2*x2)**x0)**2 contains an element of the set of generators.
+optimisation error ('tan((2*x2)**x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker exp(2*x0) contains an element of the set of generators.
+optimisation error ('exp(2*x0) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x1*(x0*x1**3 - 1)/2) contains an element of the set of generators.
+optimisation error ('exp(x1*(x0*x1**3 - 1)/2) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0)**2 contains an element of the set of generators.
+optimisation error ('sin(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(exp(x2) - 1.0) contains an element of the set of generators.
+optimisation error ('cos(exp(x2) - 1.0) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1**3*(-6*x0 + 7*x1**3 + 4*x2**4)) contains an element of the set of generators.
+optimisation error ('cos(x1**3*(-6*x0 + 7*x1**3 + 4*x2**4)) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x1) contains an element of the set of generators.
+optimisation error ('exp(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker cos(x2) contains an element of the set of generators.
+optimisation error ('cos(x2) contains an element of the set of generators.',)
+infeasibility in SOS checker x2**(-2) contains an element of the set of generators.
+optimisation error ('x2**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1**4)**2 contains an element of the set of generators.
+optimisation error ('cos(x1**4)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1) contains an element of the set of generators.
+optimisation error ('sin(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker sqrt(3*x0**4 + 3*x1**8 + 3*x2**2 + 1) contains an element of the set of generators.
+optimisation error ('sqrt(3*x0**4 + 3*x1**8 + 3*x2**2 + 1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(3*x0**6) contains an element of the set of generators.
+optimisation error ('cos(3*x0**6) contains an element of the set of generators.',)
+infeasibility in SOS checker atan(x0/(x1*(x0 + x2)))**2 contains an element of the set of generators.
+optimisation error ('atan(x0/(x1*(x0 + x2)))**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1) contains an element of the set of generators.
+optimisation error ('cos(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x2) contains an element of the set of generators.
+optimisation error ('sin(x2) contains an element of the set of generators.',)
+infeasibility in SOS checker tan(cos(x0*cos(1))**x0)**2 contains an element of the set of generators.
+optimisation error ('tan(cos(x0*cos(1))**x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1) contains an element of the set of generators.
+optimisation error ('sin(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1)**2 contains an element of the set of generators.
+optimisation error ('cos(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(exp(x2) - 1.0) contains an element of the set of generators.
+optimisation error ('cos(exp(x2) - 1.0) contains an element of the set of generators.',)
+infeasibility in SOS checker asin(x0)**2 contains an element of the set of generators.
+optimisation error ('asin(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker log(x1)**2 contains an element of the set of generators.
+optimisation error ('log(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker log(x0**6 + 3*x1**8 + 3*x2**6 + 1) contains an element of the set of generators.
+optimisation error ('log(x0**6 + 3*x1**8 + 3*x2**6 + 1) contains an element of the set of generators.',)
+infeasibility in SOS checker (sqrt(x1) - x1)**(-2) contains an element of the set of generators.
+optimisation error ('(sqrt(x1) - x1)**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker x2**(-2) contains an element of the set of generators.
+optimisation error ('x2**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0)**2 contains an element of the set of generators.
+optimisation error ('cos(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1)**2 contains an element of the set of generators.
+optimisation error ('cos(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(Abs(x1)*asin(x0)) contains an element of the set of generators.
+optimisation error ('cos(Abs(x1)*asin(x0)) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x2)**2 contains an element of the set of generators.
+optimisation error ('cos(x2)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(exp(x2) - 1.0) contains an element of the set of generators.
+optimisation error ('cos(exp(x2) - 1.0) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0) contains an element of the set of generators.
+optimisation error ('sin(x0) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0) contains an element of the set of generators.
+optimisation error ('sin(x0) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x0**2*(18*x0**2 + 5*x1**4 - 13*x2**2)) contains an element of the set of generators.
+optimisation error ('exp(x0**2*(18*x0**2 + 5*x1**4 - 13*x2**2)) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(2*x1) contains an element of the set of generators.
+optimisation error ('sin(2*x1) contains an element of the set of generators.',)
+infeasibility in SOS checker asin(x2)**(-2) contains an element of the set of generators.
+optimisation error ('asin(x2)**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x1) contains an element of the set of generators.
+optimisation error ('exp(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x0**6 + x1**6) contains an element of the set of generators.
+optimisation error ('exp(x0**6 + x1**6) contains an element of the set of generators.',)
+infeasibility in SOS checker 2**(x0**2) contains an element of the set of generators.
+optimisation error ('2**(x0**2) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(3*x1*x2) contains an element of the set of generators.
+optimisation error ('cos(3*x1*x2) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x0**4) contains an element of the set of generators.
+optimisation error ('exp(x0**4) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(4*x0) contains an element of the set of generators.
+optimisation error ('cos(4*x0) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x2) contains an element of the set of generators.
+optimisation error ('sin(x2) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1)**2 contains an element of the set of generators.
+optimisation error ('cos(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x1**6) contains an element of the set of generators.
+optimisation error ('exp(x1**6) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1) contains an element of the set of generators.
+optimisation error ('cos(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0**2*(2*x0**2 + x1**2)) contains an element of the set of generators.
+optimisation error ('sin(x0**2*(2*x0**2 + x1**2)) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0)**2 contains an element of the set of generators.
+optimisation error ('cos(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x2**3*(7*x0**3 + 6*x1**2 + 7*x2**3)) contains an element of the set of generators.
+optimisation error ('cos(x2**3*(7*x0**3 + 6*x1**2 + 7*x2**3)) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x1) contains an element of the set of generators.
+optimisation error ('exp(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1) contains an element of the set of generators.
+optimisation error ('cos(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1) contains an element of the set of generators.
+optimisation error ('sin(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x0**8 + x1**2 + x2**8) contains an element of the set of generators.
+optimisation error ('exp(x0**8 + x1**2 + x2**8) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1) contains an element of the set of generators.
+optimisation error ('sin(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(6*x0**4*x1**4 + 9*x1**8) contains an element of the set of generators.
+optimisation error ('cos(6*x0**4*x1**4 + 9*x1**8) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x2)**2 contains an element of the set of generators.
+optimisation error ('cos(x2)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 27
+optimisation error (27,)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker number of elements exceeds INT_MAX
+optimisation error ('number of elements exceeds INT_MAX',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 35
+optimisation error (35,)
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker number of elements exceeds INT_MAX
+optimisation error ('number of elements exceeds INT_MAX',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker number of elements exceeds INT_MAX
+optimisation error ('number of elements exceeds INT_MAX',)
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker number of elements exceeds INT_MAX
+optimisation error ('number of elements exceeds INT_MAX',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 14
+optimisation error (14,)
+infeasibility in SOS checker 20
+optimisation error (20,)
+infeasibility in SOS checker 20
+optimisation error (20,)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker cos(1.0 - exp(-atan(x1))) contains an element of the set of generators.
+optimisation error ('cos(1.0 - exp(-atan(x1))) contains an element of the set of generators.',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 20
+optimisation error (20,)
+infeasibility in SOS checker 34
+optimisation error (34, 'Numerical result out of range')
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 20
+optimisation error (20,)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 34
+optimisation error (34, 'Numerical result out of range')
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 20
+optimisation error (20,)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 34
+optimisation error (34, 'Numerical result out of range')
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker x1**(-2) contains an element of the set of generators.
+optimisation error ('x1**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker (sqrt(x1) - x1)**(-2) contains an element of the set of generators.
+optimisation error ('(sqrt(x1) - x1)**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(2*x1) contains an element of the set of generators.
+optimisation error ('exp(2*x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1)**2 contains an element of the set of generators.
+optimisation error ('cos(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x0) contains an element of the set of generators.
+optimisation error ('exp(x0) contains an element of the set of generators.',)
+infeasibility in SOS checker acos(sqrt(x1)) contains an element of the set of generators.
+optimisation error ('acos(sqrt(x1)) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(3*x0**4) contains an element of the set of generators.
+optimisation error ('cos(3*x0**4) contains an element of the set of generators.',)
+infeasibility in SOS checker cos((x2 - 1)**x2 - 1.0) contains an element of the set of generators.
+optimisation error ('cos((x2 - 1)**x2 - 1.0) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(4*x0) contains an element of the set of generators.
+optimisation error ('cos(4*x0) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x2)**2 contains an element of the set of generators.
+optimisation error ('sin(x2)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker (1 - x0)**x2 contains an element of the set of generators.
+optimisation error ('(1 - x0)**x2 contains an element of the set of generators.',)
+infeasibility in SOS checker (-x2 - 2)**x1 contains an element of the set of generators.
+optimisation error ('(-x2 - 2)**x1 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x2)**2 contains an element of the set of generators.
+optimisation error ('cos(x2)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0) contains an element of the set of generators.
+optimisation error ('sin(x0) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0*atan(9)) contains an element of the set of generators.
+optimisation error ('cos(x0*atan(9)) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker exp(2*x1) contains an element of the set of generators.
+optimisation error ('exp(2*x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos((-x1 - 2)**x2 - 1.0) contains an element of the set of generators.
+optimisation error ('cos((-x1 - 2)**x2 - 1.0) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(2*x0**4 + 3*x1**2) contains an element of the set of generators.
+optimisation error ('exp(2*x0**4 + 3*x1**2) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x2) contains an element of the set of generators.
+optimisation error ('sin(x2) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x0 - x1/2) contains an element of the set of generators.
+optimisation error ('exp(x0 - x1/2) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0)**2 contains an element of the set of generators.
+optimisation error ('sin(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(1.0*(x0 + x1*x2 - x1*cos(x0))/(x0 - cos(x0))) contains an element of the set of generators.
+optimisation error ('cos(1.0*(x0 + x1*x2 - x1*cos(x0))/(x0 - cos(x0))) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(2*x1) contains an element of the set of generators.
+optimisation error ('exp(2*x1) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0) contains an element of the set of generators.
+optimisation error ('sin(x0) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x2**3*(7*x0**3 + 6*x1**2 + 7*x2**3)) contains an element of the set of generators.
+optimisation error ('cos(x2**3*(7*x0**3 + 6*x1**2 + 7*x2**3)) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1) contains an element of the set of generators.
+optimisation error ('sin(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x1**2) contains an element of the set of generators.
+optimisation error ('exp(x1**2) contains an element of the set of generators.',)
+infeasibility in SOS checker acos(x0)**2 contains an element of the set of generators.
+optimisation error ('acos(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker log(2*x0**4 + x1**8 + 1) contains an element of the set of generators.
+optimisation error ('log(2*x0**4 + x1**8 + 1) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0)**2 contains an element of the set of generators.
+optimisation error ('sin(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker (1 - x0)**x0 contains an element of the set of generators.
+optimisation error ('(1 - x0)**x0 contains an element of the set of generators.',)
+infeasibility in SOS checker (x0 + 1)**x2 contains an element of the set of generators.
+optimisation error ('(x0 + 1)**x2 contains an element of the set of generators.',)
+infeasibility in SOS checker (x0 - atan(2))**(-3) contains an element of the set of generators.
+optimisation error ('(x0 - atan(2))**(-3) contains an element of the set of generators.',)
+infeasibility in SOS checker cos((x2 - 2)**x1 - 1.0) contains an element of the set of generators.
+optimisation error ('cos((x2 - 2)**x1 - 1.0) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1)**2 contains an element of the set of generators.
+optimisation error ('cos(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1) contains an element of the set of generators.
+optimisation error ('cos(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0) contains an element of the set of generators.
+optimisation error ('sin(x0) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0)**2 contains an element of the set of generators.
+optimisation error ('sin(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x1*(7*x0**3 + 18*x1 + x2**3)) contains an element of the set of generators.
+optimisation error ('exp(x1*(7*x0**3 + 18*x1 + x2**3)) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1)**2 contains an element of the set of generators.
+optimisation error ('cos(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1) contains an element of the set of generators.
+optimisation error ('sin(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker sqrt(-x0**2*acos(x1)**2 + 1) contains an element of the set of generators.
+optimisation error ('sqrt(-x0**2*acos(x1)**2 + 1) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x1) contains an element of the set of generators.
+optimisation error ('exp(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker log(3*x0**6 + 2*x1**8 + 1) contains an element of the set of generators.
+optimisation error ('log(3*x0**6 + 2*x1**8 + 1) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x1**6) contains an element of the set of generators.
+optimisation error ('exp(x1**6) contains an element of the set of generators.',)
+infeasibility in SOS checker tan(1)**(2*x0*x1) contains an element of the set of generators.
+optimisation error ('tan(1)**(2*x0*x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1) contains an element of the set of generators.
+optimisation error ('cos(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker atan(x0/(x1*(x0 + x2)))**2 contains an element of the set of generators.
+optimisation error ('atan(x0/(x1*(x0 + x2)))**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos((x0 - 1)**x0 - 1.0) contains an element of the set of generators.
+optimisation error ('cos((x0 - 1)**x0 - 1.0) contains an element of the set of generators.',)
+infeasibility in SOS checker (x2 + exp(Abs(acos(x1))))**(2*x2) contains an element of the set of generators.
+optimisation error ('(x2 + exp(Abs(acos(x1))))**(2*x2) contains an element of the set of generators.',)
+infeasibility in SOS checker x1**(-2) contains an element of the set of generators.
+optimisation error ('x1**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker cos((x1 - 2)**x1 - 1.0) contains an element of the set of generators.
+optimisation error ('cos((x1 - 2)**x1 - 1.0) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x0**2*(18*x0**2 + 5*x1**4 - 13*x2**2)) contains an element of the set of generators.
+optimisation error ('exp(x0**2*(18*x0**2 + 5*x1**4 - 13*x2**2)) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1) contains an element of the set of generators.
+optimisation error ('cos(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1) contains an element of the set of generators.
+optimisation error ('sin(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x2) contains an element of the set of generators.
+optimisation error ('cos(x2) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x2)**2 contains an element of the set of generators.
+optimisation error ('cos(x2)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(2*x1) contains an element of the set of generators.
+optimisation error ('sin(2*x1) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x1) contains an element of the set of generators.
+optimisation error ('exp(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0) contains an element of the set of generators.
+optimisation error ('cos(x0) contains an element of the set of generators.',)
+infeasibility in SOS checker asin(x2)**(-2) contains an element of the set of generators.
+optimisation error ('asin(x2)**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker sqrt(3*x0**2 + 2*x1**2 + 1) contains an element of the set of generators.
+optimisation error ('sqrt(3*x0**2 + 2*x1**2 + 1) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x1) contains an element of the set of generators.
+optimisation error ('exp(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(2*x0) contains an element of the set of generators.
+optimisation error ('exp(2*x0) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0)**2 contains an element of the set of generators.
+optimisation error ('cos(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(3*x0**6) contains an element of the set of generators.
+optimisation error ('cos(3*x0**6) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(5*x0**4 + 12*x0**2*x1**3 + 11*x1**6) contains an element of the set of generators.
+optimisation error ('exp(5*x0**4 + 12*x0**2*x1**3 + 11*x1**6) contains an element of the set of generators.',)
+infeasibility in SOS checker 4**(tan(1)*atan(x1)) contains an element of the set of generators.
+optimisation error ('4**(tan(1)*atan(x1)) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0)**2 contains an element of the set of generators.
+optimisation error ('cos(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1) contains an element of the set of generators.
+optimisation error ('cos(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos((x0 + x1*(x1**2 - 1)*asin(x0/(x1**2 - 1)))*(x1**2 - 1)/(-x1**2 + x1 + 1)) contains an element of the set of generators.
+optimisation error ('cos((x0 + x1*(x1**2 - 1)*asin(x0/(x1**2 - 1)))*(x1**2 - 1)/(-x1**2 + x1 + 1)) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1)**2 contains an element of the set of generators.
+optimisation error ('cos(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker atan(x0**2)**2 contains an element of the set of generators.
+optimisation error ('atan(x0**2)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(3*x1*x2) contains an element of the set of generators.
+optimisation error ('cos(3*x1*x2) contains an element of the set of generators.',)
+infeasibility in SOS checker x2**(-2) contains an element of the set of generators.
+optimisation error ('x2**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker x2**(4*x0) contains an element of the set of generators.
+optimisation error ('x2**(4*x0) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1) contains an element of the set of generators.
+optimisation error ('cos(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1)**2 contains an element of the set of generators.
+optimisation error ('cos(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker atan(x1)**2 contains an element of the set of generators.
+optimisation error ('atan(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0)**2 contains an element of the set of generators.
+optimisation error ('cos(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0)**2 contains an element of the set of generators.
+optimisation error ('sin(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x0**6 + x1**6) contains an element of the set of generators.
+optimisation error ('exp(x0**6 + x1**6) contains an element of the set of generators.',)
+infeasibility in SOS checker tan(x0)**2 contains an element of the set of generators.
+optimisation error ('tan(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sqrt(2*x0**2 + 3*x1**4 + 3*x2**2 + 1) contains an element of the set of generators.
+optimisation error ('sqrt(2*x0**2 + 3*x1**4 + 3*x2**2 + 1) contains an element of the set of generators.',)
+infeasibility in SOS checker tan(cos(x0*cos(1))**x0)**2 contains an element of the set of generators.
+optimisation error ('tan(cos(x0*cos(1))**x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0**2*(2*x0**2 + x1**2)) contains an element of the set of generators.
+optimisation error ('sin(x0**2*(2*x0**2 + x1**2)) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1) contains an element of the set of generators.
+optimisation error ('cos(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker asin(x0)**2 contains an element of the set of generators.
+optimisation error ('asin(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0*atan(9)) contains an element of the set of generators.
+optimisation error ('cos(x0*atan(9)) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x1) contains an element of the set of generators.
+optimisation error ('exp(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x2) contains an element of the set of generators.
+optimisation error ('cos(x2) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(3*x0 - x1) contains an element of the set of generators.
+optimisation error ('cos(3*x0 - x1) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x0**4) contains an element of the set of generators.
+optimisation error ('exp(x0**4) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0 + x1 - x2) contains an element of the set of generators.
+optimisation error ('cos(x0 + x1 - x2) contains an element of the set of generators.',)
+infeasibility in SOS checker cos((-1/x2)**(x0*asin(x0)) - 1.0) contains an element of the set of generators.
+optimisation error ('cos((-1/x2)**(x0*asin(x0)) - 1.0) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x2) contains an element of the set of generators.
+optimisation error ('sin(x2) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(3*x1**2) contains an element of the set of generators.
+optimisation error ('sin(3*x1**2) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1) contains an element of the set of generators.
+optimisation error ('sin(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker (1 - x1)**x2 contains an element of the set of generators.
+optimisation error ('(1 - x1)**x2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(4*x1) contains an element of the set of generators.
+optimisation error ('cos(4*x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos((x2 - 1)**x2 - 1.0) contains an element of the set of generators.
+optimisation error ('cos((x2 - 1)**x2 - 1.0) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0)**2 contains an element of the set of generators.
+optimisation error ('cos(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker x2**(2*asin(x0)) contains an element of the set of generators.
+optimisation error ('x2**(2*asin(x0)) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1**4)**2 contains an element of the set of generators.
+optimisation error ('cos(x1**4)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(Abs(x1)*asin(x0)) contains an element of the set of generators.
+optimisation error ('cos(Abs(x1)*asin(x0)) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1**8) contains an element of the set of generators.
+optimisation error ('sin(x1**8) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(2*x0**6) contains an element of the set of generators.
+optimisation error ('sin(2*x0**6) contains an element of the set of generators.',)
+infeasibility in SOS checker tan((2*x2)**x0)**2 contains an element of the set of generators.
+optimisation error ('tan((2*x2)**x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0)**2 contains an element of the set of generators.
+optimisation error ('sin(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1)**2 contains an element of the set of generators.
+optimisation error ('cos(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x2)**2 contains an element of the set of generators.
+optimisation error ('cos(x2)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker x2**(-2) contains an element of the set of generators.
+optimisation error ('x2**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1) contains an element of the set of generators.
+optimisation error ('sin(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker (x0 - x1)**(-2) contains an element of the set of generators.
+optimisation error ('(x0 - x1)**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0**(3/2)/(x0 + x2)) contains an element of the set of generators.
+optimisation error ('cos(x0**(3/2)/(x0 + x2)) contains an element of the set of generators.',)
+infeasibility in SOS checker cos((x2 - 2)**x0 - 1.0) contains an element of the set of generators.
+optimisation error ('cos((x2 - 2)**x0 - 1.0) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(4*x0) contains an element of the set of generators.
+optimisation error ('cos(4*x0) contains an element of the set of generators.',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 54
+optimisation error (54,)
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker number of elements exceeds INT_MAX
+optimisation error ('number of elements exceeds INT_MAX',)
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 20
+optimisation error (20,)
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker number of elements exceeds INT_MAX
+optimisation error ('number of elements exceeds INT_MAX',)
+infeasibility in SOS checker number of elements exceeds INT_MAX
+optimisation error ('number of elements exceeds INT_MAX',)
+infeasibility in SOS checker number of elements exceeds INT_MAX
+optimisation error ('number of elements exceeds INT_MAX',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker number of elements exceeds INT_MAX
+optimisation error ('number of elements exceeds INT_MAX',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker x1**(-2) contains an element of the set of generators.
+optimisation error ('x1**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker number of elements exceeds INT_MAX
+optimisation error ('number of elements exceeds INT_MAX',)
+infeasibility in SOS checker 27
+optimisation error (27,)
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 27
+optimisation error (27,)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker number of elements exceeds INT_MAX
+optimisation error ('number of elements exceeds INT_MAX',)
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker number of elements exceeds INT_MAX
+optimisation error ('number of elements exceeds INT_MAX',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker cos(x0) contains an element of the set of generators.
+optimisation error ('cos(x0) contains an element of the set of generators.',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker x1**(-2) contains an element of the set of generators.
+optimisation error ('x1**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 34
+optimisation error (34, 'Numerical result out of range')
+infeasibility in SOS checker 34
+optimisation error (34, 'Numerical result out of range')
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker x1**(-2) contains an element of the set of generators.
+optimisation error ('x1**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker x1**(-2) contains an element of the set of generators.
+optimisation error ('x1**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 9
+optimisation error (9,)
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 20
+optimisation error (20,)
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 34
+optimisation error (34,)
+infeasibility in SOS checker 14
+optimisation error (14,)
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 14
+optimisation error (14,)
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 20
+optimisation error (20,)
+infeasibility in SOS checker 20
+optimisation error (20,)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 20
+optimisation error (20,)
+infeasibility in SOS checker cos(x0) contains an element of the set of generators.
+optimisation error ('cos(x0) contains an element of the set of generators.',)
+infeasibility in SOS checker x2**(2*asin(x0)) contains an element of the set of generators.
+optimisation error ('x2**(2*asin(x0)) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1) contains an element of the set of generators.
+optimisation error ('sin(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(3*x1**2) contains an element of the set of generators.
+optimisation error ('sin(3*x1**2) contains an element of the set of generators.',)
+infeasibility in SOS checker cos((-1/x2)**(x0*asin(x0)) - 1.0) contains an element of the set of generators.
+optimisation error ('cos((-1/x2)**(x0*asin(x0)) - 1.0) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(2*x0**8) contains an element of the set of generators.
+optimisation error ('exp(2*x0**8) contains an element of the set of generators.',)
+infeasibility in SOS checker tan(x0)**2 contains an element of the set of generators.
+optimisation error ('tan(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0**2*(2*x0**2 + x1**2)) contains an element of the set of generators.
+optimisation error ('sin(x0**2*(2*x0**2 + x1**2)) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x2) contains an element of the set of generators.
+optimisation error ('sin(x2) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1)**2 contains an element of the set of generators.
+optimisation error ('cos(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1) contains an element of the set of generators.
+optimisation error ('sin(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x2**3*(7*x0**3 + 6*x1**2 + 7*x2**3)) contains an element of the set of generators.
+optimisation error ('cos(x2**3*(7*x0**3 + 6*x1**2 + 7*x2**3)) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0*atan(9)) contains an element of the set of generators.
+optimisation error ('cos(x0*atan(9)) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1)**2 contains an element of the set of generators.
+optimisation error ('cos(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sqrt(-x0**2*acos(x1)**2 + 1) contains an element of the set of generators.
+optimisation error ('sqrt(-x0**2*acos(x1)**2 + 1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(3*x1*x2) contains an element of the set of generators.
+optimisation error ('cos(3*x1*x2) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1)**2 contains an element of the set of generators.
+optimisation error ('cos(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x0**4) contains an element of the set of generators.
+optimisation error ('exp(x0**4) contains an element of the set of generators.',)
+infeasibility in SOS checker acos(sqrt(x1)) contains an element of the set of generators.
+optimisation error ('acos(sqrt(x1)) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0)**2 contains an element of the set of generators.
+optimisation error ('cos(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1**8) contains an element of the set of generators.
+optimisation error ('sin(x1**8) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1) contains an element of the set of generators.
+optimisation error ('cos(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker 2**(x0*(x0 - 1)) contains an element of the set of generators.
+optimisation error ('2**(x0*(x0 - 1)) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0) contains an element of the set of generators.
+optimisation error ('sin(x0) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x2)**2 contains an element of the set of generators.
+optimisation error ('cos(x2)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0)**2 contains an element of the set of generators.
+optimisation error ('sin(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x2)**2 contains an element of the set of generators.
+optimisation error ('cos(x2)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1) contains an element of the set of generators.
+optimisation error ('sin(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker asin(x0)**2 contains an element of the set of generators.
+optimisation error ('asin(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker atan(x0**2)**2 contains an element of the set of generators.
+optimisation error ('atan(x0**2)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker exp(2*x1) contains an element of the set of generators.
+optimisation error ('exp(2*x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(3*x0 - x1) contains an element of the set of generators.
+optimisation error ('cos(3*x0 - x1) contains an element of the set of generators.',)
+infeasibility in SOS checker log(3*x0**6 + 2*x1**8 + 1) contains an element of the set of generators.
+optimisation error ('log(3*x0**6 + 2*x1**8 + 1) contains an element of the set of generators.',)
+infeasibility in SOS checker tan(1)**(2*x0*x1) contains an element of the set of generators.
+optimisation error ('tan(1)**(2*x0*x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(3*x0**6) contains an element of the set of generators.
+optimisation error ('cos(3*x0**6) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1) contains an element of the set of generators.
+optimisation error ('cos(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker (x2 + exp(Abs(acos(x1))))**x2 contains an element of the set of generators.
+optimisation error ('(x2 + exp(Abs(acos(x1))))**x2 contains an element of the set of generators.',)
+infeasibility in SOS checker (x0 - atan(2))**(-3) contains an element of the set of generators.
+optimisation error ('(x0 - atan(2))**(-3) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x2)**2 contains an element of the set of generators.
+optimisation error ('sin(x2)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0**4*(14*x0**4 + 7*x1**2 + 13*x2)) contains an element of the set of generators.
+optimisation error ('cos(x0**4*(14*x0**4 + 7*x1**2 + 13*x2)) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1) contains an element of the set of generators.
+optimisation error ('cos(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker (x1 + 1)**(-2) contains an element of the set of generators.
+optimisation error ('(x1 + 1)**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker x2**(4*x0) contains an element of the set of generators.
+optimisation error ('x2**(4*x0) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(2*x0**4 + 3*x1**2) contains an element of the set of generators.
+optimisation error ('exp(2*x0**4 + 3*x1**2) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x0**6 + x1**6) contains an element of the set of generators.
+optimisation error ('exp(x0**6 + x1**6) contains an element of the set of generators.',)
+infeasibility in SOS checker tan((2*x2)**x0)**2 contains an element of the set of generators.
+optimisation error ('tan((2*x2)**x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0**(3/2)/(x0 + x2)) contains an element of the set of generators.
+optimisation error ('cos(x0**(3/2)/(x0 + x2)) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0)**2 contains an element of the set of generators.
+optimisation error ('sin(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1) contains an element of the set of generators.
+optimisation error ('cos(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1) contains an element of the set of generators.
+optimisation error ('cos(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(4*x1) contains an element of the set of generators.
+optimisation error ('cos(4*x1) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(2*x1) contains an element of the set of generators.
+optimisation error ('sin(2*x1) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0) contains an element of the set of generators.
+optimisation error ('sin(x0) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x1**2) contains an element of the set of generators.
+optimisation error ('exp(x1**2) contains an element of the set of generators.',)
+infeasibility in SOS checker sqrt(3*x0**2 + 2*x1**2 + 1) contains an element of the set of generators.
+optimisation error ('sqrt(3*x0**2 + 2*x1**2 + 1) contains an element of the set of generators.',)
+infeasibility in SOS checker x2**(-2) contains an element of the set of generators.
+optimisation error ('x2**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker atan(x1)**2 contains an element of the set of generators.
+optimisation error ('atan(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1**4)**2 contains an element of the set of generators.
+optimisation error ('cos(x1**4)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1) contains an element of the set of generators.
+optimisation error ('cos(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(2*x0**6) contains an element of the set of generators.
+optimisation error ('sin(2*x0**6) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker exp(5*x0**4 + 12*x0**2*x1**3 + 11*x1**6) contains an element of the set of generators.
+optimisation error ('exp(5*x0**4 + 12*x0**2*x1**3 + 11*x1**6) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0)**2 contains an element of the set of generators.
+optimisation error ('sin(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x2) contains an element of the set of generators.
+optimisation error ('cos(x2) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x0**2*(18*x0**2 + 5*x1**4 - 13*x2**2)) contains an element of the set of generators.
+optimisation error ('exp(x0**2*(18*x0**2 + 5*x1**4 - 13*x2**2)) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1) contains an element of the set of generators.
+optimisation error ('cos(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0)**2 contains an element of the set of generators.
+optimisation error ('cos(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0*atan(9)) contains an element of the set of generators.
+optimisation error ('cos(x0*atan(9)) contains an element of the set of generators.',)
+infeasibility in SOS checker asin(x2)**(-2) contains an element of the set of generators.
+optimisation error ('asin(x2)**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker x1**(-2) contains an element of the set of generators.
+optimisation error ('x1**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker acos(x0)**2 contains an element of the set of generators.
+optimisation error ('acos(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x0) contains an element of the set of generators.
+optimisation error ('exp(x0) contains an element of the set of generators.',)
+infeasibility in SOS checker (sqrt(x1) - x1)**(-2) contains an element of the set of generators.
+optimisation error ('(sqrt(x1) - x1)**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x2) contains an element of the set of generators.
+optimisation error ('cos(x2) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(4*x0) contains an element of the set of generators.
+optimisation error ('cos(4*x0) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(Abs(x1)*asin(x0)) contains an element of the set of generators.
+optimisation error ('cos(Abs(x1)*asin(x0)) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x1) contains an element of the set of generators.
+optimisation error ('exp(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x2) contains an element of the set of generators.
+optimisation error ('sin(x2) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1)**2 contains an element of the set of generators.
+optimisation error ('cos(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(3*x0**4) contains an element of the set of generators.
+optimisation error ('cos(3*x0**4) contains an element of the set of generators.',)
+infeasibility in SOS checker atan(x0/(x1*(x0 + x2)))**2 contains an element of the set of generators.
+optimisation error ('atan(x0/(x1*(x0 + x2)))**2 contains an element of the set of generators.',)
+infeasibility in SOS checker 4**(tan(1)*atan(x1)) contains an element of the set of generators.
+optimisation error ('4**(tan(1)*atan(x1)) contains an element of the set of generators.',)
+infeasibility in SOS checker tan(cos(x0*cos(1))**x0) contains an element of the set of generators.
+optimisation error ('tan(cos(x0*cos(1))**x0) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(2*x1) contains an element of the set of generators.
+optimisation error ('exp(2*x1) contains an element of the set of generators.',)
+infeasibility in SOS checker log(2*x0**4 + x1**8 + 1) contains an element of the set of generators.
+optimisation error ('log(2*x0**4 + x1**8 + 1) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1) contains an element of the set of generators.
+optimisation error ('sin(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker exp(2*x1) contains an element of the set of generators.
+optimisation error ('exp(2*x1) contains an element of the set of generators.',)
+infeasibility in SOS checker x2**(-2) contains an element of the set of generators.
+optimisation error ('x2**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0)**2 contains an element of the set of generators.
+optimisation error ('sin(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x0) contains an element of the set of generators.
+optimisation error ('exp(x0) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0)**2 contains an element of the set of generators.
+optimisation error ('sin(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker x1**(-2) contains an element of the set of generators.
+optimisation error ('x1**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker 2**x1 contains an element of the set of generators.
+optimisation error ('2**x1 contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x1) contains an element of the set of generators.
+optimisation error ('exp(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0)**2 contains an element of the set of generators.
+optimisation error ('cos(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker (x0 - x1)**(-2) contains an element of the set of generators.
+optimisation error ('(x0 - x1)**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(2*x0) contains an element of the set of generators.
+optimisation error ('exp(2*x0) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x1) contains an element of the set of generators.
+optimisation error ('exp(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(2*x1) contains an element of the set of generators.
+optimisation error ('exp(2*x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1)**2 contains an element of the set of generators.
+optimisation error ('cos(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0)**2 contains an element of the set of generators.
+optimisation error ('cos(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(4*x0) contains an element of the set of generators.
+optimisation error ('cos(4*x0) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1) contains an element of the set of generators.
+optimisation error ('cos(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0*asin(x0*x1**3/(x1**3 - 1)) + x1) contains an element of the set of generators.
+optimisation error ('cos(x0*asin(x0*x1**3/(x1**3 - 1)) + x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos((-x2 + (x0 - cos(x0))*(3**x0 + x1 - 1.0))/(x0 - cos(x0))) contains an element of the set of generators.
+optimisation error ('cos((-x2 + (x0 - cos(x0))*(3**x0 + x1 - 1.0))/(x0 - cos(x0))) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1) contains an element of the set of generators.
+optimisation error ('cos(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker 27
+optimisation error (27,)
+infeasibility in SOS checker cos(x1)**2 contains an element of the set of generators.
+optimisation error ('cos(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x2)**2 contains an element of the set of generators.
+optimisation error ('cos(x2)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0) contains an element of the set of generators.
+optimisation error ('sin(x0) contains an element of the set of generators.',)
+infeasibility in SOS checker sqrt(x0**2 + 1) contains an element of the set of generators.
+optimisation error ('sqrt(x0**2 + 1) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x1**6) contains an element of the set of generators.
+optimisation error ('exp(x1**6) contains an element of the set of generators.',)
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker x1**(-2) contains an element of the set of generators.
+optimisation error ('x1**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker sqrt(x1**10 + 1) contains an element of the set of generators.
+optimisation error ('sqrt(x1**10 + 1) contains an element of the set of generators.',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 44
+optimisation error (44,)
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker (x1 + 3)**(-4) contains an element of the set of generators.
+optimisation error ('(x1 + 3)**(-4) contains an element of the set of generators.',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 35
+optimisation error (35,)
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker number of elements exceeds INT_MAX
+optimisation error ('number of elements exceeds INT_MAX',)
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker number of elements exceeds INT_MAX
+optimisation error ('number of elements exceeds INT_MAX',)
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker number of elements exceeds INT_MAX
+optimisation error ('number of elements exceeds INT_MAX',)
+infeasibility in SOS checker number of elements exceeds INT_MAX
+optimisation error ('number of elements exceeds INT_MAX',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 8
+optimisation error (8,)
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker x1**(-2) contains an element of the set of generators.
+optimisation error ('x1**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Cannot initialize from 'dict' without generators
+optimisation error ("Cannot initialize from 'dict' without generators",)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 1/x1 contains an element of the set of generators.
+optimisation error ('1/x1 contains an element of the set of generators.',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker exp(-2*x1) contains an element of the set of generators.
+optimisation error ('exp(-2*x1) contains an element of the set of generators.',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 1/x1 contains an element of the set of generators.
+optimisation error ('1/x1 contains an element of the set of generators.',)
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 34
+optimisation error (34, 'Numerical result out of range')
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker cos(x0) contains an element of the set of generators.
+optimisation error ('cos(x0) contains an element of the set of generators.',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 20
+optimisation error (20,)
+infeasibility in SOS checker 34
+optimisation error (34, 'Numerical result out of range')
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 1/x1 contains an element of the set of generators.
+optimisation error ('1/x1 contains an element of the set of generators.',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 20
+optimisation error (20,)
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 1/x1 contains an element of the set of generators.
+optimisation error ('1/x1 contains an element of the set of generators.',)
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 9
+optimisation error (9,)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 9
+optimisation error (9,)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 14
+optimisation error (14,)
+infeasibility in SOS checker 14
+optimisation error (14,)
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 20
+optimisation error (20,)
+infeasibility in SOS checker 1/x1 contains an element of the set of generators.
+optimisation error ('1/x1 contains an element of the set of generators.',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 20
+optimisation error (20,)
+infeasibility in SOS checker x2**(-2) contains an element of the set of generators.
+optimisation error ('x2**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker tan(x1) contains an element of the set of generators.
+optimisation error ('tan(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1) contains an element of the set of generators.
+optimisation error ('cos(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x0**6 + x1**6) contains an element of the set of generators.
+optimisation error ('exp(x0**6 + x1**6) contains an element of the set of generators.',)
+infeasibility in SOS checker (1 - x1)**x2 contains an element of the set of generators.
+optimisation error ('(1 - x1)**x2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0)**2 contains an element of the set of generators.
+optimisation error ('sin(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x2)**2 contains an element of the set of generators.
+optimisation error ('sin(x2)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0) contains an element of the set of generators.
+optimisation error ('cos(x0) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(2*x1) contains an element of the set of generators.
+optimisation error ('exp(2*x1) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x2**3*(7*x0**3 + 6*x1**2 + 7*x2**3)) contains an element of the set of generators.
+optimisation error ('cos(x2**3*(7*x0**3 + 6*x1**2 + 7*x2**3)) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x2)**2 contains an element of the set of generators.
+optimisation error ('cos(x2)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1) contains an element of the set of generators.
+optimisation error ('sin(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x2) contains an element of the set of generators.
+optimisation error ('cos(x2) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1) contains an element of the set of generators.
+optimisation error ('cos(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker log(2*x0**4 + x1**8 + 1) contains an element of the set of generators.
+optimisation error ('log(2*x0**4 + x1**8 + 1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1)**2 contains an element of the set of generators.
+optimisation error ('cos(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x0**4) contains an element of the set of generators.
+optimisation error ('exp(x0**4) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(4*x0) contains an element of the set of generators.
+optimisation error ('cos(4*x0) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(Abs(x1)*asin(x0)) contains an element of the set of generators.
+optimisation error ('cos(Abs(x1)*asin(x0)) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0)**2 contains an element of the set of generators.
+optimisation error ('sin(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(2*x0**6) contains an element of the set of generators.
+optimisation error ('sin(2*x0**6) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(3*x0**6) contains an element of the set of generators.
+optimisation error ('cos(3*x0**6) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(2*x0) contains an element of the set of generators.
+optimisation error ('exp(2*x0) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0)**2 contains an element of the set of generators.
+optimisation error ('sin(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0) contains an element of the set of generators.
+optimisation error ('sin(x0) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0**4*(14*x0**4 + 7*x1**2 + 13*x2)) contains an element of the set of generators.
+optimisation error ('cos(x0**4*(14*x0**4 + 7*x1**2 + 13*x2)) contains an element of the set of generators.',)
+infeasibility in SOS checker (2 - x2)**x2 contains an element of the set of generators.
+optimisation error ('(2 - x2)**x2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1) contains an element of the set of generators.
+optimisation error ('cos(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0) contains an element of the set of generators.
+optimisation error ('cos(x0) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x2) contains an element of the set of generators.
+optimisation error ('cos(x2) contains an element of the set of generators.',)
+infeasibility in SOS checker atan(x1)**2 contains an element of the set of generators.
+optimisation error ('atan(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x0) contains an element of the set of generators.
+optimisation error ('exp(x0) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1)**2 contains an element of the set of generators.
+optimisation error ('cos(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1**8) contains an element of the set of generators.
+optimisation error ('sin(x1**8) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1) contains an element of the set of generators.
+optimisation error ('cos(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker (x2 + exp(Abs(acos(x1))))**x2 contains an element of the set of generators.
+optimisation error ('(x2 + exp(Abs(acos(x1))))**x2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0 - x1**(x0*x1) + 1.0) contains an element of the set of generators.
+optimisation error ('cos(x0 - x1**(x0*x1) + 1.0) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x2)**2 contains an element of the set of generators.
+optimisation error ('cos(x2)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1) contains an element of the set of generators.
+optimisation error ('sin(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1) contains an element of the set of generators.
+optimisation error ('sin(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0*atan(9)) contains an element of the set of generators.
+optimisation error ('cos(x0*atan(9)) contains an element of the set of generators.',)
+infeasibility in SOS checker acos(x0)**2 contains an element of the set of generators.
+optimisation error ('acos(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker atan(x0**2)**2 contains an element of the set of generators.
+optimisation error ('atan(x0**2)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1) contains an element of the set of generators.
+optimisation error ('sin(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x1) contains an element of the set of generators.
+optimisation error ('exp(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker 2**(x0*(x0 + 1)) contains an element of the set of generators.
+optimisation error ('2**(x0*(x0 + 1)) contains an element of the set of generators.',)
+infeasibility in SOS checker sqrt(2*x0**2 + 3*x1**4 + 3*x2**2 + 1) contains an element of the set of generators.
+optimisation error ('sqrt(2*x0**2 + 3*x1**4 + 3*x2**2 + 1) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(2*x0**4 + 3*x1**2) contains an element of the set of generators.
+optimisation error ('exp(2*x0**4 + 3*x1**2) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x2)**2 contains an element of the set of generators.
+optimisation error ('cos(x2)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1)**2 contains an element of the set of generators.
+optimisation error ('cos(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker (x1 + 1)**x1 contains an element of the set of generators.
+optimisation error ('(x1 + 1)**x1 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1**4)**2 contains an element of the set of generators.
+optimisation error ('cos(x1**4)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(3*x1**2) contains an element of the set of generators.
+optimisation error ('sin(3*x1**2) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1) contains an element of the set of generators.
+optimisation error ('sin(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker tan(cos(x0*cos(1))**x0) contains an element of the set of generators.
+optimisation error ('tan(cos(x0*cos(1))**x0) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(4*x1) contains an element of the set of generators.
+optimisation error ('cos(4*x1) contains an element of the set of generators.',)
+infeasibility in SOS checker x2**(-2) contains an element of the set of generators.
+optimisation error ('x2**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker 1/sqrt(x0**2 + 1) contains an element of the set of generators.
+optimisation error ('1/sqrt(x0**2 + 1) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x1) contains an element of the set of generators.
+optimisation error ('exp(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker sqrt(3*x0**2 + 2*x1**2 + 1) contains an element of the set of generators.
+optimisation error ('sqrt(3*x0**2 + 2*x1**2 + 1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0)**2 contains an element of the set of generators.
+optimisation error ('cos(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x1**6) contains an element of the set of generators.
+optimisation error ('exp(x1**6) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(5*x0**4 + 12*x0**2*x1**3 + 11*x1**6) contains an element of the set of generators.
+optimisation error ('exp(5*x0**4 + 12*x0**2*x1**3 + 11*x1**6) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(3*x1**8) contains an element of the set of generators.
+optimisation error ('sin(3*x1**8) contains an element of the set of generators.',)
+infeasibility in SOS checker (1 - x1)**x1 contains an element of the set of generators.
+optimisation error ('(1 - x1)**x1 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1) contains an element of the set of generators.
+optimisation error ('sin(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0*asin(x0*x1/(x1**3 - 1)) + x1) contains an element of the set of generators.
+optimisation error ('cos(x0*asin(x0*x1/(x1**3 - 1)) + x1) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0) contains an element of the set of generators.
+optimisation error ('sin(x0) contains an element of the set of generators.',)
+infeasibility in SOS checker (1 - x1)**x1 contains an element of the set of generators.
+optimisation error ('(1 - x1)**x1 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1)**2 contains an element of the set of generators.
+optimisation error ('cos(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker 27
+optimisation error (27,)
+infeasibility in SOS checker exp(x2) contains an element of the set of generators.
+optimisation error ('exp(x2) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0*atan(9)) contains an element of the set of generators.
+optimisation error ('cos(x0*atan(9)) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0)**2 contains an element of the set of generators.
+optimisation error ('cos(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1)**2 contains an element of the set of generators.
+optimisation error ('cos(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker (x0 - x1)**(-2) contains an element of the set of generators.
+optimisation error ('(x0 - x1)**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker (1 - x1)**x2 contains an element of the set of generators.
+optimisation error ('(1 - x1)**x2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x2) contains an element of the set of generators.
+optimisation error ('sin(x2) contains an element of the set of generators.',)
+infeasibility in SOS checker (-x0 - x2 + 3)**x0 contains an element of the set of generators.
+optimisation error ('(-x0 - x2 + 3)**x0 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0) contains an element of the set of generators.
+optimisation error ('sin(x0) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0)**2 contains an element of the set of generators.
+optimisation error ('cos(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x1) contains an element of the set of generators.
+optimisation error ('exp(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(2*x1) contains an element of the set of generators.
+optimisation error ('sin(2*x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos((-1/x2)**(x0*asin(x0)) - 1.0) contains an element of the set of generators.
+optimisation error ('cos((-1/x2)**(x0*asin(x0)) - 1.0) contains an element of the set of generators.',)
+infeasibility in SOS checker x1**(-2) contains an element of the set of generators.
+optimisation error ('x1**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker sqrt(-x0**2*acos(x1)**2 + 1) contains an element of the set of generators.
+optimisation error ('sqrt(-x0**2*acos(x1)**2 + 1) contains an element of the set of generators.',)
+infeasibility in SOS checker (sqrt(x1) - x1)**(-2) contains an element of the set of generators.
+optimisation error ('(sqrt(x1) - x1)**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1) contains an element of the set of generators.
+optimisation error ('cos(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x0) contains an element of the set of generators.
+optimisation error ('exp(x0) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0)**2 contains an element of the set of generators.
+optimisation error ('sin(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker tan(1)**(2*x0*x1) contains an element of the set of generators.
+optimisation error ('tan(1)**(2*x0*x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0)**2 contains an element of the set of generators.
+optimisation error ('cos(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(3*x0**4) contains an element of the set of generators.
+optimisation error ('cos(3*x0**4) contains an element of the set of generators.',)
+infeasibility in SOS checker atan(x0/(x1*(x0 + x2)))**2 contains an element of the set of generators.
+optimisation error ('atan(x0/(x1*(x0 + x2)))**2 contains an element of the set of generators.',)
+infeasibility in SOS checker exp(2*x0**8) contains an element of the set of generators.
+optimisation error ('exp(2*x0**8) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1) contains an element of the set of generators.
+optimisation error ('cos(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x2) contains an element of the set of generators.
+optimisation error ('sin(x2) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(2*x1) contains an element of the set of generators.
+optimisation error ('exp(2*x1) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0**(3/2)/(x0 + x2)) contains an element of the set of generators.
+optimisation error ('cos(x0**(3/2)/(x0 + x2)) contains an element of the set of generators.',)
+infeasibility in SOS checker asin(x2)**(-2) contains an element of the set of generators.
+optimisation error ('asin(x2)**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x1**2) contains an element of the set of generators.
+optimisation error ('exp(x1**2) contains an element of the set of generators.',)
+infeasibility in SOS checker log(3*x0**6 + 2*x1**8 + 1) contains an element of the set of generators.
+optimisation error ('log(3*x0**6 + 2*x1**8 + 1) contains an element of the set of generators.',)
+infeasibility in SOS checker x2**(2*asin(x0)) contains an element of the set of generators.
+optimisation error ('x2**(2*asin(x0)) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(3*x1*x2) contains an element of the set of generators.
+optimisation error ('cos(3*x1*x2) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x0)**2 contains an element of the set of generators.
+optimisation error ('cos(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x1)**2 contains an element of the set of generators.
+optimisation error ('sin(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker (1 - x1)**x2 contains an element of the set of generators.
+optimisation error ('(1 - x1)**x2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1)**2 contains an element of the set of generators.
+optimisation error ('cos(x1)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker x1**(-2) contains an element of the set of generators.
+optimisation error ('x1**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1*(-x0*x1 + x0 + x1*x2 + 1.0*cos(x0) - 1.0)/(x0 - cos(x0))) contains an element of the set of generators.
+optimisation error ('cos(x1*(-x0*x1 + x0 + x1*x2 + 1.0*cos(x0) - 1.0)/(x0 - cos(x0))) contains an element of the set of generators.',)
+infeasibility in SOS checker sin(x0**2*(2*x0**2 + x1**2)) contains an element of the set of generators.
+optimisation error ('sin(x0**2*(2*x0**2 + x1**2)) contains an element of the set of generators.',)
+infeasibility in SOS checker tan(x0)**2 contains an element of the set of generators.
+optimisation error ('tan(x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1) contains an element of the set of generators.
+optimisation error ('cos(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker 2**x1 contains an element of the set of generators.
+optimisation error ('2**x1 contains an element of the set of generators.',)
+infeasibility in SOS checker (x0 + 2)**(-2) contains an element of the set of generators.
+optimisation error ('(x0 + 2)**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker tan((2*x2)**x0)**2 contains an element of the set of generators.
+optimisation error ('tan((2*x2)**x0)**2 contains an element of the set of generators.',)
+infeasibility in SOS checker (x0 - atan(2))**(-3) contains an element of the set of generators.
+optimisation error ('(x0 - atan(2))**(-3) contains an element of the set of generators.',)
+infeasibility in SOS checker cos(x1) contains an element of the set of generators.
+optimisation error ('cos(x1) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x0 + x1/2) contains an element of the set of generators.
+optimisation error ('exp(x0 + x1/2) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x1**2) contains an element of the set of generators.
+optimisation error ('exp(x1**2) contains an element of the set of generators.',)
+infeasibility in SOS checker exp(x0**2*(18*x0**2 + 5*x1**4 - 13*x2**2)) contains an element of the set of generators.
+optimisation error ('exp(x0**2*(18*x0**2 + 5*x1**4 - 13*x2**2)) contains an element of the set of generators.',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 7**x1 contains an element of the set of generators.
+optimisation error ('7**x1 contains an element of the set of generators.',)
+infeasibility in SOS checker x1**(-7) contains an element of the set of generators.
+optimisation error ('x1**(-7) contains an element of the set of generators.',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker number of elements exceeds INT_MAX
+optimisation error ('number of elements exceeds INT_MAX',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker x1**(-6) contains an element of the set of generators.
+optimisation error ('x1**(-6) contains an element of the set of generators.',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 34
+optimisation error (34,)
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker number of elements exceeds INT_MAX
+optimisation error ('number of elements exceeds INT_MAX',)
+infeasibility in SOS checker number of elements exceeds INT_MAX
+optimisation error ('number of elements exceeds INT_MAX',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 14
+optimisation error (14,)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker number of elements exceeds INT_MAX
+optimisation error ('number of elements exceeds INT_MAX',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 44
+optimisation error (44,)
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 1/x1 contains an element of the set of generators.
+optimisation error ('1/x1 contains an element of the set of generators.',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker x1**(-2) contains an element of the set of generators.
+optimisation error ('x1**(-2) contains an element of the set of generators.',)
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 1/x1 contains an element of the set of generators.
+optimisation error ('1/x1 contains an element of the set of generators.',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 1/x1 contains an element of the set of generators.
+optimisation error ('1/x1 contains an element of the set of generators.',)
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 1/x1 contains an element of the set of generators.
+optimisation error ('1/x1 contains an element of the set of generators.',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 1/x1 contains an element of the set of generators.
+optimisation error ('1/x1 contains an element of the set of generators.',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 1/x1 contains an element of the set of generators.
+optimisation error ('1/x1 contains an element of the set of generators.',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 20
+optimisation error (20,)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 20
+optimisation error (20,)
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 1/x1 contains an element of the set of generators.
+optimisation error ('1/x1 contains an element of the set of generators.',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 34
+optimisation error (34, 'Numerical result out of range')
+infeasibility in SOS checker 34
+optimisation error (34, 'Numerical result out of range')
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 20
+optimisation error (20,)
+infeasibility in SOS checker 20
+optimisation error (20,)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 1/x1 contains an element of the set of generators.
+optimisation error ('1/x1 contains an element of the set of generators.',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 1/x1 contains an element of the set of generators.
+optimisation error ('1/x1 contains an element of the set of generators.',)
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker Polynomial degree must be even!
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 34
+optimisation error (34, 'Numerical result out of range')
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+infeasibility in SOS checker 3
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-10-08 21:01:47.199646:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 263943.stdct-mgmt-02
+	Project: personal-e0588224
+	Exit Status: 271
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(72), Used(72)
+	CPU Time Used: 349:12:07
+	Memory: Requested(480gb), Used(79558756kb)
+	Vmem Used: 976588872kb
+	Walltime: Requested(60:00:00), Used(50:10:42)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (GN-A40-017[0]:ngpus=1:mem=262621184kb:ncpus=36+GN-A40-017[1]:ngpus=1:mem=240695296kb:ncpus=36)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	No GPU-related information available for this job.

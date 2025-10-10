@@ -151,7 +151,7 @@ def main(params):
     # build environment / modules / trainer / evaluator
     env = build_env(params) #builds the environment based on the env_name parameter, which is "ode" by default. This calls the ODEEnvironment constructor with params as argument.
     modules = build_modules(env, params)
-    trainer = Trainer(modules, env, params)
+    trainer = Trainer(modules, env, params) #creates a Trainer object, which is responsible for training the model. It takes the built modules, environment, and parameters as input.
     evaluator = Evaluator(trainer)
 
     # evaluation
@@ -244,8 +244,8 @@ if __name__ == "__main__":
         params.reload_model = exp_str + "/best-" + params.validation_metrics + ".pth"
         assert os.path.isfile(params.reload_model)
         if params.eval_data != "":
-            params.eval_size = None
-            params.reload_data = params.tasks + "," + params.eval_data + "," + params.eval_data
+            params.eval_size = None # evaluate on the full eval_data if specified
+            params.reload_data = params.tasks + "," + params.eval_data + "," + params.eval_data # set reload_data to include eval_data for both valid and test sets
 
     # debug mode
     if params.debug:

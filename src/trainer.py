@@ -112,9 +112,9 @@ class Trainer(object):
         if params.reload_data != "":
             assert params.num_workers in [0, 1]
             assert params.export_data is False
-            s = [x.split(",") for x in params.reload_data.split(";") if len(x) > 0]
+            s = [x.split(",") for x in params.reload_data.split(";") if len(x) > 0] 
             assert len(s) >= 1 and len(s) == len(set([x[0] for x in s]))
-            self.data_path = {el[0]: tuple(el[1:]) for el in s}
+            self.data_path = {el[0]: tuple(el[1:]) for el in s} #creates a dictionary of task to paths
             assert all(all(os.path.isfile(path) for path in paths) for paths in self.data_path.values())
             for task in self.env.TRAINING_TASKS:
                 assert (task in self.data_path) == (task in params.tasks)
@@ -156,7 +156,7 @@ class Trainer(object):
         assert params.amp == 0 and params.fp16 is False or params.amp in [1, 2, 3] and params.fp16 is True
         mod_names = sorted(self.modules.keys())
         mod_names = sorted(self.modules.keys())
-        self.scaler = torch.cuda.amp.GradScaler()
+        self.scaler = torch.amp.GradScaler('cuda')
 
     def optimize(self, loss):
         """
