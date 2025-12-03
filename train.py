@@ -14,7 +14,7 @@ import os
 import pickle
 
 import src
-from src.pbs import   init_signal_handler, init_distributed_mode
+from src.pbs import init_signal_handler, init_distributed_mode
 from src.utils import bool_flag, initialize_exp
 from src.model import check_model_params, build_modules
 from src.envs import ENVS, build_env
@@ -33,8 +33,8 @@ def get_parser():
     parser = argparse.ArgumentParser(description="Language transfer")
 
     # main parameters
-    parser.add_argument("--dump_path", type=str, default="/scratch/e0588224/data", help="Experiment dump path")  # amend to match the experiment folder name
-    parser.add_argument("--exp_name", type=str, default="debug", help="Experiment name")
+    parser.add_argument("--dump_path", type=str, default="/scratch/e0588224/data/FLyap", help="Experiment dump path")  # amend to match the experiment folder name
+    parser.add_argument("--exp_name", type=str, default="FLyap_Gen", help="Experiment name")
     parser.add_argument("--save_periodic", type=int, default=0, help="Save the model periodically (0 to disable)")
     parser.add_argument("--exp_id", type=str, default="", help="Experiment ID")
 

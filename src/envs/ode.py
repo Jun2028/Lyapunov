@@ -589,7 +589,7 @@ def autocast(x):
         return x
     elif type(x) is int:
         return Node(x)
-    else:
+    else: 
         raise RuntimeError(f"Unexpected type: {x}")
 
 
@@ -765,7 +765,7 @@ class ODEEnvironment(object):
 
         self.eval_point = OrderedDict({self.variables[f"x{i}"]: self.eval_value for i in range(2 * self.max_degree)})
 
-        self.tree_parser = TreeParser(["+", "-"], ["*", "/"], self.unaries, list(self.variables.keys()), int_base=self.int_base)
+        self.tree_parser = TreeParser(["+", "-"], ["*", "/"], self.unaries, list(self.variables.keys()), int_base=self.int_base) #only ever appears here...
 
         # symbols / elements
         self.constants = ["pi", "E"]
@@ -2288,7 +2288,7 @@ class ODEEnvironment(object):
                     if min_value != 1:
                         return min_value
 
-            # read system and dot product
+            # read system and dot product (second Lyapunov condition)
             dot = 0
             i = 0
             total_domain = []
@@ -2477,7 +2477,7 @@ class ODEEnvironment(object):
             "--lyap_gen_weight",
             type=float,
             default=1.5,
-            help="Weight that biais the way the number of components of the system is selected. When 0, the number of components (nb_components and nb_vectors) are selected uniformly at random in [1,degree+1] and [0,degree] respectively. The higher the weight the more smaller number of components if favored",
+            help="Weight that biases the way the number of components of the system is selected. When 0, the number of components (nb_components and nb_vectors) are selected uniformly at random in [1,degree+1] and [0,degree] respectively. The higher the weight the more smaller number of components if favored",
         )
         parser.add_argument(
             "--lyap_max_order_pure_poly",
@@ -2582,7 +2582,7 @@ class EnvDataset(Dataset):
         """
         Collate samples into a batch.
         """
-        x, y = zip(*elements)
+        x, y = zip(*elements) #zip(*elements) is the same as zip(elem1, elem2, ..., elemN)
         nb_eqs = [seq.count(self.env.func_separator) for seq in x]
         x = [torch.LongTensor([self.env.word2id[w] for w in seq]) for seq in x]
         y = [torch.LongTensor([self.env.word2id[w] for w in seq]) for seq in y]
