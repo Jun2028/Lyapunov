@@ -9,9 +9,9 @@ source /scratch/e0588224/miniconda3/etc/profile.d/conda.sh
 conda activate Lyapunov
 python /home/svu/e0588224/Lyapunov/train.py \
     --eval_only true \
-    --eval_size 200 \
+    --eval_size 100 \
     --reload_model /scratch/e0588224/data/bpoly_model/debug/263838_stdct-mgmt-02/best-valid_ode_lyapunov_beam_acc.pth \
-    --reload_data "ode_lyapunov,/scratch/e0588224/data/debug/bpoly/data.prefix.100.cleaned.train,/home/svu/e0588224/Lyapunov/benchmarks/BPoly,/home/svu/e0588224/Lyapunov/benchmarks/FLyap" \
+    --reload_data "ode_lyapunov,/scratch/e0588224/data/debug/bpoly/data.prefix.100.cleaned.train,/scratch/e0588224/data/FLyap/flyap_mixture_data.prefix.cleaned.valid.final,/scratch/e0588224/data/FLyap/flyap_mixture_data.prefix.cleaned.test.final" \
     --eval_verbose 1 \
     --n_enc_layers 8 \
     --n_dec_layers 8 \

@@ -1,0 +1,554 @@
+INFO - 12/01/25 21:22:35 - 0:00:00 - ============ Initialized logger ============
+INFO - 12/01/25 21:22:35 - 0:00:00 - accumulate_gradients: 1
+                                     amp: 2
+                                     attention_dropout: 0
+                                     batch_size: 32
+                                     batch_size_eval: 32
+                                     beam_early_stopping: True
+                                     beam_eval: False
+                                     beam_length_penalty: 1
+                                     beam_size: 1
+                                     clip_grad_norm: 5
+                                     command: python /nfs/home/svu/e0588224/Lyapunov/src/rl/rlvr/train.py --exp_name rlvr_bpoly --num_workers 0 --dump_path '/scratch/e0588224/data/reinforcement' --reload_model '/scratch/e0588224/data/bpoly_model/debug/263838_stdct-mgmt-02/best-valid_ode_lyapunov_beam_acc.pth' --reload_data 'ode_lyapunov,/scratch/e0588224/data/FLyap/flyap_mixture_data.prefix.cleaned' --n_enc_layers 8 --n_dec_layers 8 --max_len 1024 --lyap_pure_polynomial true --lyap_polynomial_H true --lyap_basic_functions_num true --lyap_proba_proper_composition 0 --lyap_proba_proper_multiply 0 --lyap_proba_cross_composition 0 --lyap_proba_cross_multiply 0 --lyap_SOS_checker true --lyap_find_domain false --min_degree 2 --lyap_max_degree 6 --max_int 3 --rl_lr '5e-5' --rl_reward_scale '0.1' --rl_use_kl_penalty 1 --rl_kl_coef '0.05' --rl_ent_coef '0.01' --exp_id "441118_stdct-mgmt-02"
+                                     cpu: False
+                                     custom_unary_probs: False
+                                     debug: False
+                                     debug_pbs: False
+                                     dropout: 0
+                                     dump_path: /scratch/e0588224/data/reinforcement/rlvr_bpoly/441118_stdct-mgmt-02
+                                     emb_dim: 640
+                                     env_base_seed: -1
+                                     env_name: ode
+                                     epoch_size: 300000
+                                     eval_data: 
+                                     eval_from_exp: 
+                                     eval_only: False
+                                     eval_size: 10000
+                                     eval_value: 0.0
+                                     eval_verbose: 0
+                                     eval_verbose_print: False
+                                     exp_id: 441118_stdct-mgmt-02
+                                     exp_name: rlvr_bpoly
+                                     export_data: False
+                                     fp16: True
+                                     global_rank: 0
+                                     int_base: 1000
+                                     is_master: True
+                                     job_id: 441118.stdct-mgmt-02
+                                     local_rank: 0
+                                     lora_alpha: 16.0
+                                     lora_dropout: 0.0
+                                     lora_rank: 8
+                                     lyap_SOS_checker: True
+                                     lyap_SOS_fwd_gen: False
+                                     lyap_basic_functions_den: True
+                                     lyap_basic_functions_num: True
+                                     lyap_cross_term: True
+                                     lyap_debug: False
+                                     lyap_drop_last_equation: False
+                                     lyap_find_domain: False
+                                     lyap_float_resolution_poly: 1
+                                     lyap_gen_weight: 1.5
+                                     lyap_generate_gradient_flow: False
+                                     lyap_generate_sample_fwd: False
+                                     lyap_local: False
+                                     lyap_max_degree: 6
+                                     lyap_max_n_term_fwd: 5
+                                     lyap_max_nb_cross_term: 2
+                                     lyap_max_order_pure_poly: 2
+                                     lyap_multigen: 0
+                                     lyap_n_terms: 4
+                                     lyap_nb_ops_lyap: 6
+                                     lyap_nb_ops_proper: 2
+                                     lyap_only_2_norm: False
+                                     lyap_polynomial_H: True
+                                     lyap_polynomial_V: True
+                                     lyap_predict_stability: False
+                                     lyap_proba_cross_composition: 0.0
+                                     lyap_proba_cross_multiply: 0.0
+                                     lyap_proba_diagonal: 0.5
+                                     lyap_proba_fwd_gen: 0.0
+                                     lyap_proba_proper_composition: 0.0
+                                     lyap_proba_proper_multiply: 0.0
+                                     lyap_proper: True
+                                     lyap_proper_fwd: False
+                                     lyap_pure_polynomial: True
+                                     lyap_stable: True
+                                     lyap_strict: False
+                                     master_addr: gn-a40-075.stdct.loc
+                                     master_port: 29500
+                                     max_degree: 6
+                                     max_epoch: 100000
+                                     max_int: 3
+                                     max_len: 1024
+                                     max_output_len: 512
+                                     max_src_len: 0
+                                     min_degree: 2
+                                     multi_gpu: False
+                                     n_dec_layers: 8
+                                     n_enc_layers: 8
+                                     n_gpu_per_node: 2
+                                     n_heads: 10
+                                     n_nodes: 1
+                                     nonnull: True
+                                     num_workers: 0
+                                     operators_lyap: None
+                                     optimizer: adam,lr=0.0001
+                                     positive: False
+                                     precision: 4
+                                     prob_arc_trigs: 0.2
+                                     prob_int: 0.3
+                                     prob_logs: 0.2
+                                     prob_positive: -1.0
+                                     prob_trigs: 0.2
+                                     reload_checkpoint: 
+                                     reload_data: ode_lyapunov,/scratch/e0588224/data/FLyap/flyap_mixture_data.prefix.cleaned
+                                     reload_model: /scratch/e0588224/data/bpoly_model/debug/263838_stdct-mgmt-02/best-valid_ode_lyapunov_beam_acc.pth
+                                     reload_rlvr_checkpoint: 
+                                     reload_size: -1
+                                     rl_advantage_epsilon: 1e-08
+                                     rl_clip_range: 0.1
+                                     rl_debug_stats: 0
+                                     rl_ent_coef: 0.01
+                                     rl_eval_period: 0
+                                     rl_eval_split: valid
+                                     rl_kl_coef: 0.05
+                                     rl_lr: 5e-05
+                                     rl_max_grad_norm: 1.0
+                                     rl_normalize_advantages: 1
+                                     rl_num_minibatches: 4
+                                     rl_reward_scale: 0.1
+                                     rl_rollout_length: 1024
+                                     rl_rollouts_per_update: 1
+                                     rl_save_period: 1000
+                                     rl_total_updates: 100000
+                                     rl_update_epochs: 4
+                                     rl_use_kl_penalty: 1
+                                     rl_value_coef: 0.5
+                                     rollout_temperature: 1.0
+                                     rollout_top_k: 0
+                                     save_periodic: 0
+                                     share_inout_emb: True
+                                     sinusoidal_embeddings: False
+                                     skip_zero_gradient: True
+                                     stopping_criterion: 
+                                     tasks: ode_lyapunov
+                                     validation_metrics: 
+                                     world_size: 1
+INFO - 12/01/25 21:22:35 - 0:00:00 - The experiment will be stored in /scratch/e0588224/data/reinforcement/rlvr_bpoly/441118_stdct-mgmt-02
+                                     
+INFO - 12/01/25 21:22:35 - 0:00:00 - Running command: python /nfs/home/svu/e0588224/Lyapunov/src/rl/rlvr/train.py --exp_name rlvr_bpoly --num_workers 0 --dump_path '/scratch/e0588224/data/reinforcement' --reload_model '/scratch/e0588224/data/bpoly_model/debug/263838_stdct-mgmt-02/best-valid_ode_lyapunov_beam_acc.pth' --reload_data 'ode_lyapunov,/scratch/e0588224/data/FLyap/flyap_mixture_data.prefix.cleaned' --n_enc_layers 8 --n_dec_layers 8 --max_len 1024 --lyap_pure_polynomial true --lyap_polynomial_H true --lyap_basic_functions_num true --lyap_proba_proper_composition 0 --lyap_proba_proper_multiply 0 --lyap_proba_cross_composition 0 --lyap_proba_cross_multiply 0 --lyap_SOS_checker true --lyap_find_domain false --min_degree 2 --lyap_max_degree 6 --max_int 3 --rl_lr '5e-5' --rl_reward_scale '0.1' --rl_use_kl_penalty 1 --rl_kl_coef '0.05' --rl_ent_coef '0.01'
+
+WARNING - 12/01/25 21:22:35 - 0:00:00 - Signal handlers ready (USR1, TERM).
+INFO - 12/01/25 21:22:35 - 0:00:00 - words: {'<s>': 0, '</s>': 1, '<pad>': 2, '(': 3, ')': 4, '<SPECIAL_0>': 5, '<SPECIAL_1>': 6, '<SPECIAL_2>': 7, '<SPECIAL_3>': 8, '<SPECIAL_4>': 9, '<SPECIAL_5>': 10, '<SPECIAL_6>': 11, '<SPECIAL_7>': 12, '<SPECIAL_8>': 13, '<SPECIAL_9>': 14, 'pi': 15, 'E': 16, 'x0': 17, 'x1': 18, 'x2': 19, 'x3': 20, 'x4': 21, 'x5': 22, 'x6': 23, 'x7': 24, 'x8': 25, 'x9': 26, 'x10': 27, 'x11': 28, '+': 29, '-': 30, '*': 31, '/': 32, '^': 33, 'sqrt': 34, 'exp': 35, 'ln': 36, 'sin': 37, 'cos': 38, 'tan': 39, 'asin': 40, 'acos': 41, 'atan': 42, 'Abs': 43, 'I': 44, 'INT+': 45, 'INT-': 46, 'FLOAT+': 47, 'FLOAT-': 48, '.': 49, '10^': 50, '0': 51, '1': 52, '2': 53, '3': 54, '4': 55, '5': 56, '6': 57, '7': 58, '8': 59, '9': 60, '10': 61, '11': 62, '12': 63, '13': 64, '14': 65, '15': 66, '16': 67, '17': 68, '18': 69, '19': 70, '20': 71, '21': 72, '22': 73, '23': 74, '24': 75, '25': 76, '26': 77, '27': 78, '28': 79, '29': 80, '30': 81, '31': 82, '32': 83, '33': 84, '34': 85, '35': 86, '36': 87, '37': 88, '38': 89, '39': 90, '40': 91, '41': 92, '42': 93, '43': 94, '44': 95, '45': 96, '46': 97, '47': 98, '48': 99, '49': 100, '50': 101, '51': 102, '52': 103, '53': 104, '54': 105, '55': 106, '56': 107, '57': 108, '58': 109, '59': 110, '60': 111, '61': 112, '62': 113, '63': 114, '64': 115, '65': 116, '66': 117, '67': 118, '68': 119, '69': 120, '70': 121, '71': 122, '72': 123, '73': 124, '74': 125, '75': 126, '76': 127, '77': 128, '78': 129, '79': 130, '80': 131, '81': 132, '82': 133, '83': 134, '84': 135, '85': 136, '86': 137, '87': 138, '88': 139, '89': 140, '90': 141, '91': 142, '92': 143, '93': 144, '94': 145, '95': 146, '96': 147, '97': 148, '98': 149, '99': 150, '100': 151, '101': 152, '102': 153, '103': 154, '104': 155, '105': 156, '106': 157, '107': 158, '108': 159, '109': 160, '110': 161, '111': 162, '112': 163, '113': 164, '114': 165, '115': 166, '116': 167, '117': 168, '118': 169, '119': 170, '120': 171, '121': 172, '122': 173, '123': 174, '124': 175, '125': 176, '126': 177, '127': 178, '128': 179, '129': 180, '130': 181, '131': 182, '132': 183, '133': 184, '134': 185, '135': 186, '136': 187, '137': 188, '138': 189, '139': 190, '140': 191, '141': 192, '142': 193, '143': 194, '144': 195, '145': 196, '146': 197, '147': 198, '148': 199, '149': 200, '150': 201, '151': 202, '152': 203, '153': 204, '154': 205, '155': 206, '156': 207, '157': 208, '158': 209, '159': 210, '160': 211, '161': 212, '162': 213, '163': 214, '164': 215, '165': 216, '166': 217, '167': 218, '168': 219, '169': 220, '170': 221, '171': 222, '172': 223, '173': 224, '174': 225, '175': 226, '176': 227, '177': 228, '178': 229, '179': 230, '180': 231, '181': 232, '182': 233, '183': 234, '184': 235, '185': 236, '186': 237, '187': 238, '188': 239, '189': 240, '190': 241, '191': 242, '192': 243, '193': 244, '194': 245, '195': 246, '196': 247, '197': 248, '198': 249, '199': 250, '200': 251, '201': 252, '202': 253, '203': 254, '204': 255, '205': 256, '206': 257, '207': 258, '208': 259, '209': 260, '210': 261, '211': 262, '212': 263, '213': 264, '214': 265, '215': 266, '216': 267, '217': 268, '218': 269, '219': 270, '220': 271, '221': 272, '222': 273, '223': 274, '224': 275, '225': 276, '226': 277, '227': 278, '228': 279, '229': 280, '230': 281, '231': 282, '232': 283, '233': 284, '234': 285, '235': 286, '236': 287, '237': 288, '238': 289, '239': 290, '240': 291, '241': 292, '242': 293, '243': 294, '244': 295, '245': 296, '246': 297, '247': 298, '248': 299, '249': 300, '250': 301, '251': 302, '252': 303, '253': 304, '254': 305, '255': 306, '256': 307, '257': 308, '258': 309, '259': 310, '260': 311, '261': 312, '262': 313, '263': 314, '264': 315, '265': 316, '266': 317, '267': 318, '268': 319, '269': 320, '270': 321, '271': 322, '272': 323, '273': 324, '274': 325, '275': 326, '276': 327, '277': 328, '278': 329, '279': 330, '280': 331, '281': 332, '282': 333, '283': 334, '284': 335, '285': 336, '286': 337, '287': 338, '288': 339, '289': 340, '290': 341, '291': 342, '292': 343, '293': 344, '294': 345, '295': 346, '296': 347, '297': 348, '298': 349, '299': 350, '300': 351, '301': 352, '302': 353, '303': 354, '304': 355, '305': 356, '306': 357, '307': 358, '308': 359, '309': 360, '310': 361, '311': 362, '312': 363, '313': 364, '314': 365, '315': 366, '316': 367, '317': 368, '318': 369, '319': 370, '320': 371, '321': 372, '322': 373, '323': 374, '324': 375, '325': 376, '326': 377, '327': 378, '328': 379, '329': 380, '330': 381, '331': 382, '332': 383, '333': 384, '334': 385, '335': 386, '336': 387, '337': 388, '338': 389, '339': 390, '340': 391, '341': 392, '342': 393, '343': 394, '344': 395, '345': 396, '346': 397, '347': 398, '348': 399, '349': 400, '350': 401, '351': 402, '352': 403, '353': 404, '354': 405, '355': 406, '356': 407, '357': 408, '358': 409, '359': 410, '360': 411, '361': 412, '362': 413, '363': 414, '364': 415, '365': 416, '366': 417, '367': 418, '368': 419, '369': 420, '370': 421, '371': 422, '372': 423, '373': 424, '374': 425, '375': 426, '376': 427, '377': 428, '378': 429, '379': 430, '380': 431, '381': 432, '382': 433, '383': 434, '384': 435, '385': 436, '386': 437, '387': 438, '388': 439, '389': 440, '390': 441, '391': 442, '392': 443, '393': 444, '394': 445, '395': 446, '396': 447, '397': 448, '398': 449, '399': 450, '400': 451, '401': 452, '402': 453, '403': 454, '404': 455, '405': 456, '406': 457, '407': 458, '408': 459, '409': 460, '410': 461, '411': 462, '412': 463, '413': 464, '414': 465, '415': 466, '416': 467, '417': 468, '418': 469, '419': 470, '420': 471, '421': 472, '422': 473, '423': 474, '424': 475, '425': 476, '426': 477, '427': 478, '428': 479, '429': 480, '430': 481, '431': 482, '432': 483, '433': 484, '434': 485, '435': 486, '436': 487, '437': 488, '438': 489, '439': 490, '440': 491, '441': 492, '442': 493, '443': 494, '444': 495, '445': 496, '446': 497, '447': 498, '448': 499, '449': 500, '450': 501, '451': 502, '452': 503, '453': 504, '454': 505, '455': 506, '456': 507, '457': 508, '458': 509, '459': 510, '460': 511, '461': 512, '462': 513, '463': 514, '464': 515, '465': 516, '466': 517, '467': 518, '468': 519, '469': 520, '470': 521, '471': 522, '472': 523, '473': 524, '474': 525, '475': 526, '476': 527, '477': 528, '478': 529, '479': 530, '480': 531, '481': 532, '482': 533, '483': 534, '484': 535, '485': 536, '486': 537, '487': 538, '488': 539, '489': 540, '490': 541, '491': 542, '492': 543, '493': 544, '494': 545, '495': 546, '496': 547, '497': 548, '498': 549, '499': 550, '500': 551, '501': 552, '502': 553, '503': 554, '504': 555, '505': 556, '506': 557, '507': 558, '508': 559, '509': 560, '510': 561, '511': 562, '512': 563, '513': 564, '514': 565, '515': 566, '516': 567, '517': 568, '518': 569, '519': 570, '520': 571, '521': 572, '522': 573, '523': 574, '524': 575, '525': 576, '526': 577, '527': 578, '528': 579, '529': 580, '530': 581, '531': 582, '532': 583, '533': 584, '534': 585, '535': 586, '536': 587, '537': 588, '538': 589, '539': 590, '540': 591, '541': 592, '542': 593, '543': 594, '544': 595, '545': 596, '546': 597, '547': 598, '548': 599, '549': 600, '550': 601, '551': 602, '552': 603, '553': 604, '554': 605, '555': 606, '556': 607, '557': 608, '558': 609, '559': 610, '560': 611, '561': 612, '562': 613, '563': 614, '564': 615, '565': 616, '566': 617, '567': 618, '568': 619, '569': 620, '570': 621, '571': 622, '572': 623, '573': 624, '574': 625, '575': 626, '576': 627, '577': 628, '578': 629, '579': 630, '580': 631, '581': 632, '582': 633, '583': 634, '584': 635, '585': 636, '586': 637, '587': 638, '588': 639, '589': 640, '590': 641, '591': 642, '592': 643, '593': 644, '594': 645, '595': 646, '596': 647, '597': 648, '598': 649, '599': 650, '600': 651, '601': 652, '602': 653, '603': 654, '604': 655, '605': 656, '606': 657, '607': 658, '608': 659, '609': 660, '610': 661, '611': 662, '612': 663, '613': 664, '614': 665, '615': 666, '616': 667, '617': 668, '618': 669, '619': 670, '620': 671, '621': 672, '622': 673, '623': 674, '624': 675, '625': 676, '626': 677, '627': 678, '628': 679, '629': 680, '630': 681, '631': 682, '632': 683, '633': 684, '634': 685, '635': 686, '636': 687, '637': 688, '638': 689, '639': 690, '640': 691, '641': 692, '642': 693, '643': 694, '644': 695, '645': 696, '646': 697, '647': 698, '648': 699, '649': 700, '650': 701, '651': 702, '652': 703, '653': 704, '654': 705, '655': 706, '656': 707, '657': 708, '658': 709, '659': 710, '660': 711, '661': 712, '662': 713, '663': 714, '664': 715, '665': 716, '666': 717, '667': 718, '668': 719, '669': 720, '670': 721, '671': 722, '672': 723, '673': 724, '674': 725, '675': 726, '676': 727, '677': 728, '678': 729, '679': 730, '680': 731, '681': 732, '682': 733, '683': 734, '684': 735, '685': 736, '686': 737, '687': 738, '688': 739, '689': 740, '690': 741, '691': 742, '692': 743, '693': 744, '694': 745, '695': 746, '696': 747, '697': 748, '698': 749, '699': 750, '700': 751, '701': 752, '702': 753, '703': 754, '704': 755, '705': 756, '706': 757, '707': 758, '708': 759, '709': 760, '710': 761, '711': 762, '712': 763, '713': 764, '714': 765, '715': 766, '716': 767, '717': 768, '718': 769, '719': 770, '720': 771, '721': 772, '722': 773, '723': 774, '724': 775, '725': 776, '726': 777, '727': 778, '728': 779, '729': 780, '730': 781, '731': 782, '732': 783, '733': 784, '734': 785, '735': 786, '736': 787, '737': 788, '738': 789, '739': 790, '740': 791, '741': 792, '742': 793, '743': 794, '744': 795, '745': 796, '746': 797, '747': 798, '748': 799, '749': 800, '750': 801, '751': 802, '752': 803, '753': 804, '754': 805, '755': 806, '756': 807, '757': 808, '758': 809, '759': 810, '760': 811, '761': 812, '762': 813, '763': 814, '764': 815, '765': 816, '766': 817, '767': 818, '768': 819, '769': 820, '770': 821, '771': 822, '772': 823, '773': 824, '774': 825, '775': 826, '776': 827, '777': 828, '778': 829, '779': 830, '780': 831, '781': 832, '782': 833, '783': 834, '784': 835, '785': 836, '786': 837, '787': 838, '788': 839, '789': 840, '790': 841, '791': 842, '792': 843, '793': 844, '794': 845, '795': 846, '796': 847, '797': 848, '798': 849, '799': 850, '800': 851, '801': 852, '802': 853, '803': 854, '804': 855, '805': 856, '806': 857, '807': 858, '808': 859, '809': 860, '810': 861, '811': 862, '812': 863, '813': 864, '814': 865, '815': 866, '816': 867, '817': 868, '818': 869, '819': 870, '820': 871, '821': 872, '822': 873, '823': 874, '824': 875, '825': 876, '826': 877, '827': 878, '828': 879, '829': 880, '830': 881, '831': 882, '832': 883, '833': 884, '834': 885, '835': 886, '836': 887, '837': 888, '838': 889, '839': 890, '840': 891, '841': 892, '842': 893, '843': 894, '844': 895, '845': 896, '846': 897, '847': 898, '848': 899, '849': 900, '850': 901, '851': 902, '852': 903, '853': 904, '854': 905, '855': 906, '856': 907, '857': 908, '858': 909, '859': 910, '860': 911, '861': 912, '862': 913, '863': 914, '864': 915, '865': 916, '866': 917, '867': 918, '868': 919, '869': 920, '870': 921, '871': 922, '872': 923, '873': 924, '874': 925, '875': 926, '876': 927, '877': 928, '878': 929, '879': 930, '880': 931, '881': 932, '882': 933, '883': 934, '884': 935, '885': 936, '886': 937, '887': 938, '888': 939, '889': 940, '890': 941, '891': 942, '892': 943, '893': 944, '894': 945, '895': 946, '896': 947, '897': 948, '898': 949, '899': 950, '900': 951, '901': 952, '902': 953, '903': 954, '904': 955, '905': 956, '906': 957, '907': 958, '908': 959, '909': 960, '910': 961, '911': 962, '912': 963, '913': 964, '914': 965, '915': 966, '916': 967, '917': 968, '918': 969, '919': 970, '920': 971, '921': 972, '922': 973, '923': 974, '924': 975, '925': 976, '926': 977, '927': 978, '928': 979, '929': 980, '930': 981, '931': 982, '932': 983, '933': 984, '934': 985, '935': 986, '936': 987, '937': 988, '938': 989, '939': 990, '940': 991, '941': 992, '942': 993, '943': 994, '944': 995, '945': 996, '946': 997, '947': 998, '948': 999, '949': 1000, '950': 1001, '951': 1002, '952': 1003, '953': 1004, '954': 1005, '955': 1006, '956': 1007, '957': 1008, '958': 1009, '959': 1010, '960': 1011, '961': 1012, '962': 1013, '963': 1014, '964': 1015, '965': 1016, '966': 1017, '967': 1018, '968': 1019, '969': 1020, '970': 1021, '971': 1022, '972': 1023, '973': 1024, '974': 1025, '975': 1026, '976': 1027, '977': 1028, '978': 1029, '979': 1030, '980': 1031, '981': 1032, '982': 1033, '983': 1034, '984': 1035, '985': 1036, '986': 1037, '987': 1038, '988': 1039, '989': 1040, '990': 1041, '991': 1042, '992': 1043, '993': 1044, '994': 1045, '995': 1046, '996': 1047, '997': 1048, '998': 1049, '999': 1050}
+INFO - 12/01/25 21:22:35 - 0:00:00 - Training tasks: ode_lyapunov
+INFO - 12/01/25 21:22:36 - 0:00:01 - Reloading modules from /scratch/e0588224/data/bpoly_model/debug/263838_stdct-mgmt-02/best-valid_ode_lyapunov_beam_acc.pth ...
+DEBUG - 12/01/25 21:22:41 - 0:00:06 - TransformerModel(
+                                        (position_embeddings): Embedding(4096, 640)
+                                        (embeddings): Embedding(1051, 640, padding_idx=1)
+                                        (layer_norm_emb): LayerNorm((640,), eps=1e-12, elementwise_affine=True)
+                                        (attentions): ModuleList(
+                                          (0-7): 8 x MultiHeadAttention(
+                                            (q_lin): Linear(in_features=640, out_features=640, bias=True)
+                                            (k_lin): Linear(in_features=640, out_features=640, bias=True)
+                                            (v_lin): Linear(in_features=640, out_features=640, bias=True)
+                                            (out_lin): Linear(in_features=640, out_features=640, bias=True)
+                                          )
+                                        )
+                                        (layer_norm1): ModuleList(
+                                          (0-7): 8 x LayerNorm((640,), eps=1e-12, elementwise_affine=True)
+                                        )
+                                        (ffns): ModuleList(
+                                          (0-7): 8 x TransformerFFN(
+                                            (lin1): Linear(in_features=640, out_features=2560, bias=True)
+                                            (lin2): Linear(in_features=2560, out_features=640, bias=True)
+                                          )
+                                        )
+                                        (layer_norm2): ModuleList(
+                                          (0-7): 8 x LayerNorm((640,), eps=1e-12, elementwise_affine=True)
+                                        )
+                                      ): TransformerModel(
+                                        (position_embeddings): Embedding(4096, 640)
+                                        (embeddings): Embedding(1051, 640, padding_idx=1)
+                                        (layer_norm_emb): LayerNorm((640,), eps=1e-12, elementwise_affine=True)
+                                        (attentions): ModuleList(
+                                          (0-7): 8 x MultiHeadAttention(
+                                            (q_lin): Linear(in_features=640, out_features=640, bias=True)
+                                            (k_lin): Linear(in_features=640, out_features=640, bias=True)
+                                            (v_lin): Linear(in_features=640, out_features=640, bias=True)
+                                            (out_lin): Linear(in_features=640, out_features=640, bias=True)
+                                          )
+                                        )
+                                        (layer_norm1): ModuleList(
+                                          (0-7): 8 x LayerNorm((640,), eps=1e-12, elementwise_affine=True)
+                                        )
+                                        (ffns): ModuleList(
+                                          (0-7): 8 x TransformerFFN(
+                                            (lin1): Linear(in_features=640, out_features=2560, bias=True)
+                                            (lin2): Linear(in_features=2560, out_features=640, bias=True)
+                                          )
+                                        )
+                                        (layer_norm2): ModuleList(
+                                          (0-7): 8 x LayerNorm((640,), eps=1e-12, elementwise_affine=True)
+                                        )
+                                      )
+DEBUG - 12/01/25 21:22:41 - 0:00:06 - TransformerModel(
+                                        (position_embeddings): Embedding(4096, 640)
+                                        (embeddings): Embedding(1051, 640, padding_idx=1)
+                                        (layer_norm_emb): LayerNorm((640,), eps=1e-12, elementwise_affine=True)
+                                        (attentions): ModuleList(
+                                          (0-7): 8 x MultiHeadAttention(
+                                            (q_lin): Linear(in_features=640, out_features=640, bias=True)
+                                            (k_lin): Linear(in_features=640, out_features=640, bias=True)
+                                            (v_lin): Linear(in_features=640, out_features=640, bias=True)
+                                            (out_lin): Linear(in_features=640, out_features=640, bias=True)
+                                          )
+                                        )
+                                        (layer_norm1): ModuleList(
+                                          (0-7): 8 x LayerNorm((640,), eps=1e-12, elementwise_affine=True)
+                                        )
+                                        (ffns): ModuleList(
+                                          (0-7): 8 x TransformerFFN(
+                                            (lin1): Linear(in_features=640, out_features=2560, bias=True)
+                                            (lin2): Linear(in_features=2560, out_features=640, bias=True)
+                                          )
+                                        )
+                                        (layer_norm2): ModuleList(
+                                          (0-7): 8 x LayerNorm((640,), eps=1e-12, elementwise_affine=True)
+                                        )
+                                        (layer_norm15): ModuleList(
+                                          (0-7): 8 x LayerNorm((640,), eps=1e-12, elementwise_affine=True)
+                                        )
+                                        (encoder_attn): ModuleList(
+                                          (0-7): 8 x MultiHeadAttention(
+                                            (q_lin): Linear(in_features=640, out_features=640, bias=True)
+                                            (k_lin): Linear(in_features=640, out_features=640, bias=True)
+                                            (v_lin): Linear(in_features=640, out_features=640, bias=True)
+                                            (out_lin): Linear(in_features=640, out_features=640, bias=True)
+                                          )
+                                        )
+                                        (proj): Linear(in_features=640, out_features=1051, bias=True)
+                                      ): TransformerModel(
+                                        (position_embeddings): Embedding(4096, 640)
+                                        (embeddings): Embedding(1051, 640, padding_idx=1)
+                                        (layer_norm_emb): LayerNorm((640,), eps=1e-12, elementwise_affine=True)
+                                        (attentions): ModuleList(
+                                          (0-7): 8 x MultiHeadAttention(
+                                            (q_lin): Linear(in_features=640, out_features=640, bias=True)
+                                            (k_lin): Linear(in_features=640, out_features=640, bias=True)
+                                            (v_lin): Linear(in_features=640, out_features=640, bias=True)
+                                            (out_lin): Linear(in_features=640, out_features=640, bias=True)
+                                          )
+                                        )
+                                        (layer_norm1): ModuleList(
+                                          (0-7): 8 x LayerNorm((640,), eps=1e-12, elementwise_affine=True)
+                                        )
+                                        (ffns): ModuleList(
+                                          (0-7): 8 x TransformerFFN(
+                                            (lin1): Linear(in_features=640, out_features=2560, bias=True)
+                                            (lin2): Linear(in_features=2560, out_features=640, bias=True)
+                                          )
+                                        )
+                                        (layer_norm2): ModuleList(
+                                          (0-7): 8 x LayerNorm((640,), eps=1e-12, elementwise_affine=True)
+                                        )
+                                        (layer_norm15): ModuleList(
+                                          (0-7): 8 x LayerNorm((640,), eps=1e-12, elementwise_affine=True)
+                                        )
+                                        (encoder_attn): ModuleList(
+                                          (0-7): 8 x MultiHeadAttention(
+                                            (q_lin): Linear(in_features=640, out_features=640, bias=True)
+                                            (k_lin): Linear(in_features=640, out_features=640, bias=True)
+                                            (v_lin): Linear(in_features=640, out_features=640, bias=True)
+                                            (out_lin): Linear(in_features=640, out_features=640, bias=True)
+                                          )
+                                        )
+                                        (proj): Linear(in_features=640, out_features=1051, bias=True)
+                                      )
+INFO - 12/01/25 21:22:41 - 0:00:06 - Number of parameters (encoder): 42683520
+INFO - 12/01/25 21:22:41 - 0:00:06 - Number of parameters (decoder): 55822491
+INFO - 12/01/25 21:22:46 - 0:00:10 - Creating train iterator for ode_lyapunov ...
+INFO - 12/01/25 21:22:46 - 0:00:10 - Loading data from /scratch/e0588224/data/FLyap/flyap_mixture_data.prefix.cleaned ...
+INFO - 12/01/25 21:22:46 - 0:00:10 - Loaded 4784 equations from the disk.
+INFO - 12/01/25 21:22:46 - 0:00:10 - Initialized random generator for worker 0, with seed [0, 0, 953114302] (base seed=953114302).
+INFO - 12/01/25 21:22:59 - 0:00:24 - {"update": 1, "policy_loss": -0.0383419431746006, "value_loss": 0.021286491304636, "entropy": 0.20774857699871063, "approx_kl": 0.010937001556158066, "valid_rate": 0.40625}
+INFO - 12/01/25 21:23:26 - 0:00:51 - {"update": 2, "policy_loss": -0.009438024833798409, "value_loss": 0.025782590731978416, "entropy": 0.20630472898483276, "approx_kl": 0.010248077102005482, "valid_rate": 0.53125}
+INFO - 12/01/25 21:23:37 - 0:01:01 - {"update": 3, "policy_loss": 0.21798433363437653, "value_loss": 0.02915223315358162, "entropy": 0.19414500892162323, "approx_kl": 0.007432976271957159, "valid_rate": 0.53125}
+INFO - 12/01/25 21:23:47 - 0:01:11 - {"update": 4, "policy_loss": 0.012272974476218224, "value_loss": 0.019175134599208832, "entropy": 0.21812812983989716, "approx_kl": 0.011243387125432491, "valid_rate": 0.5}
+INFO - 12/01/25 21:23:59 - 0:01:24 - {"update": 5, "policy_loss": -0.22329169511795044, "value_loss": 0.011639822274446487, "entropy": 0.16738955676555634, "approx_kl": 0.0054303561337292194, "valid_rate": 0.375}
+INFO - 12/01/25 21:24:25 - 0:01:49 - {"update": 6, "policy_loss": -0.4575672745704651, "value_loss": 0.017800223082304, "entropy": 0.22008119523525238, "approx_kl": 0.013068675063550472, "valid_rate": 0.1875}
+INFO - 12/01/25 21:24:35 - 0:02:00 - {"update": 7, "policy_loss": -0.13111741840839386, "value_loss": 0.007137974724173546, "entropy": 0.12048817425966263, "approx_kl": 0.011411542072892189, "valid_rate": 0.34375}
+INFO - 12/01/25 21:24:45 - 0:02:09 - {"update": 8, "policy_loss": -0.07326815277338028, "value_loss": 0.00480799051001668, "entropy": 0.25135448575019836, "approx_kl": 0.009852507151663303, "valid_rate": 0.40625}
+INFO - 12/01/25 21:25:04 - 0:02:29 - {"update": 9, "policy_loss": 0.06268329173326492, "value_loss": 0.003497339552268386, "entropy": 0.2034147083759308, "approx_kl": 0.015090737491846085, "valid_rate": 0.40625}
+INFO - 12/01/25 21:25:16 - 0:02:41 - {"update": 10, "policy_loss": 0.3575446903705597, "value_loss": 0.010903221555054188, "entropy": 0.25690943002700806, "approx_kl": 0.018209613859653473, "valid_rate": 0.40625}
+INFO - 12/01/25 21:25:31 - 0:02:55 - {"update": 11, "policy_loss": -0.2892209589481354, "value_loss": 0.002032612916082144, "entropy": 0.1860872358083725, "approx_kl": 0.004625863395631313, "valid_rate": 0.40625}
+INFO - 12/01/25 21:30:54 - 0:08:18 - {"update": 12, "policy_loss": 0.35168400406837463, "value_loss": 0.016128351911902428, "entropy": 0.22333788871765137, "approx_kl": 0.010440130718052387, "valid_rate": 0.46875}
+INFO - 12/01/25 21:32:31 - 0:09:56 - {"update": 13, "policy_loss": 0.006493079010397196, "value_loss": 0.008798202499747276, "entropy": 0.17313158512115479, "approx_kl": 0.018833288922905922, "valid_rate": 0.5}
+INFO - 12/01/25 21:32:41 - 0:10:06 - {"update": 14, "policy_loss": -0.13730557262897491, "value_loss": 0.00535321980714798, "entropy": 0.20884379744529724, "approx_kl": 0.021865364164114, "valid_rate": 0.40625}
+INFO - 12/01/25 21:32:53 - 0:10:18 - {"update": 15, "policy_loss": 0.24993787705898285, "value_loss": 0.008495025336742401, "entropy": 0.2151821106672287, "approx_kl": 0.012534462846815586, "valid_rate": 0.5}
+INFO - 12/01/25 21:33:03 - 0:10:28 - {"update": 16, "policy_loss": -0.3943555951118469, "value_loss": 0.01395827904343605, "entropy": 0.16987475752830505, "approx_kl": 0.016646448522806168, "valid_rate": 0.4375}
+INFO - 12/01/25 21:33:13 - 0:10:37 - {"update": 17, "policy_loss": 0.17332594096660614, "value_loss": 0.008264824748039246, "entropy": 0.18510709702968597, "approx_kl": 0.008937087841331959, "valid_rate": 0.375}
+INFO - 12/01/25 21:33:24 - 0:10:49 - {"update": 18, "policy_loss": -0.057251207530498505, "value_loss": 0.0030088662169873714, "entropy": 0.23373988270759583, "approx_kl": 0.01931728981435299, "valid_rate": 0.5}
+INFO - 12/01/25 21:33:33 - 0:10:58 - {"update": 19, "policy_loss": 0.2650107741355896, "value_loss": 0.003507529851049185, "entropy": 0.2146379053592682, "approx_kl": 0.024561407044529915, "valid_rate": 0.46875}
+INFO - 12/01/25 21:33:42 - 0:11:06 - {"update": 20, "policy_loss": -0.18825297057628632, "value_loss": 0.004228490870445967, "entropy": 0.1768249273300171, "approx_kl": 0.017493488267064095, "valid_rate": 0.53125}
+INFO - 12/01/25 21:34:09 - 0:11:33 - {"update": 21, "policy_loss": 0.12048036605119705, "value_loss": 0.0007672696374356747, "entropy": 0.2221507430076599, "approx_kl": 0.018146630376577377, "valid_rate": 0.40625}
+INFO - 12/01/25 21:34:20 - 0:11:45 - {"update": 22, "policy_loss": 0.4630903899669647, "value_loss": 0.003346499288454652, "entropy": 0.22022446990013123, "approx_kl": 0.023222045972943306, "valid_rate": 0.25}
+INFO - 12/01/25 21:34:33 - 0:11:57 - {"update": 23, "policy_loss": 0.15145491063594818, "value_loss": 0.0046405065804719925, "entropy": 0.1439426690340042, "approx_kl": 0.07024750113487244, "valid_rate": 0.59375}
+INFO - 12/01/25 21:35:01 - 0:12:25 - {"update": 24, "policy_loss": 0.1022554337978363, "value_loss": 0.003403755836188793, "entropy": 0.165588840842247, "approx_kl": 0.02363548055291176, "valid_rate": 0.21875}
+INFO - 12/01/25 21:35:10 - 0:12:34 - {"update": 25, "policy_loss": 0.12394298613071442, "value_loss": 0.007182185538113117, "entropy": 0.16970840096473694, "approx_kl": 0.018618395552039146, "valid_rate": 0.375}
+INFO - 12/01/25 21:35:21 - 0:12:46 - {"update": 26, "policy_loss": -0.5692071914672852, "value_loss": 0.005868604872375727, "entropy": 0.16085849702358246, "approx_kl": 0.04742119833827019, "valid_rate": 0.5625}
+INFO - 12/01/25 21:35:35 - 0:13:00 - {"update": 27, "policy_loss": -0.22075068950653076, "value_loss": 0.0021729653235524893, "entropy": 0.24550190567970276, "approx_kl": 0.01786385290324688, "valid_rate": 0.5}
+INFO - 12/01/25 21:35:48 - 0:13:12 - {"update": 28, "policy_loss": -0.19118638336658478, "value_loss": 0.003916183486580849, "entropy": 0.1809212863445282, "approx_kl": 0.04201048985123634, "valid_rate": 0.46875}
+INFO - 12/01/25 21:35:57 - 0:13:22 - {"update": 29, "policy_loss": 0.141719251871109, "value_loss": 0.004077297635376453, "entropy": 0.19961053133010864, "approx_kl": 0.03839002922177315, "valid_rate": 0.46875}
+INFO - 12/01/25 21:36:09 - 0:13:33 - {"update": 30, "policy_loss": 0.05737553909420967, "value_loss": 0.003820978570729494, "entropy": 0.1508161723613739, "approx_kl": 0.029107484966516495, "valid_rate": 0.46875}
+INFO - 12/01/25 21:36:19 - 0:13:44 - {"update": 31, "policy_loss": -0.17398756742477417, "value_loss": 0.001924079959280789, "entropy": 0.1789238452911377, "approx_kl": 0.033114537596702576, "valid_rate": 0.4375}
+INFO - 12/01/25 21:36:30 - 0:13:55 - {"update": 32, "policy_loss": -0.3158774971961975, "value_loss": 0.003834044560790062, "entropy": 0.18700943887233734, "approx_kl": 0.010730119422078133, "valid_rate": 0.4375}
+INFO - 12/01/25 21:36:45 - 0:14:09 - {"update": 33, "policy_loss": -0.45252060890197754, "value_loss": 0.010040372610092163, "entropy": 0.1666806936264038, "approx_kl": 0.04370768740773201, "valid_rate": 0.5625}
+INFO - 12/01/25 21:36:55 - 0:14:19 - {"update": 34, "policy_loss": -0.4062711298465729, "value_loss": 0.0028772528748959303, "entropy": 0.1877572238445282, "approx_kl": 0.039805978536605835, "valid_rate": 0.4375}
+INFO - 12/01/25 21:37:06 - 0:14:30 - {"update": 35, "policy_loss": -0.44891035556793213, "value_loss": 0.006257475353777409, "entropy": 0.10570841282606125, "approx_kl": 0.028764262795448303, "valid_rate": 0.5625}
+INFO - 12/01/25 21:37:16 - 0:14:40 - {"update": 36, "policy_loss": 0.2370346635580063, "value_loss": 0.023087652400135994, "entropy": 0.1800401210784912, "approx_kl": 0.03600667417049408, "valid_rate": 0.15625}
+INFO - 12/01/25 21:37:27 - 0:14:52 - {"update": 37, "policy_loss": -0.3409084975719452, "value_loss": 0.0026502697728574276, "entropy": 0.24776332080364227, "approx_kl": 0.034961555153131485, "valid_rate": 0.40625}
+INFO - 12/01/25 21:37:57 - 0:15:21 - {"update": 38, "policy_loss": -0.3075261414051056, "value_loss": 0.004642722196877003, "entropy": 0.22530503571033478, "approx_kl": 0.02373259887099266, "valid_rate": 0.375}
+INFO - 12/01/25 21:38:07 - 0:15:31 - {"update": 39, "policy_loss": -0.016826972365379333, "value_loss": 0.012336240150034428, "entropy": 0.21588091552257538, "approx_kl": 0.014998314902186394, "valid_rate": 0.375}
+INFO - 12/01/25 21:38:17 - 0:15:42 - {"update": 40, "policy_loss": -0.4393051564693451, "value_loss": 0.009950614534318447, "entropy": 0.17329208552837372, "approx_kl": 0.028025249019265175, "valid_rate": 0.28125}
+INFO - 12/01/25 21:38:28 - 0:15:52 - {"update": 41, "policy_loss": 0.196435809135437, "value_loss": 0.005340132396668196, "entropy": 0.1704326570034027, "approx_kl": 0.01981663703918457, "valid_rate": 0.46875}
+INFO - 12/01/25 21:38:39 - 0:16:04 - {"update": 42, "policy_loss": -0.10144670307636261, "value_loss": 0.007979750633239746, "entropy": 0.21516869962215424, "approx_kl": 0.037645529955625534, "valid_rate": 0.34375}
+INFO - 12/01/25 21:38:52 - 0:16:17 - {"update": 43, "policy_loss": -0.46771156787872314, "value_loss": 0.003327279817312956, "entropy": 0.20404936373233795, "approx_kl": 0.021654341369867325, "valid_rate": 0.4375}
+INFO - 12/01/25 21:39:01 - 0:16:26 - {"update": 44, "policy_loss": 0.7708165049552917, "value_loss": 0.00945281982421875, "entropy": 0.2035703957080841, "approx_kl": 0.05433419346809387, "valid_rate": 0.34375}
+INFO - 12/01/25 21:44:11 - 0:21:35 - {"update": 45, "policy_loss": 0.19186779856681824, "value_loss": 0.004973400384187698, "entropy": 0.20389173924922943, "approx_kl": 0.03652776777744293, "valid_rate": 0.3125}
+INFO - 12/01/25 21:44:19 - 0:21:44 - {"update": 46, "policy_loss": -0.28750520944595337, "value_loss": 0.004615291953086853, "entropy": 0.12832680344581604, "approx_kl": 0.07676413655281067, "valid_rate": 0.5}
+INFO - 12/01/25 21:44:28 - 0:21:53 - {"update": 47, "policy_loss": -0.30565598607063293, "value_loss": 0.008148586377501488, "entropy": 0.3097662925720215, "approx_kl": 0.03207194432616234, "valid_rate": 0.5}
+INFO - 12/01/25 21:44:58 - 0:22:23 - {"update": 48, "policy_loss": -0.23415471613407135, "value_loss": 0.008312306366860867, "entropy": 0.20450647175312042, "approx_kl": 0.02419448457658291, "valid_rate": 0.28125}
+INFO - 12/01/25 21:45:11 - 0:22:35 - {"update": 49, "policy_loss": 0.1744707077741623, "value_loss": 0.006330074742436409, "entropy": 0.18318691849708557, "approx_kl": 0.033222928643226624, "valid_rate": 0.40625}
+INFO - 12/01/25 21:45:25 - 0:22:50 - {"update": 50, "policy_loss": 0.3577350080013275, "value_loss": 0.0029151919297873974, "entropy": 0.23381143808364868, "approx_kl": 0.0461416132748127, "valid_rate": 0.3125}
+INFO - 12/01/25 21:45:38 - 0:23:03 - {"update": 51, "policy_loss": -0.3100873529911041, "value_loss": 0.007795159704983234, "entropy": 0.23824536800384521, "approx_kl": 0.05870622768998146, "valid_rate": 0.46875}
+INFO - 12/01/25 21:45:48 - 0:23:12 - {"update": 52, "policy_loss": 0.12557537853717804, "value_loss": 0.00302655017003417, "entropy": 0.2389460653066635, "approx_kl": 0.03956930711865425, "valid_rate": 0.28125}
+INFO - 12/01/25 21:45:56 - 0:23:21 - {"update": 53, "policy_loss": 0.1491851806640625, "value_loss": 0.002558283507823944, "entropy": 0.21723783016204834, "approx_kl": 0.02654675766825676, "valid_rate": 0.28125}
+INFO - 12/01/25 21:46:21 - 0:23:46 - {"update": 54, "policy_loss": -0.05522789806127548, "value_loss": 0.0032156384550035, "entropy": 0.21197731792926788, "approx_kl": 0.08527296036481857, "valid_rate": 0.34375}
+INFO - 12/01/25 21:46:33 - 0:23:57 - {"update": 55, "policy_loss": -0.011844195425510406, "value_loss": 0.0057240747846663, "entropy": 0.19441941380500793, "approx_kl": 0.03756101429462433, "valid_rate": 0.40625}
+INFO - 12/01/25 21:46:43 - 0:24:07 - {"update": 56, "policy_loss": -0.002251328667625785, "value_loss": 0.003974324092268944, "entropy": 0.22723771631717682, "approx_kl": 0.09069833159446716, "valid_rate": 0.34375}
+INFO - 12/01/25 21:48:27 - 0:25:52 - {"update": 57, "policy_loss": 0.1940494179725647, "value_loss": 0.0047432780265808105, "entropy": 0.20005378127098083, "approx_kl": 0.033840540796518326, "valid_rate": 0.21875}
+INFO - 12/01/25 21:48:39 - 0:26:04 - {"update": 58, "policy_loss": -0.48954275250434875, "value_loss": 0.005284212529659271, "entropy": 0.1797322779893875, "approx_kl": 0.0825452208518982, "valid_rate": 0.5}
+INFO - 12/01/25 21:50:35 - 0:28:00 - {"update": 59, "policy_loss": -0.6447636485099792, "value_loss": 0.00428282655775547, "entropy": 0.21292772889137268, "approx_kl": 0.11470751464366913, "valid_rate": 0.40625}
+INFO - 12/01/25 21:50:49 - 0:28:13 - {"update": 60, "policy_loss": -0.11015957593917847, "value_loss": 0.0053335013799369335, "entropy": 0.17610661685466766, "approx_kl": 0.04181796684861183, "valid_rate": 0.375}
+INFO - 12/01/25 21:50:59 - 0:28:24 - {"update": 61, "policy_loss": 0.43056321144104004, "value_loss": 0.008972197771072388, "entropy": 0.18173308670520782, "approx_kl": 0.03224247321486473, "valid_rate": 0.25}
+INFO - 12/01/25 21:51:09 - 0:28:34 - {"update": 62, "policy_loss": -0.43638089299201965, "value_loss": 0.004552663769572973, "entropy": 0.1999206393957138, "approx_kl": 0.07576005160808563, "valid_rate": 0.3125}
+INFO - 12/01/25 21:51:47 - 0:29:11 - {"update": 63, "policy_loss": 0.2833968698978424, "value_loss": 0.007300716824829578, "entropy": 0.18921159207820892, "approx_kl": 0.051323194056749344, "valid_rate": 0.4375}
+INFO - 12/01/25 21:51:58 - 0:29:23 - {"update": 64, "policy_loss": -0.10016956925392151, "value_loss": 0.00445137731730938, "entropy": 0.20587968826293945, "approx_kl": 0.0320914052426815, "valid_rate": 0.3125}
+INFO - 12/01/25 21:52:10 - 0:29:34 - {"update": 65, "policy_loss": 0.19045305252075195, "value_loss": 0.006432939786463976, "entropy": 0.22930462658405304, "approx_kl": 0.06411836296319962, "valid_rate": 0.4375}
+INFO - 12/01/25 21:52:20 - 0:29:45 - {"update": 66, "policy_loss": -0.5595204830169678, "value_loss": 0.003874868620187044, "entropy": 0.16150347888469696, "approx_kl": 0.04490015283226967, "valid_rate": 0.40625}
+INFO - 12/01/25 21:52:33 - 0:29:57 - {"update": 67, "policy_loss": 0.47068026661872864, "value_loss": 0.010298144072294235, "entropy": 0.29930147528648376, "approx_kl": 0.052951108664274216, "valid_rate": 0.4375}
+INFO - 12/01/25 21:52:41 - 0:30:06 - {"update": 68, "policy_loss": -0.9203720092773438, "value_loss": 0.005301429890096188, "entropy": 0.29208001494407654, "approx_kl": 0.047315120697021484, "valid_rate": 0.25}
+INFO - 12/01/25 21:53:15 - 0:30:39 - {"update": 69, "policy_loss": -0.7632206678390503, "value_loss": 0.007332328241318464, "entropy": 0.17310190200805664, "approx_kl": 0.029382940381765366, "valid_rate": 0.28125}
+INFO - 12/01/25 21:53:28 - 0:30:53 - {"update": 70, "policy_loss": 0.5336613059043884, "value_loss": 0.008727890439331532, "entropy": 0.21646445989608765, "approx_kl": 0.04041924327611923, "valid_rate": 0.3125}
+INFO - 12/01/25 21:53:37 - 0:31:02 - {"update": 71, "policy_loss": -0.08691877126693726, "value_loss": 0.010760808363556862, "entropy": 0.2694443464279175, "approx_kl": 0.029157491400837898, "valid_rate": 0.375}
+INFO - 12/01/25 21:53:49 - 0:31:14 - {"update": 72, "policy_loss": -0.05862816795706749, "value_loss": 0.006353884469717741, "entropy": 0.1875142604112625, "approx_kl": 0.08381979167461395, "valid_rate": 0.1875}
+INFO - 12/01/25 21:54:03 - 0:31:27 - {"update": 73, "policy_loss": 0.3853124678134918, "value_loss": 0.005663780961185694, "entropy": 0.17211343348026276, "approx_kl": 0.04958125203847885, "valid_rate": 0.375}
+INFO - 12/01/25 21:56:01 - 0:33:26 - {"update": 74, "policy_loss": -0.02281951904296875, "value_loss": 0.008594151586294174, "entropy": 0.23015056550502777, "approx_kl": 0.05920562520623207, "valid_rate": 0.21875}
+INFO - 12/01/25 22:02:42 - 0:40:07 - {"update": 75, "policy_loss": 0.34610968828201294, "value_loss": 0.004593889694660902, "entropy": 0.24104797840118408, "approx_kl": 0.07232262194156647, "valid_rate": 0.375}
+INFO - 12/01/25 22:04:27 - 0:41:52 - {"update": 76, "policy_loss": 0.3667259216308594, "value_loss": 0.004423379898071289, "entropy": 0.2668890058994293, "approx_kl": 0.02161118946969509, "valid_rate": 0.375}
+INFO - 12/01/25 22:04:37 - 0:42:02 - {"update": 77, "policy_loss": 0.1906459927558899, "value_loss": 0.005954289808869362, "entropy": 0.18746350705623627, "approx_kl": 0.09448704123497009, "valid_rate": 0.3125}
+INFO - 12/01/25 22:04:48 - 0:42:12 - {"update": 78, "policy_loss": -0.20461295545101166, "value_loss": 0.008993454277515411, "entropy": 0.28087618947029114, "approx_kl": 0.052963268011808395, "valid_rate": 0.34375}
+INFO - 12/01/25 22:04:59 - 0:42:24 - {"update": 79, "policy_loss": -0.4429241120815277, "value_loss": 0.0024255397729575634, "entropy": 0.2230113446712494, "approx_kl": 0.03776855021715164, "valid_rate": 0.3125}
+INFO - 12/01/25 22:05:09 - 0:42:34 - {"update": 80, "policy_loss": -0.05552282556891441, "value_loss": 0.007028306368738413, "entropy": 0.19041138887405396, "approx_kl": 0.08416037261486053, "valid_rate": 0.375}
+INFO - 12/01/25 22:05:47 - 0:43:11 - {"update": 81, "policy_loss": -0.6233909726142883, "value_loss": 0.003840163815766573, "entropy": 0.33267074823379517, "approx_kl": 0.04598141461610794, "valid_rate": 0.3125}
+INFO - 12/01/25 22:05:57 - 0:43:22 - {"update": 82, "policy_loss": -0.3911685645580292, "value_loss": 0.0026429095305502415, "entropy": 0.31758639216423035, "approx_kl": 0.18240097165107727, "valid_rate": 0.25}
+INFO - 12/01/25 22:06:16 - 0:43:41 - {"update": 83, "policy_loss": -0.33329591155052185, "value_loss": 0.00569099560379982, "entropy": 0.20963266491889954, "approx_kl": 0.03800194710493088, "valid_rate": 0.28125}
+INFO - 12/01/25 22:06:25 - 0:43:49 - {"update": 84, "policy_loss": 0.4297501742839813, "value_loss": 0.0057990397326648235, "entropy": 0.26547771692276, "approx_kl": 0.07672731578350067, "valid_rate": 0.15625}
+INFO - 12/01/25 22:06:35 - 0:44:00 - {"update": 85, "policy_loss": 0.42854392528533936, "value_loss": 0.005792709533125162, "entropy": 0.2482103705406189, "approx_kl": 0.049957722425460815, "valid_rate": 0.46875}
+INFO - 12/01/25 22:06:44 - 0:44:09 - {"update": 86, "policy_loss": 0.2545691132545471, "value_loss": 0.0038340450264513493, "entropy": 0.23383767902851105, "approx_kl": 0.06117619574069977, "valid_rate": 0.3125}
+INFO - 12/01/25 22:07:00 - 0:44:25 - {"update": 87, "policy_loss": 0.42100024223327637, "value_loss": 0.005409756675362587, "entropy": 0.23680058121681213, "approx_kl": 0.028895288705825806, "valid_rate": 0.375}
+INFO - 12/01/25 22:07:14 - 0:44:39 - {"update": 88, "policy_loss": -0.15246863663196564, "value_loss": 0.0028644916601479053, "entropy": 0.2882962226867676, "approx_kl": 0.09434665739536285, "valid_rate": 0.125}
+INFO - 12/01/25 22:13:07 - 0:50:31 - {"update": 89, "policy_loss": -0.427110493183136, "value_loss": 0.009527325630187988, "entropy": 0.21580712497234344, "approx_kl": 0.05927840247750282, "valid_rate": 0.28125}
+INFO - 12/01/25 22:13:24 - 0:50:48 - {"update": 90, "policy_loss": 0.10370094329118729, "value_loss": 0.0071379998698830605, "entropy": 0.1952742636203766, "approx_kl": 0.04280659556388855, "valid_rate": 0.28125}
+INFO - 12/01/25 22:13:34 - 0:50:59 - {"update": 91, "policy_loss": 0.3489578366279602, "value_loss": 0.0029167106840759516, "entropy": 0.3217838704586029, "approx_kl": 0.018448181450366974, "valid_rate": 0.34375}
+INFO - 12/01/25 22:13:44 - 0:51:08 - {"update": 92, "policy_loss": -0.6389845609664917, "value_loss": 0.005686989054083824, "entropy": 0.15769976377487183, "approx_kl": 0.07834436744451523, "valid_rate": 0.21875}
+INFO - 12/01/25 22:19:42 - 0:57:07 - {"update": 93, "policy_loss": -0.2283223271369934, "value_loss": 0.005033100489526987, "entropy": 0.22663474082946777, "approx_kl": 0.19133684039115906, "valid_rate": 0.375}
+INFO - 12/01/25 22:19:53 - 0:57:18 - {"update": 94, "policy_loss": -0.18451957404613495, "value_loss": 0.0052721998654305935, "entropy": 0.2762033939361572, "approx_kl": 0.04806851968169212, "valid_rate": 0.25}
+INFO - 12/01/25 22:20:06 - 0:57:31 - {"update": 95, "policy_loss": -0.3871971368789673, "value_loss": 0.005644967779517174, "entropy": 0.23763717710971832, "approx_kl": 0.06156830117106438, "valid_rate": 0.125}
+INFO - 12/01/25 22:20:25 - 0:57:50 - {"update": 96, "policy_loss": 0.1894124150276184, "value_loss": 0.003917648922652006, "entropy": 0.212260901927948, "approx_kl": 0.027760997414588928, "valid_rate": 0.25}
+INFO - 12/01/25 22:20:53 - 0:58:18 - {"update": 97, "policy_loss": 0.1595173478126526, "value_loss": 0.0025584916584193707, "entropy": 0.2500486373901367, "approx_kl": 0.04828926920890808, "valid_rate": 0.1875}
+INFO - 12/01/25 22:26:47 - 1:04:11 - {"update": 98, "policy_loss": -0.6481164693832397, "value_loss": 0.00405732449144125, "entropy": 0.19666911661624908, "approx_kl": 0.053514283150434494, "valid_rate": 0.375}
+INFO - 12/01/25 22:27:15 - 1:04:39 - {"update": 99, "policy_loss": -0.06655813008546829, "value_loss": 0.00596573855727911, "entropy": 0.2686391770839691, "approx_kl": 0.05574040114879608, "valid_rate": 0.25}
+INFO - 12/01/25 22:27:58 - 1:05:23 - {"update": 100, "policy_loss": -0.016767432913184166, "value_loss": 0.013473296537995338, "entropy": 0.19709768891334534, "approx_kl": 0.02841130830347538, "valid_rate": 0.3125}
+INFO - 12/01/25 22:28:08 - 1:05:32 - {"update": 101, "policy_loss": 0.8157299757003784, "value_loss": 0.003388765500858426, "entropy": 0.13357026875019073, "approx_kl": 0.08329153060913086, "valid_rate": 0.34375}
+INFO - 12/01/25 22:28:20 - 1:05:44 - {"update": 102, "policy_loss": -0.3159565329551697, "value_loss": 0.005350854247808456, "entropy": 0.2090671807527542, "approx_kl": 0.10006743669509888, "valid_rate": 0.21875}
+INFO - 12/01/25 22:28:30 - 1:05:55 - {"update": 103, "policy_loss": 0.43203482031822205, "value_loss": 0.00738361943513155, "entropy": 0.2550235390663147, "approx_kl": 0.0540478378534317, "valid_rate": 0.375}
+INFO - 12/01/25 22:28:43 - 1:06:08 - {"update": 104, "policy_loss": 0.484279990196228, "value_loss": 0.008410613983869553, "entropy": 0.2569974362850189, "approx_kl": 0.07155764102935791, "valid_rate": 0.3125}
+INFO - 12/01/25 22:28:53 - 1:06:18 - {"update": 105, "policy_loss": -0.11610908061265945, "value_loss": 0.003439945401623845, "entropy": 0.23226095736026764, "approx_kl": 0.053902093321084976, "valid_rate": 0.25}
+INFO - 12/01/25 22:29:04 - 1:06:29 - {"update": 106, "policy_loss": 0.7065352201461792, "value_loss": 0.004641691222786903, "entropy": 0.18758027255535126, "approx_kl": 0.05895199626684189, "valid_rate": 0.25}
+INFO - 12/01/25 22:29:13 - 1:06:38 - {"update": 107, "policy_loss": 0.5321943759918213, "value_loss": 0.00469677010551095, "entropy": 0.18584196269512177, "approx_kl": 0.06478623300790787, "valid_rate": 0.1875}
+INFO - 12/01/25 22:29:25 - 1:06:49 - {"update": 108, "policy_loss": 0.21436379849910736, "value_loss": 0.004160521551966667, "entropy": 0.26528868079185486, "approx_kl": 0.05681820586323738, "valid_rate": 0.3125}
+INFO - 12/01/25 22:29:34 - 1:06:58 - {"update": 109, "policy_loss": -0.4936700463294983, "value_loss": 0.00602639839053154, "entropy": 0.26825156807899475, "approx_kl": 0.08863101154565811, "valid_rate": 0.3125}
+INFO - 12/01/25 22:29:45 - 1:07:09 - {"update": 110, "policy_loss": -0.4194262623786926, "value_loss": 0.0032648714259266853, "entropy": 0.23946917057037354, "approx_kl": 0.13493457436561584, "valid_rate": 0.1875}
+INFO - 12/01/25 22:29:59 - 1:07:23 - {"update": 111, "policy_loss": 0.21953845024108887, "value_loss": 0.011400255374610424, "entropy": 0.269918292760849, "approx_kl": 0.0355914942920208, "valid_rate": 0.375}
+INFO - 12/01/25 22:30:09 - 1:07:34 - {"update": 112, "policy_loss": -0.14758026599884033, "value_loss": 0.002299916697666049, "entropy": 0.21829713881015778, "approx_kl": 0.0816650539636612, "valid_rate": 0.25}
+INFO - 12/01/25 22:30:21 - 1:07:46 - {"update": 113, "policy_loss": -0.2680265009403229, "value_loss": 0.007871050387620926, "entropy": 0.2981664538383484, "approx_kl": 0.16505376994609833, "valid_rate": 0.34375}
+INFO - 12/01/25 22:30:32 - 1:07:56 - {"update": 114, "policy_loss": -0.443531334400177, "value_loss": 0.003900251118466258, "entropy": 0.2183852195739746, "approx_kl": 0.07930249720811844, "valid_rate": 0.25}
+INFO - 12/01/25 22:30:45 - 1:08:10 - {"update": 115, "policy_loss": 0.2633836567401886, "value_loss": 0.004993067588657141, "entropy": 0.3109653890132904, "approx_kl": 0.07186417281627655, "valid_rate": 0.25}
+INFO - 12/01/25 22:30:54 - 1:08:19 - {"update": 116, "policy_loss": 0.17339329421520233, "value_loss": 0.004003460519015789, "entropy": 0.19692327082157135, "approx_kl": 0.07710486650466919, "valid_rate": 0.21875}
+INFO - 12/01/25 22:31:04 - 1:08:29 - {"update": 117, "policy_loss": -0.14129935204982758, "value_loss": 0.0011879948433488607, "entropy": 0.23172545433044434, "approx_kl": 0.157599538564682, "valid_rate": 0.25}
+INFO - 12/01/25 22:31:18 - 1:08:42 - {"update": 118, "policy_loss": 0.16267962753772736, "value_loss": 0.005074095446616411, "entropy": 0.1604737937450409, "approx_kl": 0.08827041834592819, "valid_rate": 0.09375}
+INFO - 12/01/25 22:31:41 - 1:09:06 - {"update": 119, "policy_loss": -0.5318881273269653, "value_loss": 0.005479609128087759, "entropy": 0.25196996331214905, "approx_kl": 0.12627705931663513, "valid_rate": 0.21875}
+INFO - 12/01/25 22:37:28 - 1:14:53 - {"update": 120, "policy_loss": 0.07387509196996689, "value_loss": 0.005123905837535858, "entropy": 0.3059867322444916, "approx_kl": 0.09683427214622498, "valid_rate": 0.34375}
+INFO - 12/01/25 22:40:01 - 1:17:26 - {"update": 121, "policy_loss": -0.3231712579727173, "value_loss": 0.0019130941946059465, "entropy": 0.22366711497306824, "approx_kl": 0.09278526902198792, "valid_rate": 0.1875}
+INFO - 12/01/25 22:40:08 - 1:17:33 - {"update": 122, "policy_loss": -0.3472946286201477, "value_loss": 0.0053933425806462765, "entropy": 0.35510778427124023, "approx_kl": 0.05302843078970909, "valid_rate": 0.25}
+INFO - 12/01/25 22:40:25 - 1:17:49 - {"update": 123, "policy_loss": -0.23026102781295776, "value_loss": 0.002747110091149807, "entropy": 0.1764034628868103, "approx_kl": 0.039132025092840195, "valid_rate": 0.34375}
+INFO - 12/01/25 22:46:05 - 1:23:29 - {"update": 124, "policy_loss": 0.09063288569450378, "value_loss": 0.012723558582365513, "entropy": 0.24511173367500305, "approx_kl": 0.17859388887882233, "valid_rate": 0.09375}
+INFO - 12/01/25 22:46:17 - 1:23:42 - {"update": 125, "policy_loss": 0.5041422843933105, "value_loss": 0.0033640353940427303, "entropy": 0.17161141335964203, "approx_kl": 0.04673974961042404, "valid_rate": 0.34375}
+INFO - 12/01/25 22:46:29 - 1:23:54 - {"update": 126, "policy_loss": -0.43559738993644714, "value_loss": 0.010202661156654358, "entropy": 0.2287694662809372, "approx_kl": 0.08060649037361145, "valid_rate": 0.3125}
+INFO - 12/01/25 22:46:38 - 1:24:02 - {"update": 127, "policy_loss": 0.14226001501083374, "value_loss": 0.0054634325206279755, "entropy": 0.20678099989891052, "approx_kl": 0.07194745540618896, "valid_rate": 0.21875}
+INFO - 12/01/25 22:46:47 - 1:24:11 - {"update": 128, "policy_loss": -0.10797256976366043, "value_loss": 0.006260561756789684, "entropy": 0.16718851029872894, "approx_kl": 0.04213995486497879, "valid_rate": 0.25}
+INFO - 12/01/25 22:47:02 - 1:24:27 - {"update": 129, "policy_loss": 0.25459250807762146, "value_loss": 0.002564657712355256, "entropy": 0.16728508472442627, "approx_kl": 0.026917900890111923, "valid_rate": 0.25}
+INFO - 12/01/25 22:52:59 - 1:30:24 - {"update": 130, "policy_loss": -0.483669251203537, "value_loss": 0.006760091986507177, "entropy": 0.28102171421051025, "approx_kl": 0.08927606046199799, "valid_rate": 0.3125}
+INFO - 12/01/25 22:53:08 - 1:30:33 - {"update": 131, "policy_loss": 0.3056303858757019, "value_loss": 0.00992453470826149, "entropy": 0.31495678424835205, "approx_kl": 0.09418457001447678, "valid_rate": 0.1875}
+INFO - 12/01/25 22:53:17 - 1:30:42 - {"update": 132, "policy_loss": -0.3751922845840454, "value_loss": 0.003795839846134186, "entropy": 0.28263646364212036, "approx_kl": 0.07685471326112747, "valid_rate": 0.21875}
+INFO - 12/01/25 22:58:26 - 1:35:51 - {"update": 133, "policy_loss": -0.31515610218048096, "value_loss": 0.0070823910646140575, "entropy": 0.20007073879241943, "approx_kl": 0.04561209678649902, "valid_rate": 0.125}
+INFO - 12/01/25 22:59:02 - 1:36:27 - {"update": 134, "policy_loss": 0.8314214944839478, "value_loss": 0.0037985844537615776, "entropy": 0.2965318560600281, "approx_kl": 0.11327958852052689, "valid_rate": 0.15625}
+INFO - 12/01/25 23:09:49 - 1:47:14 - {"update": 135, "policy_loss": -0.2195722609758377, "value_loss": 0.010855989530682564, "entropy": 0.19064269959926605, "approx_kl": 0.04168924316763878, "valid_rate": 0.25}
+INFO - 12/01/25 23:09:59 - 1:47:23 - {"update": 136, "policy_loss": -0.21635372936725616, "value_loss": 0.004857040010392666, "entropy": 0.2820671498775482, "approx_kl": 0.08496730774641037, "valid_rate": 0.21875}
+INFO - 12/01/25 23:21:48 - 1:59:12 - {"update": 137, "policy_loss": -0.1662948578596115, "value_loss": 0.003984577022492886, "entropy": 0.2857382297515869, "approx_kl": 0.08403947949409485, "valid_rate": 0.28125}
+INFO - 12/01/25 23:27:11 - 2:04:36 - {"update": 138, "policy_loss": 0.023572031408548355, "value_loss": 0.003504897467792034, "entropy": 0.38546159863471985, "approx_kl": 0.14177227020263672, "valid_rate": 0.21875}
+INFO - 12/01/25 23:33:00 - 2:10:25 - {"update": 139, "policy_loss": 0.07889076322317123, "value_loss": 0.003646480618044734, "entropy": 0.2503888010978699, "approx_kl": 0.08910343796014786, "valid_rate": 0.3125}
+INFO - 12/01/25 23:33:10 - 2:10:34 - {"update": 140, "policy_loss": 0.13708820939064026, "value_loss": 0.008629788644611835, "entropy": 0.27115097641944885, "approx_kl": 0.07581817358732224, "valid_rate": 0.375}
+INFO - 12/01/25 23:33:19 - 2:10:44 - {"update": 141, "policy_loss": -0.0034303166903555393, "value_loss": 0.005390709266066551, "entropy": 0.3411719799041748, "approx_kl": 0.05620177835226059, "valid_rate": 0.25}
+INFO - 12/01/25 23:39:12 - 2:16:36 - {"update": 142, "policy_loss": -0.8088091611862183, "value_loss": 0.007268861867487431, "entropy": 0.3939163386821747, "approx_kl": 0.09039875119924545, "valid_rate": 0.25}
+INFO - 12/01/25 23:39:23 - 2:16:47 - {"update": 143, "policy_loss": -0.7176044583320618, "value_loss": 0.005993594881147146, "entropy": 0.3167066276073456, "approx_kl": 0.10625216364860535, "valid_rate": 0.1875}
+INFO - 12/01/25 23:39:31 - 2:16:55 - {"update": 144, "policy_loss": -0.029803656041622162, "value_loss": 0.01891006901860237, "entropy": 0.2539769113063812, "approx_kl": 0.13062669336795807, "valid_rate": 0.21875}
+INFO - 12/01/25 23:39:38 - 2:17:03 - {"update": 145, "policy_loss": 0.13471929728984833, "value_loss": 0.004738727118819952, "entropy": 0.22788424789905548, "approx_kl": 0.2129376083612442, "valid_rate": 0.21875}
+INFO - 12/01/25 23:39:47 - 2:17:11 - {"update": 146, "policy_loss": 0.24236416816711426, "value_loss": 0.0182559322565794, "entropy": 0.25733619928359985, "approx_kl": 0.04552745074033737, "valid_rate": 0.1875}
+INFO - 12/01/25 23:39:54 - 2:17:19 - {"update": 147, "policy_loss": -0.2850145101547241, "value_loss": 0.005162007641047239, "entropy": 0.21268439292907715, "approx_kl": 0.08402795344591141, "valid_rate": 0.21875}
+INFO - 12/01/25 23:40:02 - 2:17:27 - {"update": 148, "policy_loss": -0.14592590928077698, "value_loss": 0.003953387029469013, "entropy": 0.29791581630706787, "approx_kl": 0.07558231800794601, "valid_rate": 0.28125}
+INFO - 12/01/25 23:45:56 - 2:23:20 - {"update": 149, "policy_loss": -0.05552968382835388, "value_loss": 0.0021135101560503244, "entropy": 0.27727046608924866, "approx_kl": 0.1371261179447174, "valid_rate": 0.21875}
+INFO - 12/01/25 23:46:20 - 2:23:45 - {"update": 150, "policy_loss": -0.4572526812553406, "value_loss": 0.003482926171272993, "entropy": 0.38917848467826843, "approx_kl": 0.06513936817646027, "valid_rate": 0.25}
+INFO - 12/01/25 23:46:28 - 2:23:52 - {"update": 151, "policy_loss": -0.05199975520372391, "value_loss": 0.008526990190148354, "entropy": 0.28242209553718567, "approx_kl": 0.09222257137298584, "valid_rate": 0.125}
+INFO - 12/01/25 23:46:40 - 2:24:05 - {"update": 152, "policy_loss": 0.2046024650335312, "value_loss": 0.0044747209176421165, "entropy": 0.2532098889350891, "approx_kl": 0.10436886548995972, "valid_rate": 0.1875}
+INFO - 12/01/25 23:46:50 - 2:24:14 - {"update": 153, "policy_loss": -0.4640922546386719, "value_loss": 0.0032633361406624317, "entropy": 0.2985513508319855, "approx_kl": 0.15413181483745575, "valid_rate": 0.1875}
+INFO - 12/01/25 23:46:57 - 2:24:22 - {"update": 154, "policy_loss": 0.21363726258277893, "value_loss": 0.004153083544224501, "entropy": 0.23426954448223114, "approx_kl": 0.08856356889009476, "valid_rate": 0.25}
+INFO - 12/01/25 23:47:07 - 2:24:32 - {"update": 155, "policy_loss": 0.22724835574626923, "value_loss": 0.004746573977172375, "entropy": 0.24106182157993317, "approx_kl": 0.12379934638738632, "valid_rate": 0.25}
+INFO - 12/01/25 23:52:46 - 2:30:10 - {"update": 156, "policy_loss": 0.06830421835184097, "value_loss": 0.005504727829247713, "entropy": 0.2218027412891388, "approx_kl": 0.09380815923213959, "valid_rate": 0.125}
+INFO - 12/01/25 23:52:57 - 2:30:22 - {"update": 157, "policy_loss": 0.1412794589996338, "value_loss": 0.008664377965033054, "entropy": 0.23775207996368408, "approx_kl": 0.14573104679584503, "valid_rate": 0.09375}
+INFO - 12/01/25 23:58:14 - 2:35:39 - {"update": 158, "policy_loss": -0.01759645901620388, "value_loss": 0.0018182866042479873, "entropy": 0.32138168811798096, "approx_kl": 0.06585529446601868, "valid_rate": 0.09375}
+INFO - 12/02/25 00:04:15 - 2:41:40 - {"update": 159, "policy_loss": -0.12188629806041718, "value_loss": 0.004265993367880583, "entropy": 0.2381485104560852, "approx_kl": 0.10578224807977676, "valid_rate": 0.15625}
+INFO - 12/02/25 00:04:41 - 2:42:06 - {"update": 160, "policy_loss": -0.4501405954360962, "value_loss": 0.001934260013513267, "entropy": 0.45394468307495117, "approx_kl": 0.057763904333114624, "valid_rate": 0.1875}
+INFO - 12/02/25 00:04:53 - 2:42:18 - {"update": 161, "policy_loss": -0.018358392640948296, "value_loss": 0.0023646890185773373, "entropy": 0.3637499511241913, "approx_kl": 0.21943701803684235, "valid_rate": 0.125}
+INFO - 12/02/25 00:15:04 - 2:52:29 - {"update": 162, "policy_loss": -0.21392418444156647, "value_loss": 0.010415983386337757, "entropy": 0.3062247931957245, "approx_kl": 0.0692925825715065, "valid_rate": 0.1875}
+INFO - 12/02/25 00:15:14 - 2:52:38 - {"update": 163, "policy_loss": -0.23662731051445007, "value_loss": 0.0016826866194605827, "entropy": 0.329642653465271, "approx_kl": 0.06323147565126419, "valid_rate": 0.125}
+INFO - 12/02/25 00:20:36 - 2:58:00 - {"update": 164, "policy_loss": -0.45414015650749207, "value_loss": 0.005867786705493927, "entropy": 0.22260072827339172, "approx_kl": 0.14386144280433655, "valid_rate": 0.1875}
+INFO - 12/02/25 00:37:14 - 3:14:39 - {"update": 165, "policy_loss": -0.4708404839038849, "value_loss": 0.0017510047182440758, "entropy": 0.28542762994766235, "approx_kl": 0.0912938117980957, "valid_rate": 0.15625}
+INFO - 12/02/25 00:37:26 - 3:14:50 - {"update": 166, "policy_loss": -0.2959357798099518, "value_loss": 0.007587025873363018, "entropy": 0.21727289259433746, "approx_kl": 0.2533852756023407, "valid_rate": 0.1875}
+INFO - 12/02/25 00:37:35 - 3:15:00 - {"update": 167, "policy_loss": -0.08177672326564789, "value_loss": 0.00531602231785655, "entropy": 0.3162998557090759, "approx_kl": 0.3858770728111267, "valid_rate": 0.25}
+INFO - 12/02/25 00:37:48 - 3:15:13 - {"update": 168, "policy_loss": 0.014463945291936398, "value_loss": 0.0032445858232676983, "entropy": 0.25401294231414795, "approx_kl": 0.21945340931415558, "valid_rate": 0.21875}
+INFO - 12/02/25 00:37:58 - 3:15:23 - {"update": 169, "policy_loss": -0.10777512192726135, "value_loss": 0.005289331078529358, "entropy": 0.22748200595378876, "approx_kl": 0.028448227792978287, "valid_rate": 0.1875}
+INFO - 12/02/25 00:38:07 - 3:15:32 - {"update": 170, "policy_loss": 0.16473178565502167, "value_loss": 0.0034810793586075306, "entropy": 0.26580655574798584, "approx_kl": 0.09591732174158096, "valid_rate": 0.1875}
+INFO - 12/02/25 00:49:48 - 3:27:13 - {"update": 171, "policy_loss": -0.7265681028366089, "value_loss": 0.005244588945060968, "entropy": 0.350011944770813, "approx_kl": 0.517187774181366, "valid_rate": 0.15625}
+INFO - 12/02/25 00:49:56 - 3:27:21 - {"update": 172, "policy_loss": -0.02838105894625187, "value_loss": 0.003035503439605236, "entropy": 0.330081969499588, "approx_kl": 0.12034622579813004, "valid_rate": 0.125}
+INFO - 12/02/25 01:03:08 - 3:40:32 - {"update": 173, "policy_loss": 0.3190367817878723, "value_loss": 0.004139632917940617, "entropy": 0.33774393796920776, "approx_kl": 0.08731492608785629, "valid_rate": 0.3125}
+INFO - 12/02/25 01:03:18 - 3:40:42 - {"update": 174, "policy_loss": -0.28435537219047546, "value_loss": 0.0048775202594697475, "entropy": 0.42949774861335754, "approx_kl": 0.22457702457904816, "valid_rate": 0.1875}
+INFO - 12/02/25 01:03:27 - 3:40:52 - {"update": 175, "policy_loss": -0.4536033868789673, "value_loss": 0.006038059014827013, "entropy": 0.3982773423194885, "approx_kl": 0.09211062639951706, "valid_rate": 0.15625}
+INFO - 12/02/25 01:03:36 - 3:41:01 - {"update": 176, "policy_loss": 0.24120879173278809, "value_loss": 0.008353128097951412, "entropy": 0.24391555786132812, "approx_kl": 0.15684562921524048, "valid_rate": 0.15625}
+INFO - 12/02/25 01:03:44 - 3:41:08 - {"update": 177, "policy_loss": -0.04891094192862511, "value_loss": 0.0010443987557664514, "entropy": 0.22103656828403473, "approx_kl": 0.09295886009931564, "valid_rate": 0.09375}
+INFO - 12/02/25 01:03:51 - 3:41:16 - {"update": 178, "policy_loss": 0.1688910871744156, "value_loss": 0.00609446270391345, "entropy": 0.16646313667297363, "approx_kl": 0.15308929979801178, "valid_rate": 0.15625}
+INFO - 12/02/25 01:09:25 - 3:46:50 - {"update": 179, "policy_loss": 0.26713889837265015, "value_loss": 0.0045739272609353065, "entropy": 0.4428413510322571, "approx_kl": 0.06259580701589584, "valid_rate": 0.125}
+INFO - 12/02/25 01:09:32 - 3:46:57 - {"update": 180, "policy_loss": -0.1761593222618103, "value_loss": 0.020151915028691292, "entropy": 0.4253622889518738, "approx_kl": 0.08015342801809311, "valid_rate": 0.09375}
+INFO - 12/02/25 01:09:40 - 3:47:04 - {"update": 181, "policy_loss": -0.24320410192012787, "value_loss": 0.004095823038369417, "entropy": 0.3061361610889435, "approx_kl": 0.22013558447360992, "valid_rate": 0.25}
+INFO - 12/02/25 01:14:58 - 3:52:22 - {"update": 182, "policy_loss": -0.06834380328655243, "value_loss": 0.013236109167337418, "entropy": 0.27913469076156616, "approx_kl": 0.0898469090461731, "valid_rate": 0.125}
+INFO - 12/02/25 01:26:31 - 4:03:56 - {"update": 183, "policy_loss": -0.3632514476776123, "value_loss": 0.004067982546985149, "entropy": 0.44340190291404724, "approx_kl": 0.1428341418504715, "valid_rate": 0.09375}
+INFO - 12/02/25 01:37:32 - 4:14:57 - {"update": 184, "policy_loss": -0.22941718995571136, "value_loss": 0.005343965254724026, "entropy": 0.17103591561317444, "approx_kl": 0.21258655190467834, "valid_rate": 0.15625}
+INFO - 12/02/25 01:48:10 - 4:25:35 - {"update": 185, "policy_loss": -0.009217520244419575, "value_loss": 0.004107513464987278, "entropy": 0.25474876165390015, "approx_kl": 0.13892363011837006, "valid_rate": 0.15625}
+INFO - 12/02/25 01:59:45 - 4:37:10 - {"update": 186, "policy_loss": 0.08393565565347672, "value_loss": 0.0027040077839046717, "entropy": 0.40797901153564453, "approx_kl": 0.08028130978345871, "valid_rate": 0.125}
+INFO - 12/02/25 02:05:34 - 4:42:59 - {"update": 187, "policy_loss": -0.3158922493457794, "value_loss": 0.003652968443930149, "entropy": 0.44025135040283203, "approx_kl": 0.26129060983657837, "valid_rate": 0.15625}
+INFO - 12/02/25 02:16:28 - 4:53:53 - {"update": 188, "policy_loss": 0.5055488348007202, "value_loss": 0.0045339930802583694, "entropy": 0.5112127661705017, "approx_kl": 0.16678845882415771, "valid_rate": 0.1875}
+INFO - 12/02/25 02:22:23 - 4:59:47 - {"update": 189, "policy_loss": -0.0040318286046385765, "value_loss": 0.005087614059448242, "entropy": 0.4004629850387573, "approx_kl": 0.0628916472196579, "valid_rate": 0.09375}
+INFO - 12/02/25 02:22:30 - 4:59:54 - {"update": 190, "policy_loss": -0.3722551763057709, "value_loss": 0.00797261856496334, "entropy": 0.33114323019981384, "approx_kl": 0.07682503759860992, "valid_rate": 0.15625}
+INFO - 12/02/25 02:22:39 - 5:00:03 - {"update": 191, "policy_loss": -0.06331908702850342, "value_loss": 0.005258122459053993, "entropy": 0.49812644720077515, "approx_kl": 0.1164931133389473, "valid_rate": 0.21875}
+INFO - 12/02/25 02:22:45 - 5:00:10 - {"update": 192, "policy_loss": 0.31291744112968445, "value_loss": 0.0008211708627641201, "entropy": 0.3036210834980011, "approx_kl": 0.06369160115718842, "valid_rate": 0.1875}
+INFO - 12/02/25 02:27:53 - 5:05:17 - {"update": 193, "policy_loss": -0.007762148045003414, "value_loss": 0.002289505209773779, "entropy": 0.4033229947090149, "approx_kl": 0.29075971245765686, "valid_rate": 0.125}
+INFO - 12/02/25 02:44:20 - 5:21:45 - {"update": 194, "policy_loss": -0.3217180371284485, "value_loss": 0.0026575138326734304, "entropy": 0.4359511733055115, "approx_kl": 0.39203906059265137, "valid_rate": 0.15625}
+INFO - 12/02/25 02:50:16 - 5:27:40 - {"update": 195, "policy_loss": -0.3860158324241638, "value_loss": 0.004199156537652016, "entropy": 0.4391592741012573, "approx_kl": 0.07205767929553986, "valid_rate": 0.21875}
+INFO - 12/02/25 02:56:13 - 5:33:38 - {"update": 196, "policy_loss": 0.11649719625711441, "value_loss": 0.0023719139862805605, "entropy": 0.5673820972442627, "approx_kl": 0.12150166183710098, "valid_rate": 0.21875}
+INFO - 12/02/25 03:01:21 - 5:38:46 - {"update": 197, "policy_loss": 0.08812866359949112, "value_loss": 0.002093022456392646, "entropy": 0.39150792360305786, "approx_kl": 0.1323169767856598, "valid_rate": 0.15625}
+INFO - 12/02/25 03:01:29 - 5:38:54 - {"update": 198, "policy_loss": 0.01065799593925476, "value_loss": 0.0021421853452920914, "entropy": 0.5788165926933289, "approx_kl": 0.41847455501556396, "valid_rate": 0.21875}
+INFO - 12/02/25 03:12:13 - 5:49:38 - {"update": 199, "policy_loss": -0.4034338593482971, "value_loss": 0.005019958131015301, "entropy": 0.5035089254379272, "approx_kl": 0.05081958323717117, "valid_rate": 0.125}
+INFO - 12/02/25 03:17:37 - 5:55:02 - {"update": 200, "policy_loss": -0.15548062324523926, "value_loss": 0.002373293275013566, "entropy": 0.5242569446563721, "approx_kl": 0.06195598840713501, "valid_rate": 0.21875}
+INFO - 12/02/25 03:29:08 - 6:06:33 - {"update": 201, "policy_loss": -0.46683889627456665, "value_loss": 0.004536016844213009, "entropy": 0.5177075266838074, "approx_kl": 0.1192290261387825, "valid_rate": 0.125}
+INFO - 12/02/25 03:39:42 - 6:17:07 - {"update": 202, "policy_loss": -0.03197033703327179, "value_loss": 0.0031012315303087234, "entropy": 0.435665488243103, "approx_kl": 0.22510144114494324, "valid_rate": 0.15625}
+INFO - 12/02/25 03:49:51 - 6:27:16 - {"update": 203, "policy_loss": 0.13302715122699738, "value_loss": 0.004637252073734999, "entropy": 0.2972257733345032, "approx_kl": 0.1174737736582756, "valid_rate": 0.15625}
+INFO - 12/02/25 04:12:14 - 6:49:38 - {"update": 204, "policy_loss": 0.161945641040802, "value_loss": 0.0049757203087210655, "entropy": 0.6672000885009766, "approx_kl": 0.26470836997032166, "valid_rate": 0.03125}
+INFO - 12/02/25 04:17:36 - 6:55:00 - {"update": 205, "policy_loss": -0.836347758769989, "value_loss": 0.004886491224169731, "entropy": 0.4978208839893341, "approx_kl": 0.14555741846561432, "valid_rate": 0.15625}
+INFO - 12/02/25 04:28:31 - 7:05:55 - {"update": 206, "policy_loss": 0.2799242436885834, "value_loss": 0.005056957248598337, "entropy": 0.7867152094841003, "approx_kl": 0.25911590456962585, "valid_rate": 0.3125}
+INFO - 12/02/25 04:40:19 - 7:17:44 - {"update": 207, "policy_loss": -0.1146312803030014, "value_loss": 0.002875496866181493, "entropy": 0.49941667914390564, "approx_kl": 0.12191962450742722, "valid_rate": 0.09375}
+INFO - 12/02/25 04:46:12 - 7:23:36 - {"update": 208, "policy_loss": -0.25762978196144104, "value_loss": 0.005328991916030645, "entropy": 0.39868178963661194, "approx_kl": 0.06475693732500076, "valid_rate": 0.125}
+INFO - 12/02/25 04:57:29 - 7:34:54 - {"update": 209, "policy_loss": 0.5324739813804626, "value_loss": 0.0018054968677461147, "entropy": 0.7150538563728333, "approx_kl": 0.05897310748696327, "valid_rate": 0.15625}
+INFO - 12/02/25 05:15:02 - 7:52:26 - {"update": 210, "policy_loss": -0.4783552885055542, "value_loss": 0.004457945469766855, "entropy": 0.2977323830127716, "approx_kl": 0.13968011736869812, "valid_rate": 0.125}
+INFO - 12/02/25 05:37:06 - 8:14:31 - {"update": 211, "policy_loss": -0.239348903298378, "value_loss": 0.005652789492160082, "entropy": 0.7692970037460327, "approx_kl": 0.17041973769664764, "valid_rate": 0.09375}
+INFO - 12/02/25 05:37:13 - 8:14:37 - {"update": 212, "policy_loss": 0.17404305934906006, "value_loss": 0.0013908341061323881, "entropy": 0.8158556222915649, "approx_kl": 0.19462792575359344, "valid_rate": 0.21875}
+INFO - 12/02/25 05:48:53 - 8:26:18 - {"update": 213, "policy_loss": 0.40251290798187256, "value_loss": 0.0015059574507176876, "entropy": 0.4790266752243042, "approx_kl": 0.11552491039037704, "valid_rate": 0.0625}
+INFO - 12/02/25 06:10:50 - 8:48:14 - {"update": 214, "policy_loss": -0.203821063041687, "value_loss": 0.0006775169749744236, "entropy": 0.5298904776573181, "approx_kl": 0.2608979642391205, "valid_rate": 0.125}
+INFO - 12/02/25 06:22:32 - 8:59:56 - {"update": 215, "policy_loss": 0.14022637903690338, "value_loss": 0.0022366500925272703, "entropy": 0.5989550948143005, "approx_kl": 0.10811670124530792, "valid_rate": 0.0625}
+INFO - 12/02/25 06:40:03 - 9:17:27 - {"update": 216, "policy_loss": 0.26059964299201965, "value_loss": 0.00393694918602705, "entropy": 0.7953242063522339, "approx_kl": 0.10743191093206406, "valid_rate": 0.15625}
+INFO - 12/02/25 06:51:40 - 9:29:04 - {"update": 217, "policy_loss": 0.7959760427474976, "value_loss": 0.00177660770714283, "entropy": 0.6077566146850586, "approx_kl": 0.23687395453453064, "valid_rate": 0.15625}
+INFO - 12/02/25 06:57:46 - 9:35:11 - {"update": 218, "policy_loss": 0.0176936574280262, "value_loss": 0.007094576954841614, "entropy": 0.560195803642273, "approx_kl": 0.1474059373140335, "valid_rate": 0.0625}
+INFO - 12/02/25 07:08:59 - 9:46:23 - {"update": 219, "policy_loss": 0.1383085399866104, "value_loss": 0.003188003320246935, "entropy": 0.6332395672798157, "approx_kl": 0.10703665018081665, "valid_rate": 0.1875}
+INFO - 12/02/25 07:26:11 - 10:03:36 - {"update": 220, "policy_loss": -0.03329997882246971, "value_loss": 0.00345052033662796, "entropy": 0.6580267548561096, "approx_kl": 0.28442201018333435, "valid_rate": 0.03125}
+INFO - 12/02/25 07:37:22 - 10:14:47 - {"update": 221, "policy_loss": -0.03429274633526802, "value_loss": 0.006436180789023638, "entropy": 0.6329106688499451, "approx_kl": 0.1333526372909546, "valid_rate": 0.125}
+INFO - 12/02/25 07:37:29 - 10:14:53 - {"update": 222, "policy_loss": -0.0194703321903944, "value_loss": 0.0012320487294346094, "entropy": 0.46995535492897034, "approx_kl": 0.2774001657962799, "valid_rate": 0.0625}
+INFO - 12/02/25 07:43:21 - 10:20:46 - {"update": 223, "policy_loss": 0.15809176862239838, "value_loss": 0.00871390849351883, "entropy": 0.7449145913124084, "approx_kl": 0.24774989485740662, "valid_rate": 0.0625}
+INFO - 12/02/25 07:48:58 - 10:26:23 - {"update": 224, "policy_loss": 0.2117806375026703, "value_loss": 0.00397890480235219, "entropy": 0.7717022895812988, "approx_kl": 0.10583437979221344, "valid_rate": 0.09375}
+INFO - 12/02/25 07:54:53 - 10:32:17 - {"update": 225, "policy_loss": -0.16109493374824524, "value_loss": 0.012942511588335037, "entropy": 0.4556935131549835, "approx_kl": 0.38676080107688904, "valid_rate": 0.125}
+INFO - 12/02/25 08:12:16 - 10:49:41 - {"update": 226, "policy_loss": -0.4225621521472931, "value_loss": 0.004271123558282852, "entropy": 0.8460069894790649, "approx_kl": 0.16523891687393188, "valid_rate": 0.0625}
+INFO - 12/02/25 08:35:06 - 11:12:31 - {"update": 227, "policy_loss": 0.3245317041873932, "value_loss": 0.005208577029407024, "entropy": 0.6385819315910339, "approx_kl": 0.1625804603099823, "valid_rate": 0.0625}
+INFO - 12/02/25 08:57:08 - 11:34:32 - {"update": 228, "policy_loss": 0.17684757709503174, "value_loss": 0.002397350501269102, "entropy": 1.1221134662628174, "approx_kl": 0.0652570128440857, "valid_rate": 0.0}
+INFO - 12/02/25 09:03:08 - 11:40:33 - {"update": 229, "policy_loss": -0.4496643543243408, "value_loss": 0.0046224151737987995, "entropy": 1.0896748304367065, "approx_kl": 0.14715412259101868, "valid_rate": 0.03125}
+INFO - 12/02/25 09:08:16 - 11:45:40 - {"update": 230, "policy_loss": -0.744603157043457, "value_loss": 0.0036653843708336353, "entropy": 0.708042562007904, "approx_kl": 0.0803784504532814, "valid_rate": 0.09375}
+INFO - 12/02/25 09:13:30 - 11:50:55 - {"update": 231, "policy_loss": 0.232901468873024, "value_loss": 0.010721027851104736, "entropy": 1.5696545839309692, "approx_kl": 0.1386064738035202, "valid_rate": 0.09375}
+INFO - 12/02/25 09:25:23 - 12:02:48 - {"update": 232, "policy_loss": -0.35537177324295044, "value_loss": 0.006839513313025236, "entropy": 1.7091983556747437, "approx_kl": 0.19665192067623138, "valid_rate": 0.125}
+INFO - 12/02/25 09:54:32 - 12:31:57 - {"update": 233, "policy_loss": -1.299591302871704, "value_loss": 0.018960420042276382, "entropy": 1.6364046335220337, "approx_kl": 0.8131847977638245, "valid_rate": 0.03125}
+INFO - 12/02/25 10:09:44 - 12:47:08 - {"update": 234, "policy_loss": 0.45103174448013306, "value_loss": 0.008429761976003647, "entropy": 0.8538589477539062, "approx_kl": 0.09275653958320618, "valid_rate": 0.15625}
+INFO - 12/02/25 10:15:47 - 12:53:12 - {"update": 235, "policy_loss": -0.32581669092178345, "value_loss": 0.005736047402024269, "entropy": 0.8000409007072449, "approx_kl": 0.40582552552223206, "valid_rate": 0.09375}
+INFO - 12/02/25 10:21:43 - 12:59:08 - {"update": 236, "policy_loss": 0.08378284424543381, "value_loss": 0.004915900994092226, "entropy": 1.419226050376892, "approx_kl": 0.08566104620695114, "valid_rate": 0.03125}
+INFO - 12/02/25 10:33:25 - 13:10:50 - {"update": 237, "policy_loss": -0.00028166946140117943, "value_loss": 0.00427338108420372, "entropy": 1.3588329553604126, "approx_kl": 0.10273702442646027, "valid_rate": 0.03125}
+INFO - 12/02/25 10:33:31 - 13:10:55 - {"update": 238, "policy_loss": 0.3719969391822815, "value_loss": 0.0060102734714746475, "entropy": 1.7133910655975342, "approx_kl": 0.24492982029914856, "valid_rate": 0.0}
+INFO - 12/02/25 10:33:37 - 13:11:01 - {"update": 239, "policy_loss": -0.24956153333187103, "value_loss": 0.0018069373909384012, "entropy": 0.9312963485717773, "approx_kl": 0.2751668393611908, "valid_rate": 0.0}
+INFO - 12/02/25 10:44:35 - 13:22:00 - {"update": 240, "policy_loss": 0.13911250233650208, "value_loss": 0.0034115479793399572, "entropy": 1.489290475845337, "approx_kl": 0.08360815048217773, "valid_rate": 0.03125}
+INFO - 12/02/25 11:07:30 - 13:44:55 - {"update": 241, "policy_loss": -0.4039420783519745, "value_loss": 0.003619214054197073, "entropy": 1.5107694864273071, "approx_kl": 0.10584934800863266, "valid_rate": 0.09375}
+INFO - 12/02/25 11:07:37 - 13:45:02 - {"update": 242, "policy_loss": 0.12708032131195068, "value_loss": 0.0063408659771084785, "entropy": 0.8853940963745117, "approx_kl": 0.3229931592941284, "valid_rate": 0.15625}
+INFO - 12/02/25 11:19:32 - 13:56:57 - {"update": 243, "policy_loss": -0.23516955971717834, "value_loss": 0.003030503401532769, "entropy": 1.6139652729034424, "approx_kl": 0.1650109589099884, "valid_rate": 0.0625}
+INFO - 12/02/25 11:24:48 - 14:02:12 - {"update": 244, "policy_loss": -0.10975106060504913, "value_loss": 0.0027290242724120617, "entropy": 1.9711726903915405, "approx_kl": 0.09886255115270615, "valid_rate": 0.0}
+INFO - 12/02/25 11:48:38 - 14:26:02 - {"update": 245, "policy_loss": 0.02608558163046837, "value_loss": 0.0036650903057307005, "entropy": 1.5930696725845337, "approx_kl": 0.2013045996427536, "valid_rate": 0.0}
+INFO - 12/02/25 12:06:30 - 14:43:54 - {"update": 246, "policy_loss": -0.0224493145942688, "value_loss": 0.0057439361698925495, "entropy": 1.1727921962738037, "approx_kl": 0.15761272609233856, "valid_rate": 0.03125}
+INFO - 12/02/25 12:24:26 - 15:01:50 - {"update": 247, "policy_loss": -0.6151866912841797, "value_loss": 0.005315950606018305, "entropy": 1.7554149627685547, "approx_kl": 0.1938890963792801, "valid_rate": 0.0}
+INFO - 12/02/25 12:24:32 - 15:01:56 - {"update": 248, "policy_loss": 0.5755835771560669, "value_loss": 0.004262953065335751, "entropy": 1.6464649438858032, "approx_kl": 0.1098741888999939, "valid_rate": 0.0625}
+INFO - 12/02/25 12:30:29 - 15:07:53 - {"update": 249, "policy_loss": -0.11232887208461761, "value_loss": 0.002967444248497486, "entropy": 1.3677794933319092, "approx_kl": 0.19005832076072693, "valid_rate": 0.09375}
+INFO - 12/02/25 12:47:16 - 15:24:41 - {"update": 250, "policy_loss": -0.5300527215003967, "value_loss": 0.0066331676207482815, "entropy": 1.41656494140625, "approx_kl": 0.20446617901325226, "valid_rate": 0.03125}
+INFO - 12/02/25 12:57:41 - 15:35:06 - {"update": 251, "policy_loss": -0.5539853572845459, "value_loss": 0.0012958955485373735, "entropy": 1.385996699333191, "approx_kl": 0.2139054387807846, "valid_rate": 0.03125}
+INFO - 12/02/25 13:09:38 - 15:47:03 - {"update": 252, "policy_loss": 0.18116320669651031, "value_loss": 0.003833511844277382, "entropy": 1.7471003532409668, "approx_kl": 0.11809299886226654, "valid_rate": 0.03125}
+INFO - 12/02/25 13:19:48 - 15:57:12 - {"update": 253, "policy_loss": -0.5555820465087891, "value_loss": 0.0016172900795936584, "entropy": 1.5639744997024536, "approx_kl": 0.20894227921962738, "valid_rate": 0.09375}
+INFO - 12/02/25 13:43:30 - 16:20:54 - {"update": 254, "policy_loss": 0.02357097528874874, "value_loss": 0.006649406626820564, "entropy": 1.205098032951355, "approx_kl": 0.15405359864234924, "valid_rate": 0.0}
+INFO - 12/02/25 13:49:19 - 16:26:43 - {"update": 255, "policy_loss": 0.0865044966340065, "value_loss": 0.0018691488076001406, "entropy": 1.0423953533172607, "approx_kl": 0.1574423909187317, "valid_rate": 0.0}
+INFO - 12/02/25 14:00:26 - 16:37:51 - {"update": 256, "policy_loss": 0.030856966972351074, "value_loss": 0.001212186412885785, "entropy": 1.5761383771896362, "approx_kl": 0.09074749797582626, "valid_rate": 0.0625}
+INFO - 12/02/25 14:05:33 - 16:42:58 - {"update": 257, "policy_loss": -0.5554335713386536, "value_loss": 0.0036507865879684687, "entropy": 1.866829752922058, "approx_kl": 0.16937433183193207, "valid_rate": 0.03125}
+INFO - 12/02/25 14:22:54 - 17:00:19 - {"update": 258, "policy_loss": -0.18459559977054596, "value_loss": 0.0022204644046723843, "entropy": 1.7701767683029175, "approx_kl": 0.12294913828372955, "valid_rate": 0.09375}
+INFO - 12/02/25 14:40:30 - 17:17:55 - {"update": 259, "policy_loss": -0.29234763979911804, "value_loss": 0.001395273138768971, "entropy": 1.331300973892212, "approx_kl": 0.4421444535255432, "valid_rate": 0.0}
+INFO - 12/02/25 14:46:21 - 17:23:46 - {"update": 260, "policy_loss": 0.03159945085644722, "value_loss": 0.0015934731345623732, "entropy": 0.9075286388397217, "approx_kl": 0.4539182186126709, "valid_rate": 0.0}
+INFO - 12/02/25 14:46:28 - 17:23:52 - {"update": 261, "policy_loss": -0.41981008648872375, "value_loss": 0.005630548112094402, "entropy": 1.2521731853485107, "approx_kl": 0.05832690745592117, "valid_rate": 0.0625}
+INFO - 12/02/25 14:57:25 - 17:34:50 - {"update": 262, "policy_loss": -0.37992027401924133, "value_loss": 0.004486661870032549, "entropy": 0.8596785068511963, "approx_kl": 0.15409746766090393, "valid_rate": 0.0}
+INFO - 12/02/25 15:08:17 - 17:45:42 - {"update": 263, "policy_loss": 0.00284962123259902, "value_loss": 0.002590147778391838, "entropy": 1.5147271156311035, "approx_kl": 0.12270204722881317, "valid_rate": 0.0625}
+INFO - 12/02/25 15:23:21 - 18:00:45 - {"update": 264, "policy_loss": -0.05486828088760376, "value_loss": 0.004828985780477524, "entropy": 0.944296658039093, "approx_kl": 0.07634870707988739, "valid_rate": 0.0625}
+INFO - 12/02/25 15:28:59 - 18:06:24 - {"update": 265, "policy_loss": -0.045196741819381714, "value_loss": 0.0015622935025021434, "entropy": 0.8241310119628906, "approx_kl": 0.09867656975984573, "valid_rate": 0.0}
+INFO - 12/02/25 15:34:52 - 18:12:17 - {"update": 266, "policy_loss": 0.10152678191661835, "value_loss": 0.005197427701205015, "entropy": 1.6681714057922363, "approx_kl": 0.19449156522750854, "valid_rate": 0.0}
+INFO - 12/02/25 15:45:10 - 18:22:35 - {"update": 267, "policy_loss": 0.17560140788555145, "value_loss": 0.0031566061079502106, "entropy": 1.6235307455062866, "approx_kl": 0.2716798782348633, "valid_rate": 0.0}
+INFO - 12/02/25 15:51:09 - 18:28:33 - {"update": 268, "policy_loss": -0.2859856188297272, "value_loss": 0.004284452646970749, "entropy": 1.3664997816085815, "approx_kl": 0.19676107168197632, "valid_rate": 0.03125}
+INFO - 12/02/25 15:56:14 - 18:33:39 - {"update": 269, "policy_loss": -0.24622000753879547, "value_loss": 0.003920032177120447, "entropy": 1.0189872980117798, "approx_kl": 0.11180446296930313, "valid_rate": 0.03125}
+INFO - 12/02/25 16:01:41 - 18:39:05 - {"update": 270, "policy_loss": -0.09342963248491287, "value_loss": 0.004305933136492968, "entropy": 1.1920262575149536, "approx_kl": 0.21355287730693817, "valid_rate": 0.03125}
+INFO - 12/02/25 16:12:45 - 18:50:10 - {"update": 271, "policy_loss": -0.39768579602241516, "value_loss": 0.0012246830156072974, "entropy": 2.4428584575653076, "approx_kl": 0.06229936704039574, "valid_rate": 0.0625}
+INFO - 12/02/25 16:34:24 - 19:11:49 - {"update": 272, "policy_loss": -0.17294633388519287, "value_loss": 0.004900849889963865, "entropy": 1.4200654029846191, "approx_kl": 0.09418060630559921, "valid_rate": 0.0}
+INFO - 12/02/25 16:51:39 - 19:29:04 - {"update": 273, "policy_loss": 0.6212677955627441, "value_loss": 0.003147144103422761, "entropy": 1.5076638460159302, "approx_kl": 0.11101041734218597, "valid_rate": 0.03125}
+INFO - 12/02/25 16:56:45 - 19:34:09 - {"update": 274, "policy_loss": -0.1368129700422287, "value_loss": 0.006901593413203955, "entropy": 1.8954368829727173, "approx_kl": 0.1893845945596695, "valid_rate": 0.03125}
+INFO - 12/02/25 17:02:52 - 19:40:16 - {"update": 275, "policy_loss": -0.1284433752298355, "value_loss": 0.004296011291444302, "entropy": 1.4494270086288452, "approx_kl": 0.15501055121421814, "valid_rate": 0.03125}
+INFO - 12/02/25 17:12:22 - 19:49:47 - {"update": 276, "policy_loss": 0.15483151376247406, "value_loss": 0.003225029446184635, "entropy": 1.408355712890625, "approx_kl": 0.1045093759894371, "valid_rate": 0.0}
+INFO - 12/02/25 17:23:13 - 20:00:38 - {"update": 277, "policy_loss": -0.6976280212402344, "value_loss": 0.0012400286504998803, "entropy": 0.5374093055725098, "approx_kl": 0.04782404750585556, "valid_rate": 0.0}
+INFO - 12/02/25 17:40:13 - 20:17:38 - {"update": 278, "policy_loss": 0.3384148180484772, "value_loss": 0.002838177140802145, "entropy": 1.6111106872558594, "approx_kl": 0.3242970407009125, "valid_rate": 0.03125}
+INFO - 12/02/25 18:02:44 - 20:40:09 - {"update": 279, "policy_loss": -0.3722134828567505, "value_loss": 0.004250130150467157, "entropy": 1.0991535186767578, "approx_kl": 0.24937768280506134, "valid_rate": 0.03125}
+INFO - 12/02/25 18:02:50 - 20:40:15 - {"update": 280, "policy_loss": 0.1946578174829483, "value_loss": 0.0033033322542905807, "entropy": 1.5303308963775635, "approx_kl": 0.15938648581504822, "valid_rate": 0.0}
+WARNING - 12/02/25 18:06:19 - 20:43:43 - SIGTERM received from PBS; initiating clean shutdown

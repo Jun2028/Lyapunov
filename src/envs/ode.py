@@ -2557,10 +2557,13 @@ class EnvDataset(Dataset):
                     lines = [line.rstrip().split("|") for line in f]
                 else:
                     lines = []
+                    shard_data = params.multi_gpu and params.n_gpu_per_node > 0
                     for i, line in enumerate(f):
                         if i == params.reload_size:
                             break
-                        if i % params.n_gpu_per_node == params.local_rank:
+                        if not shard_data:
+                            lines.append(line.rstrip().split("|"))
+                        elif i % params.n_gpu_per_node == params.local_rank:
                             lines.append(line.rstrip().split("|"))
             self.data = [xy.split("\t") for _, xy in lines]
             self.data = [xy for xy in self.data if len(xy) == 2]

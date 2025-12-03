@@ -61,7 +61,7 @@ def get_parser():
     parser.add_argument("--max_output_len", type=int, default=512, help="max length of output, beam max size")
 
     parser.add_argument("--batch_size", type=int, default=32, help="Number of sentences per batch")
-    parser.add_argument("--batch_size_eval", type=int, default=128, help="Number of sentences per batch during evaluation")
+    parser.add_argument("--batch_size_eval", type=int, default=32, help="Number of sentences per batch during evaluation")
     parser.add_argument("--eval_size", type=int, default=10000, help="Size of valid and test samples") #Note: creat_dataset.py has default 200
     parser.add_argument("--optimizer", type=str, default="adam,lr=0.0001", help="Optimizer (SGD / RMSprop / Adam, etc.)")
     parser.add_argument("--clip_grad_norm", type=float, default=5, help="Clip gradients norm (0 to disable)")

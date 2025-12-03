@@ -132,15 +132,33 @@ def clean_validation(old_file):
 
 
 def run_mixture(files, weights):
-    new_file = "/scratch/e0588224/data/debug/bnonpoly/" #amend the save path
-    new_file += ".".join([file.split("/")[-1] + "." + str(int(100 * weight)) for file, weight in zip(files, weights)])
+    new_file = "/scratch/e0588224/data/FLyap/" #amend the save path
+    # new_file += ".".join([file.split("/")[-1] + "." + str(int(100 * weight)) for file, weight in zip(files, weights)])
+    new_file += "flyap_mixture_data.prefix"
     create_mixture(files, weights, new_file)
     new_file_cleaned = new_file + ".cleaned"
     remove_duplicate_in_the_file(new_file, new_file_cleaned, separator=True)
-    split_mixture_train_eval_test(new_file_cleaned, 200, True, [".train", ".valid", ".test"]) #default 200 for vld_tst
+    split_mixture_train_eval_test(new_file_cleaned, 100, True, [".train", ".valid", ".test"]) #default 200 for vld_tst
     clean_validation(new_file_cleaned)
     print(new_file_cleaned)
 
 
 # Amend the two paths to mix the data for training. Also works for any other number of datasets, just adjust accordingly.
-run_mixture(["/scratch/e0588224/data/debug/259308_stdct-mgmt-02/data.prefix", "/scratch/e0588224/data/debug/259314_stdct-mgmt-02/data.prefix"], [1.0, 1.0])
+run_mixture(["/scratch/e0588224/data/FLyap_array/idx_0/FLyap_Gen/flyap_420730_0__stdct_mgmt_02__idx0/data.prefix", \
+    "/scratch/e0588224/data/FLyap_array/idx_0/FLyap_Gen/flyap_423430_stdct_mgmt_02__idx0/data.prefix", \
+    "/scratch/e0588224/data/FLyap_array/idx_0/FLyap_Gen/flyap_426368_0__stdct_mgmt_02__idx0/data.prefix", \
+    "/scratch/e0588224/data/FLyap_array/idx_1/FLyap_Gen/flyap_420730_1__stdct_mgmt_02__idx1/data.prefix", \
+    "/scratch/e0588224/data/FLyap_array/idx_1/FLyap_Gen/flyap_426368_1__stdct_mgmt_02__idx1/data.prefix", \
+    "/scratch/e0588224/data/FLyap_array/idx_2/FLyap_Gen/flyap_420730_2__stdct_mgmt_02__idx2/data.prefix", \
+    "/scratch/e0588224/data/FLyap_array/idx_2/FLyap_Gen/flyap_426368_2__stdct_mgmt_02__idx2/data.prefix", \
+    "/scratch/e0588224/data/FLyap_array/idx_3/FLyap_Gen/flyap_420730_3__stdct_mgmt_02__idx3/data.prefix", \
+    "/scratch/e0588224/data/FLyap_array/idx_3/FLyap_Gen/flyap_426368_3__stdct_mgmt_02__idx3/data.prefix", \
+    "/scratch/e0588224/data/FLyap_array/idx_4/FLyap_Gen/flyap_420730_4__stdct_mgmt_02__idx4/data.prefix", \
+    "/scratch/e0588224/data/FLyap_array/idx_4/FLyap_Gen/flyap_426368_4__stdct_mgmt_02__idx4/data.prefix", \
+    "/scratch/e0588224/data/FLyap_array/idx_5/FLyap_Gen/flyap_420730_5__stdct_mgmt_02__idx5/data.prefix", \
+    "/scratch/e0588224/data/FLyap_array/idx_5/FLyap_Gen/flyap_426368_5__stdct_mgmt_02__idx5/data.prefix", \
+    "/scratch/e0588224/data/FLyap_array/idx_6/FLyap_Gen/flyap_426368_6__stdct_mgmt_02__idx6/data.prefix", \
+    "/scratch/e0588224/data/FLyap_array/idx_7/FLyap_Gen/flyap_426368_7__stdct_mgmt_02__idx7/data.prefix", \
+    "/scratch/e0588224/data/FLyap_array/idx_8/FLyap_Gen/flyap_426368_8__stdct_mgmt_02__idx8/data.prefix", \
+    "/scratch/e0588224/data/FLyap_array/idx_9/FLyap_Gen/flyap_426368_9__stdct_mgmt_02__idx9/data.prefix"
+    ], [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0])

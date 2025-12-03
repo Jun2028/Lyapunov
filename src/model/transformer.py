@@ -295,6 +295,7 @@ class TransformerModel(nn.Module):
             `x` LongTensor(slen, bs), containing word indices
             `lengths` LongTensor(bs), containing the length of each sentence
             `causal` Boolean, if True, the attention is only done over previous hidden states
+            `src_enc` FloatTensor(bs, src_slen, dim), encoder hidden states for decoder cross-attention
             `positions` LongTensor(slen, bs), containing word positions
         """
         # lengths = (x != self.pad_index).float().sum(dim=1)

@@ -28,3 +28,4 @@ python train.py --num_workers 180 \
     --lyap_SOS_fwd_gen false \
     --lyap_proper_fwd false
 
+# hi
